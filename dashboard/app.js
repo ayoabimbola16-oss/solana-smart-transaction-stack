@@ -300,9 +300,60 @@
     card.className = 'decision-card';
     
     const timeStr = new Date(decision.timestamp).toLocaleTimeString();
-    const outcomeText = typeof decision.outputDecision === 'object' 
-      ? JSON.stringify(decision.outputDecision) 
-      : decision.outputDecision;
+    
+    // Parse the output decision JSON for premium formatting
+    let outcomeHtml = '';
+    try {
+      const parsed = typeof decision.outputDecision === 'string'
+        ? JSON.parse(decision.outputDecision)
+        : decision.outputDecision;
+      
+      if (decision.decisionType === 'TIP_SELECTION') {
+        outcomeHtml = `
+          <div class="outcome-grid">
+            <div class="outcome-item">
+              <span class="outcome-label">Tip Target:</span>
+              <span class="outcome-val pill-purple">${parsed.percentile || '50th'} percentile</span>
+            </div>
+            <div class="outcome-item">
+              <span class="outcome-label">Multiplier:</span>
+              <span class="outcome-val pill-blue">${parsed.multiplier ? parsed.multiplier + 'x' : '1.0x'}</span>
+            </div>
+          </div>
+        `;
+      } else if (decision.decisionType === 'SUBMISSION_TIMING') {
+        const actionClass = parsed.action === 'submit' ? 'pill-green' : 'pill-amber';
+        outcomeHtml = `
+          <div class="outcome-grid">
+            <div class="outcome-item">
+              <span class="outcome-label">Action:</span>
+              <span class="outcome-val ${actionClass}">${(parsed.action || 'submit').toUpperCase()}</span>
+            </div>
+            <div class="outcome-item">
+              <span class="outcome-label">Delay:</span>
+              <span class="outcome-val pill-gray">${parsed.delayMs !== undefined ? parsed.delayMs + 'ms' : '0ms'}</span>
+            </div>
+          </div>
+        `;
+      } else if (decision.decisionType === 'FAILURE_REASONING') {
+        outcomeHtml = `
+          <div class="outcome-grid">
+            <div class="outcome-item">
+              <span class="outcome-label">Failure:</span>
+              <span class="outcome-val pill-red">${parsed.classification || 'EXPIRED_BLOCKHASH'}</span>
+            </div>
+            <div class="outcome-item">
+              <span class="outcome-label">Action:</span>
+              <span class="outcome-val pill-purple">${parsed.action || 'RETRY'}</span>
+            </div>
+          </div>
+        `;
+      } else {
+        outcomeHtml = `<pre class="raw-json">${JSON.stringify(parsed, null, 2)}</pre>`;
+      }
+    } catch (e) {
+      outcomeHtml = `<span class="raw-text">${decision.outputDecision}</span>`;
+    }
 
     card.innerHTML = `
       <div class="decision-header">
@@ -313,7 +364,7 @@
         ${decision.reasoningChain}
       </div>
       <div class="decision-outcome">
-        <span>Decision:</span> ${outcomeText}
+        ${outcomeHtml}
       </div>
     `;
 

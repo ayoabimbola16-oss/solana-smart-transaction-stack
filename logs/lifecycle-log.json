@@ -290,18 +290,18 @@
   },
   {
     "signature": "0926f986f1d86e8909785c3ac456f49f4ab69ce6d67ec85f7c3c903fb71092ae37e693df7fe11f8ea64796acb477f674ae5735898ac05f1290daf99af06e790b",
-    "bundleId": "bundle-355",
+    "bundleId": "bundle-455",
     "status": "failed",
     "tipAmountLamports": 200000,
     "tipPercentileSelected": "50th (AI Choice)",
     "timestamps": {
-      "submitted": "2026-06-27T13:43:23.307Z",
+      "submitted": "2026-06-27T14:08:24.002Z",
       "processed": null,
       "confirmed": null,
       "finalized": null
     },
     "slots": {
-      "submitted": 429247865,
+      "submitted": 429251631,
       "processed": null,
       "confirmed": null,
       "finalized": null
@@ -313,7 +313,7 @@
     },
     "failure": {
       "type": "EXPIRED_BLOCKHASH",
-      "details": "Blockhash is expired (simulated) | Retried under signature 23992ce3b00209ab6d5a67541b17c731a3c94653ca193c88434b223920db77f02cf22b2896f24e86466118ee1d9967d7a2e8fe93845e5a71aec0a1fd13f77c02"
+      "details": "Blockhash is expired (simulated)"
     },
     "retryCount": 0
   },
@@ -1241,18 +1241,18 @@
   },
   {
     "signature": "78fa5d383131f546242fd1d63dde563c58a2a0508a8e8a1be48556c9e4310a6070444af53adbddd5b4a3eee7f3e11e8b519acd55119151b0570cf302ebb2e705",
-    "bundleId": "bundle-395",
+    "bundleId": "bundle-430",
     "status": "failed",
     "tipAmountLamports": 200000,
     "tipPercentileSelected": "50th (AI Choice)",
     "timestamps": {
-      "submitted": "2026-06-27T13:53:24.074Z",
+      "submitted": "2026-06-27T14:02:08.799Z",
       "processed": null,
       "confirmed": null,
       "finalized": null
     },
     "slots": {
-      "submitted": 429249383,
+      "submitted": 429250689,
       "processed": null,
       "confirmed": null,
       "finalized": null
@@ -1264,7 +1264,7 @@
     },
     "failure": {
       "type": "EXPIRED_BLOCKHASH",
-      "details": "Blockhash is expired (simulated) | Retried under signature ebff7d854c7b9c4264622490ac7d60573038f6a662102279133d0bd397fd2a34861e46d7616f7d2e3ab2f80ea8f0841925d610859b8eac353b300c1dd6fd8704"
+      "details": "Blockhash is expired (simulated) | Retried under signature 5a512e746b0ea74431ca9d9771d8a10243dcadf0f02e799f801399d78f76953def1ca74bc7b3f33efd1243bf511bf345108a2a9c06ca648611c519ee09e96507"
     },
     "retryCount": 0
   },
@@ -1900,18 +1900,18 @@
   },
   {
     "signature": "f5c31141800fa97aec837f0e2b1dfcbd4e45ab79c194e8653913c4ac5383d71bc20257e70541b738e9579de77c7f937c9b43cad1598598700d0c44697a009a00",
-    "bundleId": "bundle-75",
+    "bundleId": "bundle-450",
     "status": "failed",
     "tipAmountLamports": 330000,
     "tipPercentileSelected": "75th (AI Choice)",
     "timestamps": {
-      "submitted": "2026-06-27T12:33:17.016Z",
+      "submitted": "2026-06-27T14:07:08.908Z",
       "processed": null,
       "confirmed": null,
       "finalized": null
     },
     "slots": {
-      "submitted": 429222997,
+      "submitted": 429251409,
       "processed": null,
       "confirmed": null,
       "finalized": null
@@ -1923,7 +1923,7 @@
     },
     "failure": {
       "type": "EXPIRED_BLOCKHASH",
-      "details": "Blockhash is expired (simulated) | Retried under signature a5cb2ff4f7c60459018255d2af7984c1a596a895330e4cb48a2ec23260f215402f002d0e8182b3a5457776ba28fd09e1ea994f6e277c6495fd999803825a900d"
+      "details": "Blockhash is expired (simulated) | Retried under signature 61cf56460dd77db3c4b26a439bc5d7f649765a5ec7b02ba4ab333f48577a15e81586a60b373a059cabd7dfc502a52a7623e06a816d670dc675cad3a9d0ebe402"
     },
     "retryCount": 0
   },
@@ -3279,18 +3279,18 @@
   },
   {
     "signature": "963c15dadbd60ad825d8768b678b70a5027aa8b95d9ece284397d6d8f57bfdf30db0973bbd534dc58d6535fb9f2ea5bb640f57caaa2c772231d56a6a1e5f6300",
-    "bundleId": "bundle-370",
+    "bundleId": "bundle-445",
     "status": "failed",
     "tipAmountLamports": 200000,
     "tipPercentileSelected": "50th (AI Choice)",
     "timestamps": {
-      "submitted": "2026-06-27T13:47:07.751Z",
+      "submitted": "2026-06-27T14:05:53.860Z",
       "processed": null,
       "confirmed": null,
       "finalized": null
     },
     "slots": {
-      "submitted": 429248263,
+      "submitted": 429251252,
       "processed": null,
       "confirmed": null,
       "finalized": null
@@ -3302,7 +3302,7 @@
     },
     "failure": {
       "type": "EXPIRED_BLOCKHASH",
-      "details": "Blockhash is expired (simulated) | Retried under signature 0c5ce8a78bc4f7dc7ec44ad1d91c2e49a6fdf4cb65d5359f88c61e686a56a03351a4391177f58878e8a5835965eaf7be855225a49f5e9bc70084ed7a1db0b809"
+      "details": "Blockhash is expired (simulated) | Retried under signature 2d43e894fc98e0f6f3e4fbc4f644364a5f9fa753fa68abcc927f1577b6b5cfd792ca1849263d9d5ae908b0d0f665b5c5817eb4b28b8ca5006f4a6a2c5970da0a"
     },
     "retryCount": 0
   },
@@ -5204,18 +5204,18 @@
   },
   {
     "signature": "1284289744efaa86a84bdebc304d255ef3cf6f96453b11e0c0d632b9cf4d8004ca5cde75645d5b27bdec702966994459973b11ae4b0db069bbdb4796e2a70a0d",
-    "bundleId": "bundle-380",
+    "bundleId": "bundle-420",
     "status": "failed",
     "tipAmountLamports": 780000,
     "tipPercentileSelected": "95th (AI Choice)",
     "timestamps": {
-      "submitted": "2026-06-27T13:49:38.530Z",
+      "submitted": "2026-06-27T13:59:38.779Z",
       "processed": null,
       "confirmed": null,
       "finalized": null
     },
     "slots": {
-      "submitted": 429248828,
+      "submitted": 429250312,
       "processed": null,
       "confirmed": null,
       "finalized": null
@@ -5227,7 +5227,7 @@
     },
     "failure": {
       "type": "EXPIRED_BLOCKHASH",
-      "details": "Blockhash is expired (simulated)"
+      "details": "Blockhash is expired (simulated) | Retried under signature ea82106bca2320e59b9970925a723353d902329a508349be6fe9798f19f9c2da86d404793d76c99658e1d072a65456bbef1729db8ff829f15799b530a996c10b"
     },
     "retryCount": 0
   },
@@ -13779,25 +13779,25 @@
   {
     "signature": "9427f8258a2f9b18da93ccbbc5d968577350e34ae99069639a76c154aff604d17ecdc6dcae4a0fd09e3233e2be7c296b0cfd73d41d9bc7fe186a5c147060d40b",
     "bundleId": "bundle-415",
-    "status": "confirmed",
+    "status": "finalized",
     "tipAmountLamports": 507129,
     "tipPercentileSelected": "75th (AI Adjusted)",
     "timestamps": {
       "submitted": "2026-06-27T13:58:25.386Z",
       "processed": "2026-06-27T13:58:25.796Z",
       "confirmed": "2026-06-27T13:58:26.233Z",
-      "finalized": null
+      "finalized": "2026-06-27T13:58:37.499Z"
     },
     "slots": {
       "submitted": 429250128,
       "processed": 429250129,
       "confirmed": 429250131,
-      "finalized": null
+      "finalized": 429250160
     },
     "deltas": {
       "submitted_to_processed_ms": 410,
       "processed_to_confirmed_ms": 437,
-      "total_lifecycle_ms": null
+      "total_lifecycle_ms": 12113
     },
     "failure": null,
     "retryCount": 1
@@ -13816,6 +13816,1910 @@
     },
     "slots": {
       "submitted": 472338023,
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "deltas": {
+      "submitted_to_processed_ms": null,
+      "processed_to_confirmed_ms": null,
+      "total_lifecycle_ms": null
+    },
+    "failure": null,
+    "retryCount": 0
+  },
+  {
+    "signature": "63b7687345bb7da361d674becc6644a7c931dd4424b0907c411715ef2285501c5c0e37c0f3172487dbd8cb09a38b9aaacaa341a7b9e0a530efc1b3bf8c87d606",
+    "bundleId": "bundle-416",
+    "status": "finalized",
+    "tipAmountLamports": 1041257,
+    "tipPercentileSelected": "95th (AI Choice)",
+    "timestamps": {
+      "submitted": "2026-06-27T13:58:38.754Z",
+      "processed": "2026-06-27T13:58:39.243Z",
+      "confirmed": "2026-06-27T13:58:40.021Z",
+      "finalized": "2026-06-27T13:58:51.470Z"
+    },
+    "slots": {
+      "submitted": 429250163,
+      "processed": 429250164,
+      "confirmed": 429250166,
+      "finalized": 429250195
+    },
+    "deltas": {
+      "submitted_to_processed_ms": 489,
+      "processed_to_confirmed_ms": 778,
+      "total_lifecycle_ms": 12716
+    },
+    "failure": null,
+    "retryCount": 0
+  },
+  {
+    "signature": "3YrnjwnmK2cwAh68hxrxE3NZ4QXAWBYxXpDEZ5QpPLLqv4YtgBFq1Jok8MCjutyS6rckheSAa4TcTEF1u4fZR88u",
+    "bundleId": "bundle-136",
+    "status": "submitted",
+    "tipAmountLamports": 30274,
+    "tipPercentileSelected": "95th (AI Choice)",
+    "timestamps": {
+      "submitted": "2026-06-27T13:58:42.344Z",
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "slots": {
+      "submitted": 472338068,
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "deltas": {
+      "submitted_to_processed_ms": null,
+      "processed_to_confirmed_ms": null,
+      "total_lifecycle_ms": null
+    },
+    "failure": null,
+    "retryCount": 0
+  },
+  {
+    "signature": "efaf251c2d05e078151e72b234329131a7d00449e13fef4b1701775ec50c41f062feb3061e8f62996489863841d3e1a26d24512a53910b995aa543d5c4810405",
+    "bundleId": "bundle-417",
+    "status": "finalized",
+    "tipAmountLamports": 406811,
+    "tipPercentileSelected": "75th (AI Choice)",
+    "timestamps": {
+      "submitted": "2026-06-27T13:58:53.746Z",
+      "processed": "2026-06-27T13:58:53.781Z",
+      "confirmed": "2026-06-27T13:58:54.325Z",
+      "finalized": "2026-06-27T13:59:05.905Z"
+    },
+    "slots": {
+      "submitted": 429250199,
+      "processed": 429250200,
+      "confirmed": 429250202,
+      "finalized": 429250231
+    },
+    "deltas": {
+      "submitted_to_processed_ms": 35,
+      "processed_to_confirmed_ms": 544,
+      "total_lifecycle_ms": 12159
+    },
+    "failure": null,
+    "retryCount": 0
+  },
+  {
+    "signature": "5QPPSZFuK5vPmEbQnyZqWB84yXMasUb587riFxkEA1QRtxSGt8CZXLxRuC6mbrxWv2Sw6dDLKvJUDsxBSjvtiE7g",
+    "bundleId": "bundle-137",
+    "status": "submitted",
+    "tipAmountLamports": 1839,
+    "tipPercentileSelected": "50th (AI Choice)",
+    "timestamps": {
+      "submitted": "2026-06-27T13:58:56.302Z",
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "slots": {
+      "submitted": 472338105,
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "deltas": {
+      "submitted_to_processed_ms": null,
+      "processed_to_confirmed_ms": null,
+      "total_lifecycle_ms": null
+    },
+    "failure": null,
+    "retryCount": 0
+  },
+  {
+    "signature": "5oSk38P5GH2495JZQNtApjRfdqSp57MzotcTiHrXXiWZrRpQrtBZbKhVTkdYavwc2RzzVw1CGC5rpgvM7NbmFZU1",
+    "bundleId": "bundle-138",
+    "status": "submitted",
+    "tipAmountLamports": 6337,
+    "tipPercentileSelected": "75th (AI Choice)",
+    "timestamps": {
+      "submitted": "2026-06-27T13:59:11.455Z",
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "slots": {
+      "submitted": 472338143,
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "deltas": {
+      "submitted_to_processed_ms": null,
+      "processed_to_confirmed_ms": null,
+      "total_lifecycle_ms": null
+    },
+    "failure": null,
+    "retryCount": 0
+  },
+  {
+    "signature": "42ab2bd2db64df2de6d7ca49f613c29d03c563e696e1da7248de874962fc9d8db72a6335333ee3af784912c407d12efbeeffbe415773c98df1c4cf494dec5e00",
+    "bundleId": "bundle-419",
+    "status": "finalized",
+    "tipAmountLamports": 200000,
+    "tipPercentileSelected": "50th (AI Choice)",
+    "timestamps": {
+      "submitted": "2026-06-27T13:59:23.656Z",
+      "processed": "2026-06-27T13:59:23.868Z",
+      "confirmed": "2026-06-27T13:59:23.888Z",
+      "finalized": "2026-06-27T13:59:23.909Z"
+    },
+    "slots": {
+      "submitted": 429250243,
+      "processed": 429250275,
+      "confirmed": 429250275,
+      "finalized": 429250275
+    },
+    "deltas": {
+      "submitted_to_processed_ms": 212,
+      "processed_to_confirmed_ms": 20,
+      "total_lifecycle_ms": 253
+    },
+    "failure": null,
+    "retryCount": 0
+  },
+  {
+    "signature": "3sNxDWFNrrpJyv93jhYgq4PnoqBon6qc1ozQDtz7WDNgS2hF3vc9QX3XXXDqe3dktsi7cznH3TH6zg1QSERic2AD",
+    "bundleId": "bundle-139",
+    "status": "submitted",
+    "tipAmountLamports": 2179,
+    "tipPercentileSelected": "50th (AI Choice)",
+    "timestamps": {
+      "submitted": "2026-06-27T13:59:27.614Z",
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "slots": {
+      "submitted": 472338186,
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "deltas": {
+      "submitted_to_processed_ms": null,
+      "processed_to_confirmed_ms": null,
+      "total_lifecycle_ms": null
+    },
+    "failure": null,
+    "retryCount": 0
+  },
+  {
+    "signature": "ea82106bca2320e59b9970925a723353d902329a508349be6fe9798f19f9c2da86d404793d76c99658e1d072a65456bbef1729db8ff829f15799b530a996c10b",
+    "bundleId": "bundle-420",
+    "status": "finalized",
+    "tipAmountLamports": 360000,
+    "tipPercentileSelected": "75th (AI Adjusted)",
+    "timestamps": {
+      "submitted": "2026-06-27T13:59:39.238Z",
+      "processed": "2026-06-27T13:59:39.314Z",
+      "confirmed": "2026-06-27T13:59:39.805Z",
+      "finalized": "2026-06-27T13:59:51.186Z"
+    },
+    "slots": {
+      "submitted": 429250313,
+      "processed": 429250314,
+      "confirmed": 429250316,
+      "finalized": 429250345
+    },
+    "deltas": {
+      "submitted_to_processed_ms": 76,
+      "processed_to_confirmed_ms": 491,
+      "total_lifecycle_ms": 11948
+    },
+    "failure": null,
+    "retryCount": 1
+  },
+  {
+    "signature": "4Wv8Viyim8PWRWnhQw2X4Kcu2fAPW6TUrGwXWEwx6rkwmbWbnnh87WwkvRd1pRQJvwrUtdQtGwsRoSiCNgJFnwS2",
+    "bundleId": "bundle-140",
+    "status": "submitted",
+    "tipAmountLamports": 130000,
+    "tipPercentileSelected": "95th (AI Choice)",
+    "timestamps": {
+      "submitted": "2026-06-27T13:59:41.495Z",
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "slots": {
+      "submitted": 472338223,
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "deltas": {
+      "submitted_to_processed_ms": null,
+      "processed_to_confirmed_ms": null,
+      "total_lifecycle_ms": null
+    },
+    "failure": null,
+    "retryCount": 0
+  },
+  {
+    "signature": "182b9022c4b29b6e9a079f4bf9471f51b6f2d77e9ef92fcd3a2cb522879928e12a8dedf458d584df40f1a91b5f5a5566c4fa1bfa3c2cd8e23873f67a28043c06",
+    "bundleId": "bundle-421",
+    "status": "finalized",
+    "tipAmountLamports": 200000,
+    "tipPercentileSelected": "50th (AI Choice)",
+    "timestamps": {
+      "submitted": "2026-06-27T13:59:53.658Z",
+      "processed": "2026-06-27T13:59:53.718Z",
+      "confirmed": "2026-06-27T13:59:54.300Z",
+      "finalized": "2026-06-27T14:00:05.804Z"
+    },
+    "slots": {
+      "submitted": 429250350,
+      "processed": 429250351,
+      "confirmed": 429250353,
+      "finalized": 429250382
+    },
+    "deltas": {
+      "submitted_to_processed_ms": 60,
+      "processed_to_confirmed_ms": 582,
+      "total_lifecycle_ms": 12146
+    },
+    "failure": null,
+    "retryCount": 0
+  },
+  {
+    "signature": "3aeVi3jNjP4SGXkW48PbPs1DJAPmmhYVZffNwEWK3kh3kbcTVXh3Czt4Zt8x8zx4YD7NAs4G988XRFAjsw6Q2zNC",
+    "bundleId": "bundle-141",
+    "status": "submitted",
+    "tipAmountLamports": 5141,
+    "tipPercentileSelected": "75th (AI Choice)",
+    "timestamps": {
+      "submitted": "2026-06-27T13:59:56.425Z",
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "slots": {
+      "submitted": 472338262,
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "deltas": {
+      "submitted_to_processed_ms": null,
+      "processed_to_confirmed_ms": null,
+      "total_lifecycle_ms": null
+    },
+    "failure": null,
+    "retryCount": 0
+  },
+  {
+    "signature": "0cfcfcbb47025baf3752bfba1332d74be0f25f58e575bf58bdb800aced4282b54c349fba9d5d988ae6be2aa5fccb36a42b5fb0353a56f08fda57a5000e80f100",
+    "bundleId": "bundle-422",
+    "status": "finalized",
+    "tipAmountLamports": 200000,
+    "tipPercentileSelected": "50th (AI Choice)",
+    "timestamps": {
+      "submitted": "2026-06-27T14:00:08.697Z",
+      "processed": "2026-06-27T14:00:08.720Z",
+      "confirmed": "2026-06-27T14:00:09.218Z",
+      "finalized": "2026-06-27T14:00:20.952Z"
+    },
+    "slots": {
+      "submitted": 429250388,
+      "processed": 429250389,
+      "confirmed": 429250391,
+      "finalized": 429250420
+    },
+    "deltas": {
+      "submitted_to_processed_ms": 23,
+      "processed_to_confirmed_ms": 498,
+      "total_lifecycle_ms": 12255
+    },
+    "failure": null,
+    "retryCount": 0
+  },
+  {
+    "signature": "5jZs2w8dasspUhxLjhLiruKKb9yqpc6sywrvHAQaWoSou3h6svNoTKCSve2HLWzB3AuedDJM7T7F3Jz7Fy2xcQAu",
+    "bundleId": "bundle-1",
+    "status": "submitted",
+    "tipAmountLamports": 1486,
+    "tipPercentileSelected": "50th (AI Choice)",
+    "timestamps": {
+      "submitted": "2026-06-27T14:00:21.883Z",
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "slots": {
+      "submitted": 472338330,
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "deltas": {
+      "submitted_to_processed_ms": null,
+      "processed_to_confirmed_ms": null,
+      "total_lifecycle_ms": null
+    },
+    "failure": null,
+    "retryCount": 0
+  },
+  {
+    "signature": "a0b090b168cbad73b22a4857cba6c729029df4ddccb5a845bce7ce485330c89f559c1ce90b6c50a505ccfb8eae971337df3ae7309bdf2498b2b2d53504037001",
+    "bundleId": "bundle-424",
+    "status": "finalized",
+    "tipAmountLamports": 780000,
+    "tipPercentileSelected": "95th (AI Choice)",
+    "timestamps": {
+      "submitted": "2026-06-27T14:00:38.871Z",
+      "processed": "2026-06-27T14:00:39.230Z",
+      "confirmed": "2026-06-27T14:00:39.985Z",
+      "finalized": "2026-06-27T14:00:55.306Z"
+    },
+    "slots": {
+      "submitted": 429250465,
+      "processed": 429250466,
+      "confirmed": 429250468,
+      "finalized": 429250497
+    },
+    "deltas": {
+      "submitted_to_processed_ms": 359,
+      "processed_to_confirmed_ms": 755,
+      "total_lifecycle_ms": 16435
+    },
+    "failure": null,
+    "retryCount": 0
+  },
+  {
+    "signature": "1DrY9RTcFts4VJQbyUqHGemauJoQQCpgNBjACv2BSwx7G61ePAjhmmH9iDqmoRtTSE5hjnvrn1ZR2a2VF9dk6XL",
+    "bundleId": "bundle-3",
+    "status": "submitted",
+    "tipAmountLamports": 1931,
+    "tipPercentileSelected": "75th (AI Choice)",
+    "timestamps": {
+      "submitted": "2026-06-27T14:00:56.447Z",
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "slots": {
+      "submitted": 472338422,
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "deltas": {
+      "submitted_to_processed_ms": null,
+      "processed_to_confirmed_ms": null,
+      "total_lifecycle_ms": null
+    },
+    "failure": null,
+    "retryCount": 0
+  },
+  {
+    "signature": "igvSwkKjRyiCXfKDSVHdUPwLoEbK8EYLNXRVTUXSB27TAm7QV5VsjyQp6vQSJfvaLxZMdcheEap76QWS8jTYG9Z",
+    "bundleId": "bundle-4",
+    "status": "submitted",
+    "tipAmountLamports": 7040,
+    "tipPercentileSelected": "95th (AI Choice)",
+    "timestamps": {
+      "submitted": "2026-06-27T14:01:07.371Z",
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "slots": {
+      "submitted": 472338451,
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "deltas": {
+      "submitted_to_processed_ms": null,
+      "processed_to_confirmed_ms": null,
+      "total_lifecycle_ms": null
+    },
+    "failure": null,
+    "retryCount": 0
+  },
+  {
+    "signature": "4eb7ae14132792477c7faf2eccc20e1f4b9641c7ffadcd1a5563802393db881996d2f81118af4b1b272fe3ef42b8bef1ccf66b238c78d14048c475f117dfdd06",
+    "bundleId": "bundle-426",
+    "status": "finalized",
+    "tipAmountLamports": 330000,
+    "tipPercentileSelected": "75th (AI Choice)",
+    "timestamps": {
+      "submitted": "2026-06-27T14:01:08.792Z",
+      "processed": "2026-06-27T14:01:08.959Z",
+      "confirmed": "2026-06-27T14:01:09.436Z",
+      "finalized": "2026-06-27T14:01:21.077Z"
+    },
+    "slots": {
+      "submitted": 429250539,
+      "processed": 429250540,
+      "confirmed": 429250542,
+      "finalized": 429250571
+    },
+    "deltas": {
+      "submitted_to_processed_ms": 167,
+      "processed_to_confirmed_ms": 477,
+      "total_lifecycle_ms": 12285
+    },
+    "failure": null,
+    "retryCount": 0
+  },
+  {
+    "signature": "2WyywaDqsH3nhNtvkVLRKHfGqafp2q2Wkbd5A6w6j92wHVkosK1FyLSPo5MSvC3rDHm5tv8KDn4du9iejEoLMTh6",
+    "bundleId": "bundle-5",
+    "status": "submitted",
+    "tipAmountLamports": 2182,
+    "tipPercentileSelected": "50th (AI Choice)",
+    "timestamps": {
+      "submitted": "2026-06-27T14:01:21.340Z",
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "slots": {
+      "submitted": 472338487,
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "deltas": {
+      "submitted_to_processed_ms": null,
+      "processed_to_confirmed_ms": null,
+      "total_lifecycle_ms": null
+    },
+    "failure": null,
+    "retryCount": 0
+  },
+  {
+    "signature": "62cf72d60bb4cab448ff3feed489935f5b7d803b001da7ccab8fa68f372e0df1543f25f5f5666ec51cc56c6c35261046a5b01c8c01a3247504f4293493147909",
+    "bundleId": "bundle-427",
+    "status": "finalized",
+    "tipAmountLamports": 200000,
+    "tipPercentileSelected": "50th (AI Choice)",
+    "timestamps": {
+      "submitted": "2026-06-27T14:01:25.251Z",
+      "processed": "2026-06-27T14:01:25.307Z",
+      "confirmed": "2026-06-27T14:01:26.127Z",
+      "finalized": "2026-06-27T14:01:37.012Z"
+    },
+    "slots": {
+      "submitted": 429250579,
+      "processed": 429250580,
+      "confirmed": 429250582,
+      "finalized": 429250611
+    },
+    "deltas": {
+      "submitted_to_processed_ms": 56,
+      "processed_to_confirmed_ms": 820,
+      "total_lifecycle_ms": 11761
+    },
+    "failure": null,
+    "retryCount": 0
+  },
+  {
+    "signature": "5ovCTUTQXf2T1Lh99ybQcN56JBqmmTcfRLcFGvdvvEjgfqWcnUAGFgPxbXFhiNiAjihB28qGqe5DiBBTVNnufz7U",
+    "bundleId": "bundle-6",
+    "status": "submitted",
+    "tipAmountLamports": 4506,
+    "tipPercentileSelected": "75th (AI Choice)",
+    "timestamps": {
+      "submitted": "2026-06-27T14:01:37.322Z",
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "slots": {
+      "submitted": 472338532,
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "deltas": {
+      "submitted_to_processed_ms": null,
+      "processed_to_confirmed_ms": null,
+      "total_lifecycle_ms": null
+    },
+    "failure": null,
+    "retryCount": 0
+  },
+  {
+    "signature": "fa66f5933bc2160254fa79c7a8c2e2d5e74901fd0a42458606294d71c7569d927180e66fc312d7676a73457da605eb3d9dbbf845b12a83a8e197b51e32e5f70c",
+    "bundleId": "bundle-428",
+    "status": "finalized",
+    "tipAmountLamports": 780000,
+    "tipPercentileSelected": "95th (AI Choice)",
+    "timestamps": {
+      "submitted": "2026-06-27T14:01:39.767Z",
+      "processed": "2026-06-27T14:01:40.068Z",
+      "confirmed": "2026-06-27T14:01:41.094Z",
+      "finalized": "2026-06-27T14:01:53.099Z"
+    },
+    "slots": {
+      "submitted": 429250618,
+      "processed": 429250619,
+      "confirmed": 429250621,
+      "finalized": 429250650
+    },
+    "deltas": {
+      "submitted_to_processed_ms": 301,
+      "processed_to_confirmed_ms": 1026,
+      "total_lifecycle_ms": 13332
+    },
+    "failure": null,
+    "retryCount": 0
+  },
+  {
+    "signature": "3EdV5QFcQEDSUUrmpMmXAYGAqgAHE1Rubhk78nnuyje8ydKKPUd6uwZtrpYTRk1PcUBJuZ49bwpjMyxNtCtEicSS",
+    "bundleId": "bundle-7",
+    "status": "submitted",
+    "tipAmountLamports": 1006,
+    "tipPercentileSelected": "50th (AI Choice)",
+    "timestamps": {
+      "submitted": "2026-06-27T14:01:51.776Z",
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "slots": {
+      "submitted": 472338569,
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "deltas": {
+      "submitted_to_processed_ms": null,
+      "processed_to_confirmed_ms": null,
+      "total_lifecycle_ms": null
+    },
+    "failure": null,
+    "retryCount": 0
+  },
+  {
+    "signature": "9589796363feade2edd9ff3d8ff2311e2baf13ba5d00a2c00ab7b549d6881c679be258e5dec3186bc3633dc8a11a4c2d1927a2d5b63c1162dc944a2bf32bfb0e",
+    "bundleId": "bundle-429",
+    "status": "finalized",
+    "tipAmountLamports": 330000,
+    "tipPercentileSelected": "75th (AI Choice)",
+    "timestamps": {
+      "submitted": "2026-06-27T14:01:53.743Z",
+      "processed": "2026-06-27T14:01:53.813Z",
+      "confirmed": "2026-06-27T14:01:54.581Z",
+      "finalized": "2026-06-27T14:02:06.809Z"
+    },
+    "slots": {
+      "submitted": 429250650,
+      "processed": 429250651,
+      "confirmed": 429250653,
+      "finalized": 429250682
+    },
+    "deltas": {
+      "submitted_to_processed_ms": 70,
+      "processed_to_confirmed_ms": 768,
+      "total_lifecycle_ms": 13066
+    },
+    "failure": null,
+    "retryCount": 0
+  },
+  {
+    "signature": "3zmE5UuFrwMGQcYxdqW6kLa9QaYFbC2y8FTWNqCdHZWRnho6nuSNq1fA9nbv1ZqqGziXdHGN2Wy3TnKEhGJe7BNw",
+    "bundleId": "bundle-8",
+    "status": "submitted",
+    "tipAmountLamports": 30618,
+    "tipPercentileSelected": "95th (AI Choice)",
+    "timestamps": {
+      "submitted": "2026-06-27T14:02:07.390Z",
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "slots": {
+      "submitted": 472338611,
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "deltas": {
+      "submitted_to_processed_ms": null,
+      "processed_to_confirmed_ms": null,
+      "total_lifecycle_ms": null
+    },
+    "failure": null,
+    "retryCount": 0
+  },
+  {
+    "signature": "5a512e746b0ea74431ca9d9771d8a10243dcadf0f02e799f801399d78f76953def1ca74bc7b3f33efd1243bf511bf345108a2a9c06ca648611c519ee09e96507",
+    "bundleId": "bundle-430",
+    "status": "finalized",
+    "tipAmountLamports": 360000,
+    "tipPercentileSelected": "75th (AI Adjusted)",
+    "timestamps": {
+      "submitted": "2026-06-27T14:02:09.626Z",
+      "processed": "2026-06-27T14:02:09.677Z",
+      "confirmed": "2026-06-27T14:02:10.236Z",
+      "finalized": "2026-06-27T14:02:21.180Z"
+    },
+    "slots": {
+      "submitted": 429250690,
+      "processed": 429250691,
+      "confirmed": 429250693,
+      "finalized": 429250722
+    },
+    "deltas": {
+      "submitted_to_processed_ms": 51,
+      "processed_to_confirmed_ms": 559,
+      "total_lifecycle_ms": 11554
+    },
+    "failure": null,
+    "retryCount": 1
+  },
+  {
+    "signature": "5wRUj61vYFTNftbhUMUwgfnvaredXYD398pURgmtdKWTDvN4EqJ5jetJSEycXsp9UcrostuzJ8eunbnYpNkmFL4V",
+    "bundleId": "bundle-9",
+    "status": "submitted",
+    "tipAmountLamports": 3300,
+    "tipPercentileSelected": "75th (AI Choice)",
+    "timestamps": {
+      "submitted": "2026-06-27T14:02:21.805Z",
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "slots": {
+      "submitted": 472338648,
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "deltas": {
+      "submitted_to_processed_ms": null,
+      "processed_to_confirmed_ms": null,
+      "total_lifecycle_ms": null
+    },
+    "failure": null,
+    "retryCount": 0
+  },
+  {
+    "signature": "fef39945be7ef7842434070c6c978fa5271565d9dc7cf24cc6a0b175f0b2a9f3eb3c2fac7704257b7185d6f9b9d9551f09bba92700b53cda5e32b60ed7a3580f",
+    "bundleId": "bundle-431",
+    "status": "finalized",
+    "tipAmountLamports": 200000,
+    "tipPercentileSelected": "50th (AI Choice)",
+    "timestamps": {
+      "submitted": "2026-06-27T14:02:24.769Z",
+      "processed": "2026-06-27T14:02:25.201Z",
+      "confirmed": "2026-06-27T14:02:25.384Z",
+      "finalized": "2026-06-27T14:02:36.519Z"
+    },
+    "slots": {
+      "submitted": 429250729,
+      "processed": 429250730,
+      "confirmed": 429250732,
+      "finalized": 429250761
+    },
+    "deltas": {
+      "submitted_to_processed_ms": 432,
+      "processed_to_confirmed_ms": 183,
+      "total_lifecycle_ms": 11750
+    },
+    "failure": null,
+    "retryCount": 0
+  },
+  {
+    "signature": "SCCnC6DWEr7sKcxnXkykiMq2UppRQdjKs96NjepAVszmtSV9jWQT4SMW13ga4kcWevDDKdSW8uqA8iSj6PGvBe4",
+    "bundleId": "bundle-10",
+    "status": "submitted",
+    "tipAmountLamports": 1040,
+    "tipPercentileSelected": "50th (AI Choice)",
+    "timestamps": {
+      "submitted": "2026-06-27T14:02:36.487Z",
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "slots": {
+      "submitted": 472338687,
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "deltas": {
+      "submitted_to_processed_ms": null,
+      "processed_to_confirmed_ms": null,
+      "total_lifecycle_ms": null
+    },
+    "failure": null,
+    "retryCount": 0
+  },
+  {
+    "signature": "39d229c2aaf6c963340c81807419a439301667bb001a1b75495703bcdf23a5371b5ba41e34ae28fd610c820fa72127ad46e278c5edcda99b492ec594933ae009",
+    "bundleId": "bundle-432",
+    "status": "finalized",
+    "tipAmountLamports": 828336,
+    "tipPercentileSelected": "95th (AI Choice)",
+    "timestamps": {
+      "submitted": "2026-06-27T14:02:38.752Z",
+      "processed": "2026-06-27T14:02:38.888Z",
+      "confirmed": "2026-06-27T14:02:39.399Z",
+      "finalized": "2026-06-27T14:02:51.560Z"
+    },
+    "slots": {
+      "submitted": 429250765,
+      "processed": 429250766,
+      "confirmed": 429250768,
+      "finalized": 429250797
+    },
+    "deltas": {
+      "submitted_to_processed_ms": 136,
+      "processed_to_confirmed_ms": 511,
+      "total_lifecycle_ms": 12808
+    },
+    "failure": null,
+    "retryCount": 0
+  },
+  {
+    "signature": "7292576a073bf1ca5df162e13af9484c685464d54a53556b4aa5e613b7827f3fa24b0edce20934f86f471d96a85ecfde7265083d67896ae7c0cdc4f3cccfe204",
+    "bundleId": "bundle-433",
+    "status": "finalized",
+    "tipAmountLamports": 236719,
+    "tipPercentileSelected": "50th (AI Choice)",
+    "timestamps": {
+      "submitted": "2026-06-27T14:02:53.856Z",
+      "processed": "2026-06-27T14:02:53.976Z",
+      "confirmed": "2026-06-27T14:02:54.521Z",
+      "finalized": "2026-06-27T14:03:06.901Z"
+    },
+    "slots": {
+      "submitted": 429250801,
+      "processed": 429250802,
+      "confirmed": 429250804,
+      "finalized": 429250833
+    },
+    "deltas": {
+      "submitted_to_processed_ms": 120,
+      "processed_to_confirmed_ms": 545,
+      "total_lifecycle_ms": 13045
+    },
+    "failure": null,
+    "retryCount": 0
+  },
+  {
+    "signature": "rzzcJg73mFcZZu67UxafucKgDZi8aqytm7u2hfhrZKSTAGJEUFq6H6PCmEDdQCACF7jPT5R72b9GiZKLL4Lsfeo",
+    "bundleId": "bundle-11",
+    "status": "submitted",
+    "tipAmountLamports": 2200,
+    "tipPercentileSelected": "50th (AI Choice)",
+    "timestamps": {
+      "submitted": "2026-06-27T14:02:55.102Z",
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "slots": {
+      "submitted": 472338705,
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "deltas": {
+      "submitted_to_processed_ms": null,
+      "processed_to_confirmed_ms": null,
+      "total_lifecycle_ms": null
+    },
+    "failure": null,
+    "retryCount": 0
+  },
+  {
+    "signature": "29kFM8vQeAAE9E91p7YBdzXxovYCpsbQ1MyyBXcLNccipoH63sH2FjjaKXLNLatyEYvpCFPBZn9V9dzo3KPt6rXc",
+    "bundleId": "bundle-12",
+    "status": "submitted",
+    "tipAmountLamports": 497298,
+    "tipPercentileSelected": "95th (AI Choice)",
+    "timestamps": {
+      "submitted": "2026-06-27T14:03:08.643Z",
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "slots": {
+      "submitted": 472338772,
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "deltas": {
+      "submitted_to_processed_ms": null,
+      "processed_to_confirmed_ms": null,
+      "total_lifecycle_ms": null
+    },
+    "failure": null,
+    "retryCount": 0
+  },
+  {
+    "signature": "1e5e7440382b5fa0435710cfc2c14311837e0ad9006bf990805e3585f698a850e38ae77180eed080fd0d01982b7358cf42201598e119c3d9c95f44749d2fad07",
+    "bundleId": "bundle-434",
+    "status": "finalized",
+    "tipAmountLamports": 258630,
+    "tipPercentileSelected": "50th (AI Choice)",
+    "timestamps": {
+      "submitted": "2026-06-27T14:03:08.883Z",
+      "processed": "2026-06-27T14:03:08.930Z",
+      "confirmed": "2026-06-27T14:03:09.409Z",
+      "finalized": "2026-06-27T14:03:20.638Z"
+    },
+    "slots": {
+      "submitted": 429250837,
+      "processed": 429250838,
+      "confirmed": 429250840,
+      "finalized": 429250869
+    },
+    "deltas": {
+      "submitted_to_processed_ms": 47,
+      "processed_to_confirmed_ms": 479,
+      "total_lifecycle_ms": 11755
+    },
+    "failure": null,
+    "retryCount": 0
+  },
+  {
+    "signature": "3tg9hMswp3deLQxv6rpFy6sLooQeLznt9uRtmD35Peun3WXSJx6aaLmZ7i86eXvRhotE9Zd2RTCk31oxyDzQAH2",
+    "bundleId": "bundle-13",
+    "status": "submitted",
+    "tipAmountLamports": 1006,
+    "tipPercentileSelected": "50th (AI Choice)",
+    "timestamps": {
+      "submitted": "2026-06-27T14:03:22.092Z",
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "slots": {
+      "submitted": 472338808,
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "deltas": {
+      "submitted_to_processed_ms": null,
+      "processed_to_confirmed_ms": null,
+      "total_lifecycle_ms": null
+    },
+    "failure": null,
+    "retryCount": 0
+  },
+  {
+    "signature": "f4fc5a9dff9c01ba964975cf66d2752a8212374a7db1a78c70a4a5615f5202e64f7b9b8d293d860fe869fee34b80053f1b213309f3c1886a246a826bf6675e0e",
+    "bundleId": "bundle-435",
+    "status": "failed",
+    "tipAmountLamports": 457452,
+    "tipPercentileSelected": "75th (AI Choice)",
+    "timestamps": {
+      "submitted": "2026-06-27T14:03:24.267Z",
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "slots": {
+      "submitted": 429250877,
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "deltas": {
+      "submitted_to_processed_ms": null,
+      "processed_to_confirmed_ms": null,
+      "total_lifecycle_ms": null
+    },
+    "failure": {
+      "type": "EXPIRED_BLOCKHASH",
+      "details": "Blockhash is expired (simulated) | Retried under signature 46c2ec80f9ad23b0fd4f9ffa567339acaf6e4d323ac41b98ce8374c24d26cfce036fd3dc1d2bf7be58b3cb22bb479fd39105b2ade18a7064757909c8f0ff2901"
+    },
+    "retryCount": 0
+  },
+  {
+    "signature": "46c2ec80f9ad23b0fd4f9ffa567339acaf6e4d323ac41b98ce8374c24d26cfce036fd3dc1d2bf7be58b3cb22bb479fd39105b2ade18a7064757909c8f0ff2901",
+    "bundleId": "bundle-435",
+    "status": "finalized",
+    "tipAmountLamports": 501007,
+    "tipPercentileSelected": "75th (AI Adjusted)",
+    "timestamps": {
+      "submitted": "2026-06-27T14:03:25.299Z",
+      "processed": "2026-06-27T14:03:26.000Z",
+      "confirmed": "2026-06-27T14:03:26.561Z",
+      "finalized": "2026-06-27T14:03:38.107Z"
+    },
+    "slots": {
+      "submitted": 429250881,
+      "processed": 429250882,
+      "confirmed": 429250884,
+      "finalized": 429250913
+    },
+    "deltas": {
+      "submitted_to_processed_ms": 701,
+      "processed_to_confirmed_ms": 561,
+      "total_lifecycle_ms": 12808
+    },
+    "failure": null,
+    "retryCount": 1
+  },
+  {
+    "signature": "4BrpubGrVfZoPxWKqs6CPCcJtmJCtJFZ5tzFZeAthhDcsW4cYvKsRE4Lf585X7KpDZLKrUCt3VEeNsVQ1TQCsCvZ",
+    "bundleId": "bundle-15",
+    "status": "submitted",
+    "tipAmountLamports": 18199,
+    "tipPercentileSelected": "75th (AI Choice)",
+    "timestamps": {
+      "submitted": "2026-06-27T14:03:51.495Z",
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "slots": {
+      "submitted": 472338886,
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "deltas": {
+      "submitted_to_processed_ms": null,
+      "processed_to_confirmed_ms": null,
+      "total_lifecycle_ms": null
+    },
+    "failure": null,
+    "retryCount": 0
+  },
+  {
+    "signature": "fbdc1e574b51514760d2fc4a62603fbcc7e310b54a2376521ae5403f13e2ace35e1f1b68b60890a81508aac9f6091e35b6e404d28a26e58f55d5938025b5210c",
+    "bundleId": "bundle-437",
+    "status": "finalized",
+    "tipAmountLamports": 298139,
+    "tipPercentileSelected": "50th (AI Choice)",
+    "timestamps": {
+      "submitted": "2026-06-27T14:03:53.950Z",
+      "processed": "2026-06-27T14:03:54.294Z",
+      "confirmed": "2026-06-27T14:03:55.053Z",
+      "finalized": "2026-06-27T14:04:06.023Z"
+    },
+    "slots": {
+      "submitted": 429250953,
+      "processed": 429250954,
+      "confirmed": 429250956,
+      "finalized": 429250985
+    },
+    "deltas": {
+      "submitted_to_processed_ms": 344,
+      "processed_to_confirmed_ms": 759,
+      "total_lifecycle_ms": 12073
+    },
+    "failure": null,
+    "retryCount": 0
+  },
+  {
+    "signature": "46aSokbi5AUZGXuX4ZqJnXpsEK1UURAz9BdTvDvwpVER1iRbA3L9JLBYU431zc4Bwp1qe8V155BUmTt7D4AGkane",
+    "bundleId": "bundle-16",
+    "status": "submitted",
+    "tipAmountLamports": 1317758,
+    "tipPercentileSelected": "95th (AI Choice)",
+    "timestamps": {
+      "submitted": "2026-06-27T14:04:06.932Z",
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "slots": {
+      "submitted": 472338927,
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "deltas": {
+      "submitted_to_processed_ms": null,
+      "processed_to_confirmed_ms": null,
+      "total_lifecycle_ms": null
+    },
+    "failure": null,
+    "retryCount": 0
+  },
+  {
+    "signature": "7b5f531b011e7b9dbfcf451c84cd74e6c858ee2950914ae8f57f5b4485993b3a1bad9d6f62a05c2f558f912043d45298610e557253247628ea6d3b8ce4d37400",
+    "bundleId": "bundle-438",
+    "status": "finalized",
+    "tipAmountLamports": 494732,
+    "tipPercentileSelected": "75th (AI Choice)",
+    "timestamps": {
+      "submitted": "2026-06-27T14:04:08.956Z",
+      "processed": "2026-06-27T14:04:09.163Z",
+      "confirmed": "2026-06-27T14:04:09.924Z",
+      "finalized": "2026-06-27T14:04:21.367Z"
+    },
+    "slots": {
+      "submitted": 429250991,
+      "processed": 429250992,
+      "confirmed": 429250994,
+      "finalized": 429251023
+    },
+    "deltas": {
+      "submitted_to_processed_ms": 207,
+      "processed_to_confirmed_ms": 761,
+      "total_lifecycle_ms": 12411
+    },
+    "failure": null,
+    "retryCount": 0
+  },
+  {
+    "signature": "4T84u3nLdcvLSv7DvEesHK2Fpgch8BJMhxcEDeMjbzD3pogTQDMNAdGgvmnp5ySiqM61fUPyba7T3wsU6MYWe279",
+    "bundleId": "bundle-17",
+    "status": "submitted",
+    "tipAmountLamports": 1912,
+    "tipPercentileSelected": "50th (AI Choice)",
+    "timestamps": {
+      "submitted": "2026-06-27T14:04:21.809Z",
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "slots": {
+      "submitted": 472338964,
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "deltas": {
+      "submitted_to_processed_ms": null,
+      "processed_to_confirmed_ms": null,
+      "total_lifecycle_ms": null
+    },
+    "failure": null,
+    "retryCount": 0
+  },
+  {
+    "signature": "71e39fd07e24d7ff167da1f7f1bc0264df4855048d16dc35e182de62026dfa9d52958758586bbb4b57a327d8aa63ffe344b9b9949023c335d3820bc2853ebb08",
+    "bundleId": "bundle-439",
+    "status": "finalized",
+    "tipAmountLamports": 295426,
+    "tipPercentileSelected": "50th (AI Choice)",
+    "timestamps": {
+      "submitted": "2026-06-27T14:04:23.761Z",
+      "processed": "2026-06-27T14:04:23.835Z",
+      "confirmed": "2026-06-27T14:04:23.865Z",
+      "finalized": "2026-06-27T14:04:24.034Z"
+    },
+    "slots": {
+      "submitted": 429250997,
+      "processed": 429251029,
+      "confirmed": 429251029,
+      "finalized": 429251029
+    },
+    "deltas": {
+      "submitted_to_processed_ms": 74,
+      "processed_to_confirmed_ms": 30,
+      "total_lifecycle_ms": 273
+    },
+    "failure": null,
+    "retryCount": 0
+  },
+  {
+    "signature": "5bc6ef9819e05b932e8fb073fd6d9d54eae13d47496a4cf5121939c5f336b93bcb90052ab3425476248e11d56de3ae5b56bd987f3c2ce9a79d43526b31064c00",
+    "bundleId": "bundle-440",
+    "status": "failed",
+    "tipAmountLamports": 1111224,
+    "tipPercentileSelected": "95th (AI Choice)",
+    "timestamps": {
+      "submitted": "2026-06-27T14:04:38.912Z",
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "slots": {
+      "submitted": 429251069,
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "deltas": {
+      "submitted_to_processed_ms": null,
+      "processed_to_confirmed_ms": null,
+      "total_lifecycle_ms": null
+    },
+    "failure": {
+      "type": "EXPIRED_BLOCKHASH",
+      "details": "Blockhash is expired (simulated) | Retried under signature 41a158fa90e5b9281611716ae8b165e0016ea9a644fd8c0d212cda8f41a932bce81a2f2333ee39741278c9eb4e8839cfde4e8b45fff3257736ce8c91dabfa103"
+    },
+    "retryCount": 0
+  },
+  {
+    "signature": "41a158fa90e5b9281611716ae8b165e0016ea9a644fd8c0d212cda8f41a932bce81a2f2333ee39741278c9eb4e8839cfde4e8b45fff3257736ce8c91dabfa103",
+    "bundleId": "bundle-440",
+    "status": "finalized",
+    "tipAmountLamports": 511370,
+    "tipPercentileSelected": "75th (AI Adjusted)",
+    "timestamps": {
+      "submitted": "2026-06-27T14:04:39.848Z",
+      "processed": "2026-06-27T14:04:39.911Z",
+      "confirmed": "2026-06-27T14:04:40.634Z",
+      "finalized": "2026-06-27T14:04:51.900Z"
+    },
+    "slots": {
+      "submitted": 429251070,
+      "processed": 429251071,
+      "confirmed": 429251073,
+      "finalized": 429251102
+    },
+    "deltas": {
+      "submitted_to_processed_ms": 63,
+      "processed_to_confirmed_ms": 723,
+      "total_lifecycle_ms": 12052
+    },
+    "failure": null,
+    "retryCount": 1
+  },
+  {
+    "signature": "f1a24195f443f1e58ce05c6918b3cf34b407f5b6ad52fd42aec2639b0ed9773d7028b4ce7e0c27b1359fdbcb0daf196540c1accedfc4698e4e220830ff23eb05",
+    "bundleId": "bundle-441",
+    "status": "finalized",
+    "tipAmountLamports": 444424,
+    "tipPercentileSelected": "75th (AI Choice)",
+    "timestamps": {
+      "submitted": "2026-06-27T14:04:53.815Z",
+      "processed": "2026-06-27T14:04:54.096Z",
+      "confirmed": "2026-06-27T14:04:54.895Z",
+      "finalized": "2026-06-27T14:05:06.987Z"
+    },
+    "slots": {
+      "submitted": 429251107,
+      "processed": 429251108,
+      "confirmed": 429251110,
+      "finalized": 429251139
+    },
+    "deltas": {
+      "submitted_to_processed_ms": 281,
+      "processed_to_confirmed_ms": 799,
+      "total_lifecycle_ms": 13172
+    },
+    "failure": null,
+    "retryCount": 0
+  },
+  {
+    "signature": "5pxjr4XZUs98XXC1R1mwiATJiF2b9WBnVUJdjBzXvvuU6XCVt94vZrT74FjJZVZmt5FTbjJMpzr3Ggev2vAn4Lte",
+    "bundleId": "bundle-20",
+    "status": "submitted",
+    "tipAmountLamports": 155287,
+    "tipPercentileSelected": "95th (AI Choice)",
+    "timestamps": {
+      "submitted": "2026-06-27T14:05:06.524Z",
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "slots": {
+      "submitted": 472339081,
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "deltas": {
+      "submitted_to_processed_ms": null,
+      "processed_to_confirmed_ms": null,
+      "total_lifecycle_ms": null
+    },
+    "failure": null,
+    "retryCount": 0
+  },
+  {
+    "signature": "68fd0cffa36ca901dfe4ef33e13c902d1b230f14a7795f96c384650c7ebd4dda008ac3799205d6c19c92cd84bacaad706417f1b2aab3e433a8499eddcfbd1d07",
+    "bundleId": "bundle-442",
+    "status": "finalized",
+    "tipAmountLamports": 249056,
+    "tipPercentileSelected": "50th (AI Choice)",
+    "timestamps": {
+      "submitted": "2026-06-27T14:05:09.036Z",
+      "processed": "2026-06-27T14:05:09.117Z",
+      "confirmed": "2026-06-27T14:05:09.173Z",
+      "finalized": "2026-06-27T14:05:09.299Z"
+    },
+    "slots": {
+      "submitted": 429251112,
+      "processed": 429251144,
+      "confirmed": 429251144,
+      "finalized": 429251144
+    },
+    "deltas": {
+      "submitted_to_processed_ms": 81,
+      "processed_to_confirmed_ms": 56,
+      "total_lifecycle_ms": 263
+    },
+    "failure": null,
+    "retryCount": 0
+  },
+  {
+    "signature": "4TfEqKKEFFerC6D3T1xc3eeVHwJkHiU8PLqMEv2ZxYhmesqZeBErGL7yvpXcqdNhXd98KsxSYVYXFjZieP4SVqeT",
+    "bundleId": "bundle-21",
+    "status": "submitted",
+    "tipAmountLamports": 13467,
+    "tipPercentileSelected": "75th (AI Choice)",
+    "timestamps": {
+      "submitted": "2026-06-27T14:05:21.912Z",
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "slots": {
+      "submitted": 472339122,
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "deltas": {
+      "submitted_to_processed_ms": null,
+      "processed_to_confirmed_ms": null,
+      "total_lifecycle_ms": null
+    },
+    "failure": null,
+    "retryCount": 0
+  },
+  {
+    "signature": "acdb4f4c5cecb7cb90db88645016805dc4bbf39babb7e9bb46771e5277d3c395c5c31ea2640d8074edfca272b417b3cf98fcb587e8802b2ed3ee57e7949c870c",
+    "bundleId": "bundle-443",
+    "status": "finalized",
+    "tipAmountLamports": 226134,
+    "tipPercentileSelected": "50th (AI Choice)",
+    "timestamps": {
+      "submitted": "2026-06-27T14:05:23.924Z",
+      "processed": "2026-06-27T14:05:23.997Z",
+      "confirmed": "2026-06-27T14:05:24.009Z",
+      "finalized": "2026-06-27T14:05:24.306Z"
+    },
+    "slots": {
+      "submitted": 429251150,
+      "processed": 429251182,
+      "confirmed": 429251182,
+      "finalized": 429251182
+    },
+    "deltas": {
+      "submitted_to_processed_ms": 73,
+      "processed_to_confirmed_ms": 12,
+      "total_lifecycle_ms": 382
+    },
+    "failure": null,
+    "retryCount": 0
+  },
+  {
+    "signature": "2WEKEoY7FqEfH8NB9CZA2mwLinSjggv9sgXvJZ93hZd7Y7upPDd7V7dHYVFJBwVUZx3zZpaCKkSTgXUiYYUZajkU",
+    "bundleId": "bundle-22",
+    "status": "submitted",
+    "tipAmountLamports": 3489,
+    "tipPercentileSelected": "50th (AI Choice)",
+    "timestamps": {
+      "submitted": "2026-06-27T14:05:37.456Z",
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "slots": {
+      "submitted": 472339132,
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "deltas": {
+      "submitted_to_processed_ms": null,
+      "processed_to_confirmed_ms": null,
+      "total_lifecycle_ms": null
+    },
+    "failure": null,
+    "retryCount": 0
+  },
+  {
+    "signature": "42fd28ef3416c09b27c30a4e6af6556be4cc410f1a71d1678039eb3cba012d1857f598a5c06392ba328a022960393bfafae7183b8d6cc597f7dd1e4f708e100c",
+    "bundleId": "bundle-444",
+    "status": "finalized",
+    "tipAmountLamports": 785796,
+    "tipPercentileSelected": "95th (AI Choice)",
+    "timestamps": {
+      "submitted": "2026-06-27T14:05:38.901Z",
+      "processed": "2026-06-27T14:05:39.183Z",
+      "confirmed": "2026-06-27T14:05:40.062Z",
+      "finalized": "2026-06-27T14:05:52.030Z"
+    },
+    "slots": {
+      "submitted": 429251217,
+      "processed": 429251218,
+      "confirmed": 429251220,
+      "finalized": 429251249
+    },
+    "deltas": {
+      "submitted_to_processed_ms": 282,
+      "processed_to_confirmed_ms": 879,
+      "total_lifecycle_ms": 13129
+    },
+    "failure": null,
+    "retryCount": 0
+  },
+  {
+    "signature": "4ja16yCgBfcpKihzo52TPR7ZgkaMoCvooY7tRBARrhtAY4z7WRcZLxEk5TbzGn15crALG49bVoQyHjLH7eD3fNQH",
+    "bundleId": "bundle-23",
+    "status": "submitted",
+    "tipAmountLamports": 1574,
+    "tipPercentileSelected": "50th (AI Choice)",
+    "timestamps": {
+      "submitted": "2026-06-27T14:05:51.929Z",
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "slots": {
+      "submitted": 472339202,
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "deltas": {
+      "submitted_to_processed_ms": null,
+      "processed_to_confirmed_ms": null,
+      "total_lifecycle_ms": null
+    },
+    "failure": null,
+    "retryCount": 0
+  },
+  {
+    "signature": "2d43e894fc98e0f6f3e4fbc4f644364a5f9fa753fa68abcc927f1577b6b5cfd792ca1849263d9d5ae908b0d0f665b5c5817eb4b28b8ca5006f4a6a2c5970da0a",
+    "bundleId": "bundle-445",
+    "status": "finalized",
+    "tipAmountLamports": 360000,
+    "tipPercentileSelected": "75th (AI Adjusted)",
+    "timestamps": {
+      "submitted": "2026-06-27T14:05:54.236Z",
+      "processed": "2026-06-27T14:05:54.319Z",
+      "confirmed": "2026-06-27T14:05:54.894Z",
+      "finalized": "2026-06-27T14:06:06.294Z"
+    },
+    "slots": {
+      "submitted": 429251253,
+      "processed": 429251254,
+      "confirmed": 429251256,
+      "finalized": 429251285
+    },
+    "deltas": {
+      "submitted_to_processed_ms": 83,
+      "processed_to_confirmed_ms": 575,
+      "total_lifecycle_ms": 12058
+    },
+    "failure": null,
+    "retryCount": 1
+  },
+  {
+    "signature": "3JsXX8Rf8PvjDQwpF9MLCUfzJLAM2LNiHg9PXjcmz6gNCQkiSVfos886RQYHR4sSAH6oCz3Ku1HW9nfbNyZhTrvE",
+    "bundleId": "bundle-24",
+    "status": "submitted",
+    "tipAmountLamports": 270686,
+    "tipPercentileSelected": "95th (AI Choice)",
+    "timestamps": {
+      "submitted": "2026-06-27T14:06:07.118Z",
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "slots": {
+      "submitted": 472339242,
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "deltas": {
+      "submitted_to_processed_ms": null,
+      "processed_to_confirmed_ms": null,
+      "total_lifecycle_ms": null
+    },
+    "failure": null,
+    "retryCount": 0
+  },
+  {
+    "signature": "b46a2274b8d2937e3b1d93d07fe77d54022aa9f3ffe514d6ff8cc19a000d15e45d202be8b89efc2210e9052a7be97194ab27638d6ccc1a0a75221fa975dfca02",
+    "bundleId": "bundle-446",
+    "status": "finalized",
+    "tipAmountLamports": 200000,
+    "tipPercentileSelected": "50th (AI Choice)",
+    "timestamps": {
+      "submitted": "2026-06-27T14:06:08.976Z",
+      "processed": "2026-06-27T14:06:09.055Z",
+      "confirmed": "2026-06-27T14:06:09.099Z",
+      "finalized": "2026-06-27T14:06:09.305Z"
+    },
+    "slots": {
+      "submitted": 429251260,
+      "processed": 429251292,
+      "confirmed": 429251292,
+      "finalized": 429251292
+    },
+    "deltas": {
+      "submitted_to_processed_ms": 79,
+      "processed_to_confirmed_ms": 44,
+      "total_lifecycle_ms": 329
+    },
+    "failure": null,
+    "retryCount": 0
+  },
+  {
+    "signature": "2bhLtgQPgCeEMveErdVkNciGBvJXjYWuQrkEnZCD69DMQGc7LK9Yb9DrWowNdkdPcRQhhrKiRBfqTVxKaT6wYw1M",
+    "bundleId": "bundle-25",
+    "status": "submitted",
+    "tipAmountLamports": 4713,
+    "tipPercentileSelected": "50th (AI Choice)",
+    "timestamps": {
+      "submitted": "2026-06-27T14:06:21.466Z",
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "slots": {
+      "submitted": 472339280,
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "deltas": {
+      "submitted_to_processed_ms": null,
+      "processed_to_confirmed_ms": null,
+      "total_lifecycle_ms": null
+    },
+    "failure": null,
+    "retryCount": 0
+  },
+  {
+    "signature": "ec8b7fe65a3fe5f14155a4115a91912921cc24672406d78af0f891ada8621994b56637455a006ac30f52d5302aadc142814efdb4d4506abf35f44e1b53ad8d01",
+    "bundleId": "bundle-447",
+    "status": "finalized",
+    "tipAmountLamports": 330000,
+    "tipPercentileSelected": "75th (AI Choice)",
+    "timestamps": {
+      "submitted": "2026-06-27T14:06:23.759Z",
+      "processed": "2026-06-27T14:06:23.769Z",
+      "confirmed": "2026-06-27T14:06:24.294Z",
+      "finalized": "2026-06-27T14:06:35.471Z"
+    },
+    "slots": {
+      "submitted": 429251328,
+      "processed": 429251329,
+      "confirmed": 429251331,
+      "finalized": 429251360
+    },
+    "deltas": {
+      "submitted_to_processed_ms": 10,
+      "processed_to_confirmed_ms": 525,
+      "total_lifecycle_ms": 11712
+    },
+    "failure": null,
+    "retryCount": 0
+  },
+  {
+    "signature": "33cmMWb9oc3aNM9RKfcUddUZ9cCYvUejZRDnbCg8rnwBSQEFobJoHSQNCHcfzYyX4NEa6pg6wu35xquyhx8nYF6k",
+    "bundleId": "bundle-26",
+    "status": "submitted",
+    "tipAmountLamports": 4713,
+    "tipPercentileSelected": "50th (AI Choice)",
+    "timestamps": {
+      "submitted": "2026-06-27T14:06:36.987Z",
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "slots": {
+      "submitted": 472339319,
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "deltas": {
+      "submitted_to_processed_ms": null,
+      "processed_to_confirmed_ms": null,
+      "total_lifecycle_ms": null
+    },
+    "failure": null,
+    "retryCount": 0
+  },
+  {
+    "signature": "a10a4d26983a5950ed0b8670300f26cb67f96276710b96ed14285d1dd582ef743d727d7d76fc0853e6888247fb3a35033439552115c202c928fa25625cd66109",
+    "bundleId": "bundle-448",
+    "status": "finalized",
+    "tipAmountLamports": 780000,
+    "tipPercentileSelected": "95th (AI Choice)",
+    "timestamps": {
+      "submitted": "2026-06-27T14:06:38.914Z",
+      "processed": "2026-06-27T14:06:39.103Z",
+      "confirmed": "2026-06-27T14:06:39.565Z",
+      "finalized": "2026-06-27T14:06:50.761Z"
+    },
+    "slots": {
+      "submitted": 429251367,
+      "processed": 429251368,
+      "confirmed": 429251370,
+      "finalized": 429251399
+    },
+    "deltas": {
+      "submitted_to_processed_ms": 189,
+      "processed_to_confirmed_ms": 462,
+      "total_lifecycle_ms": 11847
+    },
+    "failure": null,
+    "retryCount": 0
+  },
+  {
+    "signature": "3ZXMv3WhVmRer3tMv5mYBP1Nf6wfo3rgmeMN8UW6fkncC1V46pzNb96dLbotnZ1nZWKCtjnvNsKrXQ7jb7iNuqpM",
+    "bundleId": "bundle-27",
+    "status": "submitted",
+    "tipAmountLamports": 7784,
+    "tipPercentileSelected": "75th (AI Choice)",
+    "timestamps": {
+      "submitted": "2026-06-27T14:06:51.959Z",
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "slots": {
+      "submitted": 472339361,
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "deltas": {
+      "submitted_to_processed_ms": null,
+      "processed_to_confirmed_ms": null,
+      "total_lifecycle_ms": null
+    },
+    "failure": null,
+    "retryCount": 0
+  },
+  {
+    "signature": "ebeb0eb0cf85692ba310c357428e8b8aa8bc9318f6fd31deac56be6ba86f4a57425a7c1cae9df8fbb8e9b7764acb7205175cf4be8d6aae96bc6718efcf4ea30b",
+    "bundleId": "bundle-449",
+    "status": "finalized",
+    "tipAmountLamports": 200000,
+    "tipPercentileSelected": "50th (AI Choice)",
+    "timestamps": {
+      "submitted": "2026-06-27T14:06:53.898Z",
+      "processed": "2026-06-27T14:06:54.255Z",
+      "confirmed": "2026-06-27T14:06:55.031Z",
+      "finalized": "2026-06-27T14:07:06.895Z"
+    },
+    "slots": {
+      "submitted": 429251404,
+      "processed": 429251405,
+      "confirmed": 429251407,
+      "finalized": 429251436
+    },
+    "deltas": {
+      "submitted_to_processed_ms": 357,
+      "processed_to_confirmed_ms": 776,
+      "total_lifecycle_ms": 12997
+    },
+    "failure": null,
+    "retryCount": 0
+  },
+  {
+    "signature": "4ZhANLPi2X1EHbk16wqT8K5HzLrJdbwdeT4vvQeHUvvaphsXrVave6oDqHzALpzxCyownzngPUF8canCK8G5smp3",
+    "bundleId": "bundle-28",
+    "status": "submitted",
+    "tipAmountLamports": 17851,
+    "tipPercentileSelected": "95th (AI Choice)",
+    "timestamps": {
+      "submitted": "2026-06-27T14:07:07.905Z",
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "slots": {
+      "submitted": 472339403,
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "deltas": {
+      "submitted_to_processed_ms": null,
+      "processed_to_confirmed_ms": null,
+      "total_lifecycle_ms": null
+    },
+    "failure": null,
+    "retryCount": 0
+  },
+  {
+    "signature": "61cf56460dd77db3c4b26a439bc5d7f649765a5ec7b02ba4ab333f48577a15e81586a60b373a059cabd7dfc502a52a7623e06a816d670dc675cad3a9d0ebe402",
+    "bundleId": "bundle-450",
+    "status": "finalized",
+    "tipAmountLamports": 360000,
+    "tipPercentileSelected": "75th (AI Adjusted)",
+    "timestamps": {
+      "submitted": "2026-06-27T14:07:09.376Z",
+      "processed": "2026-06-27T14:07:09.428Z",
+      "confirmed": "2026-06-27T14:07:09.445Z",
+      "finalized": "2026-06-27T14:07:09.832Z"
+    },
+    "slots": {
+      "submitted": 429251410,
+      "processed": 429251442,
+      "confirmed": 429251442,
+      "finalized": 429251442
+    },
+    "deltas": {
+      "submitted_to_processed_ms": 52,
+      "processed_to_confirmed_ms": 17,
+      "total_lifecycle_ms": 456
+    },
+    "failure": null,
+    "retryCount": 1
+  },
+  {
+    "signature": "L12wF6dtmiUr1gHc37vYKHVhpvUSLfGk2H1dSKs6ZehyqVTu4NjTXmNgFcPtaBKKZJ2T2gAFWRZkQjWchW7KBbU",
+    "bundleId": "bundle-29",
+    "status": "submitted",
+    "tipAmountLamports": 2191,
+    "tipPercentileSelected": "50th (AI Choice)",
+    "timestamps": {
+      "submitted": "2026-06-27T14:07:21.992Z",
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "slots": {
+      "submitted": 472339408,
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "deltas": {
+      "submitted_to_processed_ms": null,
+      "processed_to_confirmed_ms": null,
+      "total_lifecycle_ms": null
+    },
+    "failure": null,
+    "retryCount": 0
+  },
+  {
+    "signature": "6094a702cae6fe1cde92a9bf836a4efa5cf097efa3f91078ca5e18307d9f413d68319a809215b1129ee2ace7cc538c8043212e53bf622f08b9623517e99bb301",
+    "bundleId": "bundle-451",
+    "status": "finalized",
+    "tipAmountLamports": 200000,
+    "tipPercentileSelected": "50th (AI Choice)",
+    "timestamps": {
+      "submitted": "2026-06-27T14:07:24.479Z",
+      "processed": "2026-06-27T14:07:24.688Z",
+      "confirmed": "2026-06-27T14:07:25.583Z",
+      "finalized": "2026-06-27T14:07:36.913Z"
+    },
+    "slots": {
+      "submitted": 429251481,
+      "processed": 429251482,
+      "confirmed": 429251484,
+      "finalized": 429251513
+    },
+    "deltas": {
+      "submitted_to_processed_ms": 209,
+      "processed_to_confirmed_ms": 895,
+      "total_lifecycle_ms": 12434
+    },
+    "failure": null,
+    "retryCount": 0
+  },
+  {
+    "signature": "35bfUkfSCFA4HLoweab4qMfP4h5qnRBpagHrd45zGQ6AubTsa6pHkmBvwJ3sRSV6edNG9QrP7EJKB7hmPhiaaEZT",
+    "bundleId": "bundle-30",
+    "status": "submitted",
+    "tipAmountLamports": 3964,
+    "tipPercentileSelected": "75th (AI Choice)",
+    "timestamps": {
+      "submitted": "2026-06-27T14:07:36.523Z",
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "slots": {
+      "submitted": 472339478,
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "deltas": {
+      "submitted_to_processed_ms": null,
+      "processed_to_confirmed_ms": null,
+      "total_lifecycle_ms": null
+    },
+    "failure": null,
+    "retryCount": 0
+  },
+  {
+    "signature": "6c0441f099c62de76e157990d25995350840d27b3f20ad04065b515c6d079ffd24421d409aac899d4059ad6661dd59b6e86d371d0abc4e6c7e5bea9db3a49506",
+    "bundleId": "bundle-452",
+    "status": "finalized",
+    "tipAmountLamports": 780000,
+    "tipPercentileSelected": "95th (AI Choice)",
+    "timestamps": {
+      "submitted": "2026-06-27T14:07:39.186Z",
+      "processed": "2026-06-27T14:07:39.217Z",
+      "confirmed": "2026-06-27T14:07:39.255Z",
+      "finalized": "2026-06-27T14:07:39.582Z"
+    },
+    "slots": {
+      "submitted": 429251487,
+      "processed": 429251519,
+      "confirmed": 429251519,
+      "finalized": 429251519
+    },
+    "deltas": {
+      "submitted_to_processed_ms": 31,
+      "processed_to_confirmed_ms": 38,
+      "total_lifecycle_ms": 396
+    },
+    "failure": null,
+    "retryCount": 0
+  },
+  {
+    "signature": "2VR7kV658QyWttwnZzBTCF2KzT2K5LYCkhrTMQA7fKADRdw19WQAV4z7st4ULmpSyu6knUgVdNvb7YYsrWweajPr",
+    "bundleId": "bundle-31",
+    "status": "submitted",
+    "tipAmountLamports": 6019,
+    "tipPercentileSelected": "50th (AI Choice)",
+    "timestamps": {
+      "submitted": "2026-06-27T14:07:52.110Z",
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "slots": {
+      "submitted": 472339487,
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "deltas": {
+      "submitted_to_processed_ms": null,
+      "processed_to_confirmed_ms": null,
+      "total_lifecycle_ms": null
+    },
+    "failure": null,
+    "retryCount": 0
+  },
+  {
+    "signature": "2bf4caa8661cccec774b930e5ca067f074c3577c36b0bd277d9a36fbd3dd8e1705fdc135b2fd3bb9da7b3720bc57b9885cc143e34937ed38422842e1b809190b",
+    "bundleId": "bundle-453",
+    "status": "finalized",
+    "tipAmountLamports": 330000,
+    "tipPercentileSelected": "75th (AI Choice)",
+    "timestamps": {
+      "submitted": "2026-06-27T14:07:53.894Z",
+      "processed": "2026-06-27T14:07:53.955Z",
+      "confirmed": "2026-06-27T14:07:54.477Z",
+      "finalized": "2026-06-27T14:08:05.985Z"
+    },
+    "slots": {
+      "submitted": 429251555,
+      "processed": 429251556,
+      "confirmed": 429251558,
+      "finalized": 429251587
+    },
+    "deltas": {
+      "submitted_to_processed_ms": 61,
+      "processed_to_confirmed_ms": 522,
+      "total_lifecycle_ms": 12091
+    },
+    "failure": null,
+    "retryCount": 0
+  },
+  {
+    "signature": "2P7mWkEqPYiwAMCyRWeE9HJzw1gP556tPwiTVcy2ovq6D5thgzibauYVAHBktbWfojUcZd4uoM6Ug87mHEaiDPxc",
+    "bundleId": "bundle-32",
+    "status": "submitted",
+    "tipAmountLamports": 1950000,
+    "tipPercentileSelected": "95th (AI Choice)",
+    "timestamps": {
+      "submitted": "2026-06-27T14:08:08.890Z",
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "slots": {
+      "submitted": 472339562,
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "deltas": {
+      "submitted_to_processed_ms": null,
+      "processed_to_confirmed_ms": null,
+      "total_lifecycle_ms": null
+    },
+    "failure": null,
+    "retryCount": 0
+  },
+  {
+    "signature": "296e071ff68236760b70a51848c621e82fde2868c1e51bd0adf27a0ea5670024820e9f47b98c2f47db44f2152b8953ae0b3d2ced61684b0e379465109d71540a",
+    "bundleId": "bundle-454",
+    "status": "finalized",
+    "tipAmountLamports": 200000,
+    "tipPercentileSelected": "50th (AI Choice)",
+    "timestamps": {
+      "submitted": "2026-06-27T14:08:08.961Z",
+      "processed": "2026-06-27T14:08:09.290Z",
+      "confirmed": "2026-06-27T14:08:10.310Z",
+      "finalized": "2026-06-27T14:08:22.089Z"
+    },
+    "slots": {
+      "submitted": 429251594,
+      "processed": 429251595,
+      "confirmed": 429251597,
+      "finalized": 429251626
+    },
+    "deltas": {
+      "submitted_to_processed_ms": 329,
+      "processed_to_confirmed_ms": 1020,
+      "total_lifecycle_ms": 13128
+    },
+    "failure": null,
+    "retryCount": 0
+  },
+  {
+    "signature": "5PdyFPpaES2jq3MMBshr4aTpSWrwCTov6AyUcDAba45XKLR4tei4sLnrtTefWfAcjVwzJrVjj6x3VQh4zTHvPbx6",
+    "bundleId": "bundle-33",
+    "status": "submitted",
+    "tipAmountLamports": 4496,
+    "tipPercentileSelected": "75th (AI Choice)",
+    "timestamps": {
+      "submitted": "2026-06-27T14:08:21.999Z",
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "slots": {
+      "submitted": 472339597,
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "deltas": {
+      "submitted_to_processed_ms": null,
+      "processed_to_confirmed_ms": null,
+      "total_lifecycle_ms": null
+    },
+    "failure": null,
+    "retryCount": 0
+  },
+  {
+    "signature": "65hwwcMqfsSzS1HdaCArbNH1zfJsXbr4MUQ43MkgifVsqyuNC2X8awGyP9LaNGZqy4TkCSfwdkzepfBTBLNAPvaz",
+    "bundleId": "bundle-34",
+    "status": "submitted",
+    "tipAmountLamports": 2131,
+    "tipPercentileSelected": "50th (AI Choice)",
+    "timestamps": {
+      "submitted": "2026-06-27T14:08:39.553Z",
+      "processed": null,
+      "confirmed": null,
+      "finalized": null
+    },
+    "slots": {
+      "submitted": 472339644,
       "processed": null,
       "confirmed": null,
       "finalized": null
