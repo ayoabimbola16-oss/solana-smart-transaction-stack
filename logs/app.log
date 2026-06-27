@@ -11347,3 +11347,715 @@
 {"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:08:53.245"}
 {"level":"info","message":"AI Agent Decision Logged: SUBMISSION_TIMING - Jito leader window is close (3 slots). Ideal timing for inge...","timestamp":"2026-06-27 15:08:53.264"}
 {"level":"info","message":"AI Submission Timing: SUBMIT. Reason: Jito leader window is close (3 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.","timestamp":"2026-06-27 15:08:53.264"}
+{"level":"warn","message":"Failed to fetch live Jito tip floor: HTTP error! status: 400. Using dynamic fallback tip estimates.","timestamp":"2026-06-27 15:08:53.854"}
+{"level":"info","message":"AI Agent Decision Logged: TIP_SELECTION - Network conditions are healthy (low congestion). Standard 50...","timestamp":"2026-06-27 15:08:53.892"}
+{"level":"info","message":"AI Tip Decision: 50th percentile with 1x multiplier. Reason: Network conditions are healthy (low congestion). Standard 50th percentile tip with 1.0x multiplier is sufficient to win bundle bids.","timestamp":"2026-06-27 15:08:53.893"}
+{"level":"warn","message":"Failed to fetch live Jito tip floor: HTTP error! status: 400. Using dynamic fallback tip estimates.","timestamp":"2026-06-27 15:08:54.055"}
+{"level":"info","message":"[Simulator] Generated mock confirmed blockhash: GFCThcA1JzYqmZBhBxkjzEPbSbbUgyWJMbNxcy69oD9U","timestamp":"2026-06-27 15:08:54.055"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:08:54.072"}
+{"level":"info","message":"[Simulator] Mocking bundle submission. Signature: iC8PuvzRP2mw7myK23uCnLpo6rqnR88mTnunHBE4NdsLEUMqWhCoCdWA89JXpEk2bfKgKaGAw4nMxpu6ttZZ3haG","timestamp":"2026-06-27 15:08:54.073"}
+{"level":"info","message":"Bundle submitted. Bundle ID: iC8PuvzRP2mw7myK23uCnLpo6rqnR88mTnunHBE4NdsLEUMqWhCoCdWA89JXpEk2bfKgKaGAw4nMxpu6ttZZ3haG","timestamp":"2026-06-27 15:08:54.073"}
+{"level":"info","message":"Tx 8d577eae... processed at slot 429251707","timestamp":"2026-06-27 15:08:54.414"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:08:54.498"}
+{"level":"info","message":"Tx 8d577eae... confirmed at slot 429251709","timestamp":"2026-06-27 15:08:55.261"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:08:55.269"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:09:05.676"}
+{"level":"info","message":"Submission Cycle #36","timestamp":"2026-06-27 15:09:05.678"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:09:05.680"}
+{"level":"info","message":"AI Agent Decision Logged: SUBMISSION_TIMING - Jito leader window is close (3 slots). Ideal timing for inge...","timestamp":"2026-06-27 15:09:05.828"}
+{"level":"info","message":"AI Submission Timing: SUBMIT. Reason: Jito leader window is close (3 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.","timestamp":"2026-06-27 15:09:05.831"}
+{"level":"info","message":"AI Agent Decision Logged: TIP_SELECTION - Network congestion is HIGH. Standard 50th percentile tips ar...","timestamp":"2026-06-27 15:09:06.506"}
+{"level":"info","message":"AI Tip Decision: 95th percentile with 1.3x multiplier. Reason: Network congestion is HIGH. Standard 50th percentile tips are likely to be outbid in the Jito Block Engine auction. Upgrading tip recommendation to 95th percentile with 1.3x multiplier to ensure slot inclusion.","timestamp":"2026-06-27 15:09:06.618"}
+{"level":"info","message":"Tx 8d577eae... finalized at slot 429251738","timestamp":"2026-06-27 15:09:07.015"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:09:07.030"}
+{"level":"info","message":"Fetched fresh confirmed blockhash: 3FbMFFshHvTJQXRS5G6cVGfvtBfVFnHA6mXo65yrnPB8","timestamp":"2026-06-27 15:09:07.369"}
+{"level":"info","message":"Tracking signature for real-time lifecycle: 4c98dGuTQSeVxwuGJHFnVAz8JfkBh99ybDs7u6MJztSTTpSojisCFPeWsF3sMVsXi1ikukmTdrtxnH6QAuihoYye","timestamp":"2026-06-27 15:09:07.374"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:09:07.386"}
+{"level":"error","message":"Error submitting bundle to Jito: request to https://ny.devnet.block-engine.jito.wtf/api/v1/bundles failed, reason: getaddrinfo ENOTFOUND ny.devnet.block-engine.jito.wtf","timestamp":"2026-06-27 15:09:07.400"}
+{"level":"error","message":"Error in submission cycle: request to https://ny.devnet.block-engine.jito.wtf/api/v1/bundles failed, reason: getaddrinfo ENOTFOUND ny.devnet.block-engine.jito.wtf","timestamp":"2026-06-27 15:09:07.402"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:09:08.255"}
+{"level":"info","message":"Submission Cycle #458","timestamp":"2026-06-27 15:09:08.255"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:09:08.256"}
+{"level":"info","message":"AI Agent Decision Logged: SUBMISSION_TIMING - Jito leader window is close (4 slots). Ideal timing for inge...","timestamp":"2026-06-27 15:09:08.398"}
+{"level":"info","message":"AI Submission Timing: SUBMIT. Reason: Jito leader window is close (4 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.","timestamp":"2026-06-27 15:09:08.399"}
+{"level":"warn","message":"Failed to fetch live Jito tip floor: HTTP error! status: 400. Using dynamic fallback tip estimates.","timestamp":"2026-06-27 15:09:08.876"}
+{"level":"info","message":"AI Agent Decision Logged: TIP_SELECTION - Network conditions are healthy (low congestion). Standard 50...","timestamp":"2026-06-27 15:09:08.890"}
+{"level":"info","message":"AI Tip Decision: 50th percentile with 1x multiplier. Reason: Network conditions are healthy (low congestion). Standard 50th percentile tip with 1.0x multiplier is sufficient to win bundle bids.","timestamp":"2026-06-27 15:09:08.890"}
+{"level":"warn","message":"Failed to fetch live Jito tip floor: HTTP error! status: 400. Using dynamic fallback tip estimates.","timestamp":"2026-06-27 15:09:09.097"}
+{"level":"info","message":"[Simulator] Generated mock confirmed blockhash: 9GaberU6kYQErpfZZRJTzdeaovyw3poJXfsVGVgwo4W","timestamp":"2026-06-27 15:09:09.097"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:09:09.122"}
+{"level":"info","message":"[Simulator] Mocking bundle submission. Signature: s3P23SNC4mAdmQJuFSY2JVuvZC2o2X3cBei4RvCmLQFap7i9NRbytJESRazRsNa3tn5mML4qrR11xWt96xeZNjph","timestamp":"2026-06-27 15:09:09.122"}
+{"level":"info","message":"Bundle submitted. Bundle ID: s3P23SNC4mAdmQJuFSY2JVuvZC2o2X3cBei4RvCmLQFap7i9NRbytJESRazRsNa3tn5mML4qrR11xWt96xeZNjph","timestamp":"2026-06-27 15:09:09.122"}
+{"level":"info","message":"Tx e5ea1d3d... processed at slot 429251744","timestamp":"2026-06-27 15:09:09.296"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:09:09.311"}
+{"level":"info","message":"Tx e5ea1d3d... confirmed at slot 429251746","timestamp":"2026-06-27 15:09:10.210"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:09:10.236"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:09:20.690"}
+{"level":"info","message":"Submission Cycle #37","timestamp":"2026-06-27 15:09:20.691"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:09:20.693"}
+{"level":"info","message":"AI Agent Decision Logged: SUBMISSION_TIMING - Jito leader window is close (2 slots). Ideal timing for inge...","timestamp":"2026-06-27 15:09:20.820"}
+{"level":"info","message":"AI Submission Timing: SUBMIT. Reason: Jito leader window is close (2 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.","timestamp":"2026-06-27 15:09:20.821"}
+{"level":"info","message":"AI Agent Decision Logged: TIP_SELECTION - Network conditions are healthy (low congestion). Standard 50...","timestamp":"2026-06-27 15:09:22.296"}
+{"level":"info","message":"AI Tip Decision: 50th percentile with 1x multiplier. Reason: Network conditions are healthy (low congestion). Standard 50th percentile tip with 1.0x multiplier is sufficient to win bundle bids.","timestamp":"2026-06-27 15:09:22.298"}
+{"level":"info","message":"Fetched fresh confirmed blockhash: F9v7XKKYLG6fQ3PSgaL2df7kiYT7S9Yb4BXwkFHHnC5C","timestamp":"2026-06-27 15:09:23.138"}
+{"level":"info","message":"Tracking signature for real-time lifecycle: 3ba8WLrczfB2WXczrwR253NQRATG8ZDf6MjLH3aS2dVikC1dPdx7jFLLnnACLBuQioQovFo5GyQmH26qqXe7xyaK","timestamp":"2026-06-27 15:09:23.163"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:09:23.210"}
+{"level":"error","message":"Error submitting bundle to Jito: request to https://ny.devnet.block-engine.jito.wtf/api/v1/bundles failed, reason: getaddrinfo ENOTFOUND ny.devnet.block-engine.jito.wtf","timestamp":"2026-06-27 15:09:23.225"}
+{"level":"error","message":"Error in submission cycle: request to https://ny.devnet.block-engine.jito.wtf/api/v1/bundles failed, reason: getaddrinfo ENOTFOUND ny.devnet.block-engine.jito.wtf","timestamp":"2026-06-27 15:09:23.227"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:09:23.263"}
+{"level":"info","message":"Submission Cycle #459","timestamp":"2026-06-27 15:09:23.263"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:09:23.263"}
+{"level":"info","message":"AI Agent Decision Logged: SUBMISSION_TIMING - Jito leader window is close (1 slots). Ideal timing for inge...","timestamp":"2026-06-27 15:09:23.288"}
+{"level":"info","message":"AI Submission Timing: SUBMIT. Reason: Jito leader window is close (1 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.","timestamp":"2026-06-27 15:09:23.288"}
+{"level":"info","message":"Tx e5ea1d3d... finalized at slot 429251775","timestamp":"2026-06-27 15:09:23.293"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:09:23.307"}
+{"level":"warn","message":"Failed to fetch live Jito tip floor: HTTP error! status: 400. Using dynamic fallback tip estimates.","timestamp":"2026-06-27 15:09:23.908"}
+{"level":"info","message":"AI Agent Decision Logged: TIP_SELECTION - Network congestion is MEDIUM. Raising tip recommendation to ...","timestamp":"2026-06-27 15:09:23.933"}
+{"level":"info","message":"AI Tip Decision: 75th percentile with 1.1x multiplier. Reason: Network congestion is MEDIUM. Raising tip recommendation to 75th percentile with 1.1x multiplier to balance landing probability and cost.","timestamp":"2026-06-27 15:09:23.933"}
+{"level":"warn","message":"Failed to fetch live Jito tip floor: HTTP error! status: 400. Using dynamic fallback tip estimates.","timestamp":"2026-06-27 15:09:24.086"}
+{"level":"info","message":"[Simulator] Generated mock confirmed blockhash: FuBhDBCLUDMGdnWUJ9a6qnMcHPUuvjVmYF3N7LcUBxS4","timestamp":"2026-06-27 15:09:24.086"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:09:24.099"}
+{"level":"info","message":"[Simulator] Mocking bundle submission. Signature: 3W4dhyjZfzb3JBfbbrq5ZutovUogTWsW2EPT7dTAtJz4HgWsDrSnkpSgoHNZnnZx3MBR7hauPiNJaJkJBLE3psEi","timestamp":"2026-06-27 15:09:24.100"}
+{"level":"info","message":"Bundle submitted. Bundle ID: 3W4dhyjZfzb3JBfbbrq5ZutovUogTWsW2EPT7dTAtJz4HgWsDrSnkpSgoHNZnnZx3MBR7hauPiNJaJkJBLE3psEi","timestamp":"2026-06-27 15:09:24.100"}
+{"level":"info","message":"Tx 1525a08d... processed at slot 429251777","timestamp":"2026-06-27 15:09:24.475"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:09:24.492"}
+{"level":"info","message":"Tx 1525a08d... confirmed at slot 429251779","timestamp":"2026-06-27 15:09:25.141"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:09:25.159"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:09:35.693"}
+{"level":"info","message":"Submission Cycle #38","timestamp":"2026-06-27 15:09:35.695"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:09:35.695"}
+{"level":"info","message":"AI Agent Decision Logged: SUBMISSION_TIMING - Jito leader window is close (4 slots). Ideal timing for inge...","timestamp":"2026-06-27 15:09:35.720"}
+{"level":"info","message":"AI Submission Timing: SUBMIT. Reason: Jito leader window is close (4 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.","timestamp":"2026-06-27 15:09:35.721"}
+{"level":"info","message":"AI Agent Decision Logged: TIP_SELECTION - Network conditions are healthy (low congestion). Standard 50...","timestamp":"2026-06-27 15:09:36.977"}
+{"level":"info","message":"AI Tip Decision: 50th percentile with 1x multiplier. Reason: Network conditions are healthy (low congestion). Standard 50th percentile tip with 1.0x multiplier is sufficient to win bundle bids.","timestamp":"2026-06-27 15:09:36.977"}
+{"level":"info","message":"Tx 1525a08d... finalized at slot 429251808","timestamp":"2026-06-27 15:09:37.185"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:09:37.203"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:09:38.276"}
+{"level":"info","message":"Submission Cycle #460","timestamp":"2026-06-27 15:09:38.277"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:09:38.277"}
+{"level":"info","message":"AI Agent Decision Logged: SUBMISSION_TIMING - Jito leader window is close (2 slots). Ideal timing for inge...","timestamp":"2026-06-27 15:09:38.304"}
+{"level":"info","message":"AI Submission Timing: SUBMIT. Reason: Jito leader window is close (2 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.","timestamp":"2026-06-27 15:09:38.304"}
+{"level":"info","message":"Fetched fresh confirmed blockhash: 6rccmhBbW4CsXdR7nMd7znTu92BsZeWmEQ4Mx3kh81CL","timestamp":"2026-06-27 15:09:38.731"}
+{"level":"info","message":"Tracking signature for real-time lifecycle: 5HAVWUHKWutuUczxNgNkL9K2XeccJnncRKvjQCJRVn2MueNJ8kovPVRTe6HuSk31nZgVpYfHcUoeWQ6U3J2mj4GA","timestamp":"2026-06-27 15:09:38.735"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:09:38.770"}
+{"level":"error","message":"Error submitting bundle to Jito: request to https://ny.devnet.block-engine.jito.wtf/api/v1/bundles failed, reason: getaddrinfo ENOTFOUND ny.devnet.block-engine.jito.wtf","timestamp":"2026-06-27 15:09:39.881"}
+{"level":"error","message":"Error in submission cycle: request to https://ny.devnet.block-engine.jito.wtf/api/v1/bundles failed, reason: getaddrinfo ENOTFOUND ny.devnet.block-engine.jito.wtf","timestamp":"2026-06-27 15:09:39.882"}
+{"level":"warn","message":"Failed to fetch live Jito tip floor: HTTP error! status: 400. Using dynamic fallback tip estimates.","timestamp":"2026-06-27 15:09:41.017"}
+{"level":"info","message":"AI Agent Decision Logged: TIP_SELECTION - Network congestion is HIGH. Standard 50th percentile tips ar...","timestamp":"2026-06-27 15:09:41.044"}
+{"level":"info","message":"AI Tip Decision: 95th percentile with 1.3x multiplier. Reason: Network congestion is HIGH. Standard 50th percentile tips are likely to be outbid in the Jito Block Engine auction. Upgrading tip recommendation to 95th percentile with 1.3x multiplier to ensure slot inclusion.","timestamp":"2026-06-27 15:09:41.045"}
+{"level":"warn","message":"Failed to fetch live Jito tip floor: HTTP error! status: 429. Using dynamic fallback tip estimates.","timestamp":"2026-06-27 15:09:41.469"}
+{"level":"warn","message":"!!! [Fault Injection] Creating a transaction with stale expired blockhash to test AI recovery...","timestamp":"2026-06-27 15:09:41.470"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:09:41.480"}
+{"level":"info","message":"[Simulator] Mocking bundle submission. Signature: qoQX9U1EBTt7dR2dv6FsuoL3BApmvNNqfebov4Wz2FRKfoFozahekaFyB3MSL6cBJY6UdxN5guuov6YaW118KgGh","timestamp":"2026-06-27 15:09:41.480"}
+{"level":"info","message":"Bundle submitted. Bundle ID: qoQX9U1EBTt7dR2dv6FsuoL3BApmvNNqfebov4Wz2FRKfoFozahekaFyB3MSL6cBJY6UdxN5guuov6YaW118KgGh","timestamp":"2026-06-27 15:09:41.480"}
+{"level":"warn","message":"Tx f43c2104... FAILED. Type: EXPIRED_BLOCKHASH, Details: Blockhash is expired (simulated)","timestamp":"2026-06-27 15:09:41.509"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:09:41.517"}
+{"level":"info","message":"RetryEngine caught failed transaction: f43c21043c1f4a00e10c3d0384f39bd1ce9f2e926a671991dbcd6ab4e7b550b00e8c8b797e67f7cf73307da48279d380044497e5a560dacf87c23f6f5f1b020c. Initiating AI analysis...","timestamp":"2026-06-27 15:09:41.517"}
+{"level":"info","message":"AI Agent Decision Logged: RETRY_ANALYSIS - Detected blockhash expiry. This typically occurs under heavy...","timestamp":"2026-06-27 15:09:41.531"}
+{"level":"info","message":"AI Agent Recommendation for f43c21043c1f4a00e10c3d0384f39bd1ce9f2e926a671991dbcd6ab4e7b550b00e8c8b797e67f7cf73307da48279d380044497e5a560dacf87c23f6f5f1b020c: Retry=true, Reason: Detected blockhash expiry. This typically occurs under heavy network load or slot skips. Decision: refresh blockhash immediately, elevate tip percentile to 75th to increase priority in the next Jito block, and resubmit.","timestamp":"2026-06-27 15:09:41.532"}
+{"level":"info","message":"[Simulator] Generated mock confirmed blockhash: 4aXDh8NoHdd8ruZibYfd26M6wTkJi247wZau8PwcfUTJ","timestamp":"2026-06-27 15:09:41.532"}
+{"level":"warn","message":"Failed to fetch live Jito tip floor: HTTP error! status: 400. Using dynamic fallback tip estimates.","timestamp":"2026-06-27 15:09:41.694"}
+{"level":"info","message":"Original Tip: 416580 lamports. AI Adjusted Tip: 499896 lamports (75th * 1.2)","timestamp":"2026-06-27 15:09:41.694"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:09:41.707"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:09:41.721"}
+{"level":"info","message":"[Simulator] Mocking bundle submission. Signature: QKiXfJW1NDgEH2YiqYxgNLoAXXQVDWPwVBqXrSS6bkSzT8E8Q4bFpZTBumTbMN8HihKEBykhTRiyiMBdzdy1ktpf","timestamp":"2026-06-27 15:09:41.721"}
+{"level":"info","message":"Resubmitted retry bundle successfully. Signature: e7495ae509671852a84251b222055c8be02376452a00ddfebc6c7565276a379ca9f6de6d023518b34446ce3e8503595bacd89839ca2ba7e7cd26d557825e390b, Bundle ID: QKiXfJW1NDgEH2YiqYxgNLoAXXQVDWPwVBqXrSS6bkSzT8E8Q4bFpZTBumTbMN8HihKEBykhTRiyiMBdzdy1ktpf","timestamp":"2026-06-27 15:09:41.721"}
+{"level":"info","message":"Tx e7495ae5... processed at slot 429251820","timestamp":"2026-06-27 15:09:41.797"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:09:41.805"}
+{"level":"info","message":"Tx e7495ae5... confirmed at slot 429251822","timestamp":"2026-06-27 15:09:42.322"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:09:42.344"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:09:50.709"}
+{"level":"info","message":"Submission Cycle #39","timestamp":"2026-06-27 15:09:50.713"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:09:50.713"}
+{"level":"info","message":"AI Agent Decision Logged: SUBMISSION_TIMING - Jito leader window is close (4 slots). Ideal timing for inge...","timestamp":"2026-06-27 15:09:50.771"}
+{"level":"info","message":"AI Submission Timing: SUBMIT. Reason: Jito leader window is close (4 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.","timestamp":"2026-06-27 15:09:50.794"}
+{"level":"info","message":"AI Agent Decision Logged: TIP_SELECTION - Network congestion is MEDIUM. Raising tip recommendation to ...","timestamp":"2026-06-27 15:09:51.316"}
+{"level":"info","message":"AI Tip Decision: 75th percentile with 1.1x multiplier. Reason: Network congestion is MEDIUM. Raising tip recommendation to 75th percentile with 1.1x multiplier to balance landing probability and cost.","timestamp":"2026-06-27 15:09:51.318"}
+{"level":"info","message":"Fetched fresh confirmed blockhash: 8jwYcXm2xkARaHGajsm9CXm7qJghDM6FFgExwEbpF6Jv","timestamp":"2026-06-27 15:09:52.087"}
+{"level":"info","message":"Tracking signature for real-time lifecycle: 2DqCMfCGW1FfjrZMHZ9jbWgtSrZYT6HC4VBdSYVJ9Yi93ooEb57qU8if1xL3oW5WstJWWB1s9qmHakx65vtegKE4","timestamp":"2026-06-27 15:09:52.097"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:09:52.222"}
+{"level":"error","message":"Error submitting bundle to Jito: request to https://ny.devnet.block-engine.jito.wtf/api/v1/bundles failed, reason: getaddrinfo ENOTFOUND ny.devnet.block-engine.jito.wtf","timestamp":"2026-06-27 15:09:52.391"}
+{"level":"error","message":"Error in submission cycle: request to https://ny.devnet.block-engine.jito.wtf/api/v1/bundles failed, reason: getaddrinfo ENOTFOUND ny.devnet.block-engine.jito.wtf","timestamp":"2026-06-27 15:09:52.425"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:09:53.283"}
+{"level":"info","message":"Submission Cycle #461","timestamp":"2026-06-27 15:09:53.284"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:09:53.284"}
+{"level":"info","message":"AI Agent Decision Logged: SUBMISSION_TIMING - Jito leader window is close (2 slots). Ideal timing for inge...","timestamp":"2026-06-27 15:09:53.436"}
+{"level":"info","message":"AI Submission Timing: SUBMIT. Reason: Jito leader window is close (2 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.","timestamp":"2026-06-27 15:09:53.437"}
+{"level":"info","message":"Tx e7495ae5... finalized at slot 429251851","timestamp":"2026-06-27 15:09:53.442"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:09:53.645"}
+{"level":"warn","message":"Failed to fetch live Jito tip floor: HTTP error! status: 400. Using dynamic fallback tip estimates.","timestamp":"2026-06-27 15:09:53.981"}
+{"level":"info","message":"AI Agent Decision Logged: TIP_SELECTION - Network conditions are healthy (low congestion). Standard 50...","timestamp":"2026-06-27 15:09:54.023"}
+{"level":"info","message":"AI Tip Decision: 50th percentile with 1x multiplier. Reason: Network conditions are healthy (low congestion). Standard 50th percentile tip with 1.0x multiplier is sufficient to win bundle bids.","timestamp":"2026-06-27 15:09:54.023"}
+{"level":"warn","message":"Failed to fetch live Jito tip floor: HTTP error! status: 400. Using dynamic fallback tip estimates.","timestamp":"2026-06-27 15:09:54.188"}
+{"level":"info","message":"[Simulator] Generated mock confirmed blockhash: 8Hk34bMZhsejx4RGzM4CNCNx1nM4U62cJPgSjqYuuGHZ","timestamp":"2026-06-27 15:09:54.188"}
+{"level":"error","message":"Error in submission cycle: Non-base58 character","timestamp":"2026-06-27 15:09:54.189"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:10:05.715"}
+{"level":"info","message":"Submission Cycle #40","timestamp":"2026-06-27 15:10:05.716"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:10:05.717"}
+{"level":"info","message":"AI Agent Decision Logged: SUBMISSION_TIMING - Jito leader window is close (5 slots). Ideal timing for inge...","timestamp":"2026-06-27 15:10:05.774"}
+{"level":"info","message":"AI Submission Timing: SUBMIT. Reason: Jito leader window is close (5 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.","timestamp":"2026-06-27 15:10:05.777"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:10:08.283"}
+{"level":"info","message":"Submission Cycle #462","timestamp":"2026-06-27 15:10:08.284"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:10:08.284"}
+{"level":"info","message":"AI Agent Decision Logged: SUBMISSION_TIMING - Jito leader window is close (5 slots). Ideal timing for inge...","timestamp":"2026-06-27 15:10:08.327"}
+{"level":"info","message":"AI Submission Timing: SUBMIT. Reason: Jito leader window is close (5 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.","timestamp":"2026-06-27 15:10:08.328"}
+{"level":"warn","message":"Failed to fetch live Jito tip floor: HTTP error! status: 400. Using dynamic fallback tip estimates.","timestamp":"2026-06-27 15:10:09.965"}
+{"level":"info","message":"AI Agent Decision Logged: TIP_SELECTION - Network congestion is MEDIUM. Raising tip recommendation to ...","timestamp":"2026-06-27 15:10:10.017"}
+{"level":"info","message":"AI Tip Decision: 75th percentile with 1.1x multiplier. Reason: Network congestion is MEDIUM. Raising tip recommendation to 75th percentile with 1.1x multiplier to balance landing probability and cost.","timestamp":"2026-06-27 15:10:10.017"}
+{"level":"error","message":"Failed to log AI decision: Expected property name or '}' in JSON at position 491520 (line 11608 column 4)","timestamp":"2026-06-27 15:10:10.043"}
+{"level":"info","message":"AI Tip Decision: 95th percentile with 1.3x multiplier. Reason: Network congestion is HIGH. Standard 50th percentile tips are likely to be outbid in the Jito Block Engine auction. Upgrading tip recommendation to 95th percentile with 1.3x multiplier to ensure slot inclusion.","timestamp":"2026-06-27 15:10:10.044"}
+{"level":"warn","message":"Failed to fetch live Jito tip floor: HTTP error! status: 400. Using dynamic fallback tip estimates.","timestamp":"2026-06-27 15:10:10.174"}
+{"level":"info","message":"[Simulator] Generated mock confirmed blockhash: 3RqW58NX5GcutZgeA8sDdGWSwzFQ7QEaR5HY7aogyuJr","timestamp":"2026-06-27 15:10:10.174"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:10:10.202"}
+{"level":"info","message":"[Simulator] Mocking bundle submission. Signature: Yp2WnttXD1gyHE3CRCvkwTrfgrw4VtJcc9eqwbpCNe2kFd6xvPL7S9SCt7YeFogB1vrAzaooihcaBZpBGGutN8q4","timestamp":"2026-06-27 15:10:10.202"}
+{"level":"info","message":"Bundle submitted. Bundle ID: Yp2WnttXD1gyHE3CRCvkwTrfgrw4VtJcc9eqwbpCNe2kFd6xvPL7S9SCt7YeFogB1vrAzaooihcaBZpBGGutN8q4","timestamp":"2026-06-27 15:10:10.202"}
+{"level":"info","message":"Tx d2568626... processed at slot 429251893","timestamp":"2026-06-27 15:10:10.204"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:10:10.220"}
+{"level":"info","message":"Tx d2568626... confirmed at slot 429251893","timestamp":"2026-06-27 15:10:10.220"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:10:10.247"}
+{"level":"warn","message":"!!! [Fault Injection] Creating a transaction with stale expired blockhash to test AI recovery...","timestamp":"2026-06-27 15:10:10.294"}
+{"level":"info","message":"Tracking signature for real-time lifecycle: hZCStBMuEn3ou9tm1qbiUdxAozJPHNr3yh7HbvvtVMe1v3KLcDxAx75PDdXFQ7HayWAFRgQgisHWipWMvbfTDsF","timestamp":"2026-06-27 15:10:10.298"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:10:10.308"}
+{"level":"error","message":"Error submitting bundle to Jito: request to https://ny.devnet.block-engine.jito.wtf/api/v1/bundles failed, reason: getaddrinfo ENOTFOUND ny.devnet.block-engine.jito.wtf","timestamp":"2026-06-27 15:10:10.316"}
+{"level":"error","message":"Error in submission cycle: request to https://ny.devnet.block-engine.jito.wtf/api/v1/bundles failed, reason: getaddrinfo ENOTFOUND ny.devnet.block-engine.jito.wtf","timestamp":"2026-06-27 15:10:10.316"}
+{"level":"info","message":"Tx d2568626... finalized at slot 429251893","timestamp":"2026-06-27 15:10:10.497"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:10:10.506"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:10:20.719"}
+{"level":"info","message":"Submission Cycle #41","timestamp":"2026-06-27 15:10:20.721"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:10:20.722"}
+{"level":"info","message":"AI Agent Decision Logged: SUBMISSION_TIMING - Jito leader window is close (3 slots). Ideal timing for inge...","timestamp":"2026-06-27 15:10:20.785"}
+{"level":"info","message":"AI Submission Timing: SUBMIT. Reason: Jito leader window is close (3 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.","timestamp":"2026-06-27 15:10:20.790"}
+{"level":"info","message":"AI Agent Decision Logged: TIP_SELECTION - Network conditions are healthy (low congestion). Standard 50...","timestamp":"2026-06-27 15:10:21.408"}
+{"level":"info","message":"AI Tip Decision: 50th percentile with 1x multiplier. Reason: Network conditions are healthy (low congestion). Standard 50th percentile tip with 1.0x multiplier is sufficient to win bundle bids.","timestamp":"2026-06-27 15:10:21.409"}
+{"level":"info","message":"Fetched fresh confirmed blockhash: CJMsA5TQ1xDbDNg5kE9Hyjcw3FJ59MGL55p6LAcqVcQB","timestamp":"2026-06-27 15:10:22.581"}
+{"level":"info","message":"Tracking signature for real-time lifecycle: 4ry1YGEq74Fb3xiQsrBuT2qNe6q2cGuRikBpKzVYdbu35tDZyAxYV7SiGgoCZpHD9FTf7wg3F7sxJKTMER4uUaeo","timestamp":"2026-06-27 15:10:22.587"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:10:22.607"}
+{"level":"error","message":"Error submitting bundle to Jito: request to https://ny.devnet.block-engine.jito.wtf/api/v1/bundles failed, reason: getaddrinfo ENOTFOUND ny.devnet.block-engine.jito.wtf","timestamp":"2026-06-27 15:10:22.618"}
+{"level":"error","message":"Error in submission cycle: request to https://ny.devnet.block-engine.jito.wtf/api/v1/bundles failed, reason: getaddrinfo ENOTFOUND ny.devnet.block-engine.jito.wtf","timestamp":"2026-06-27 15:10:22.619"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:10:23.298"}
+{"level":"info","message":"Submission Cycle #463","timestamp":"2026-06-27 15:10:23.298"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:10:23.299"}
+{"level":"info","message":"AI Agent Decision Logged: SUBMISSION_TIMING - Jito leader window is close (1 slots). Ideal timing for inge...","timestamp":"2026-06-27 15:10:23.342"}
+{"level":"info","message":"AI Submission Timing: SUBMIT. Reason: Jito leader window is close (1 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.","timestamp":"2026-06-27 15:10:23.342"}
+{"level":"warn","message":"Failed to fetch live Jito tip floor: HTTP error! status: 400. Using dynamic fallback tip estimates.","timestamp":"2026-06-27 15:10:23.815"}
+{"level":"info","message":"AI Agent Decision Logged: TIP_SELECTION - Network conditions are healthy (low congestion). Standard 50...","timestamp":"2026-06-27 15:10:23.852"}
+{"level":"info","message":"AI Tip Decision: 50th percentile with 1x multiplier. Reason: Network conditions are healthy (low congestion). Standard 50th percentile tip with 1.0x multiplier is sufficient to win bundle bids.","timestamp":"2026-06-27 15:10:23.852"}
+{"level":"warn","message":"Failed to fetch live Jito tip floor: HTTP error! status: 400. Using dynamic fallback tip estimates.","timestamp":"2026-06-27 15:10:24.043"}
+{"level":"info","message":"[Simulator] Generated mock confirmed blockhash: 3Mr1oiVWi4yS2TmSHrbqbjvm8n3UAqrX3voYXP1KbSv9","timestamp":"2026-06-27 15:10:24.044"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:10:24.069"}
+{"level":"info","message":"[Simulator] Mocking bundle submission. Signature: nFb42U6w3zoZJvhQdMFxRiPtcuaTZLqy2wXUbirC4FQx6ep4qyj7AzACe8fwhvxVvenSiizASudZY1oQbkx582iB","timestamp":"2026-06-27 15:10:24.070"}
+{"level":"info","message":"Bundle submitted. Bundle ID: nFb42U6w3zoZJvhQdMFxRiPtcuaTZLqy2wXUbirC4FQx6ep4qyj7AzACe8fwhvxVvenSiizASudZY1oQbkx582iB","timestamp":"2026-06-27 15:10:24.070"}
+{"level":"info","message":"Tx f149a501... processed at slot 429251927","timestamp":"2026-06-27 15:10:24.161"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:10:24.182"}
+{"level":"info","message":"Tx f149a501... confirmed at slot 429251929","timestamp":"2026-06-27 15:10:24.815"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:10:24.830"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:10:35.720"}
+{"level":"info","message":"Submission Cycle #42","timestamp":"2026-06-27 15:10:35.721"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:10:35.722"}
+{"level":"info","message":"AI Agent Decision Logged: SUBMISSION_TIMING - Jito leader window is close (3 slots). Ideal timing for inge...","timestamp":"2026-06-27 15:10:35.795"}
+{"level":"info","message":"AI Submission Timing: SUBMIT. Reason: Jito leader window is close (3 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.","timestamp":"2026-06-27 15:10:35.799"}
+{"level":"info","message":"AI Agent Decision Logged: TIP_SELECTION - Network congestion is MEDIUM. Raising tip recommendation to ...","timestamp":"2026-06-27 15:10:36.352"}
+{"level":"info","message":"AI Tip Decision: 75th percentile with 1.1x multiplier. Reason: Network congestion is MEDIUM. Raising tip recommendation to 75th percentile with 1.1x multiplier to balance landing probability and cost.","timestamp":"2026-06-27 15:10:36.375"}
+{"level":"info","message":"Tx f149a501... finalized at slot 429251958","timestamp":"2026-06-27 15:10:36.835"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:10:36.860"}
+{"level":"info","message":"Fetched fresh confirmed blockhash: 7WXWbrUDcmYEzJxBcLai4vMZEzw8CvEEbBKGBSwpvtzA","timestamp":"2026-06-27 15:10:37.575"}
+{"level":"info","message":"Tracking signature for real-time lifecycle: 3nQiMxnDrGs6iSos2D7hJpAHNe5kECSQKaQWGTbCkvPBgtCiXzfkZQJrWLMG6qBUrpSpzrmt4WtFtUBhUxBUzFm4","timestamp":"2026-06-27 15:10:37.590"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:10:37.704"}
+{"level":"error","message":"Error submitting bundle to Jito: request to https://ny.devnet.block-engine.jito.wtf/api/v1/bundles failed, reason: getaddrinfo ENOTFOUND ny.devnet.block-engine.jito.wtf","timestamp":"2026-06-27 15:10:37.730"}
+{"level":"error","message":"Error in submission cycle: request to https://ny.devnet.block-engine.jito.wtf/api/v1/bundles failed, reason: getaddrinfo ENOTFOUND ny.devnet.block-engine.jito.wtf","timestamp":"2026-06-27 15:10:37.730"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:10:38.307"}
+{"level":"info","message":"Submission Cycle #464","timestamp":"2026-06-27 15:10:38.307"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:10:38.308"}
+{"level":"info","message":"AI Agent Decision Logged: SUBMISSION_TIMING - Jito leader window is close (3 slots). Ideal timing for inge...","timestamp":"2026-06-27 15:10:38.337"}
+{"level":"info","message":"AI Submission Timing: SUBMIT. Reason: Jito leader window is close (3 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.","timestamp":"2026-06-27 15:10:38.337"}
+{"level":"warn","message":"Failed to fetch live Jito tip floor: HTTP error! status: 400. Using dynamic fallback tip estimates.","timestamp":"2026-06-27 15:10:39.491"}
+{"level":"info","message":"AI Agent Decision Logged: TIP_SELECTION - Network congestion is HIGH. Standard 50th percentile tips ar...","timestamp":"2026-06-27 15:10:39.560"}
+{"level":"info","message":"AI Tip Decision: 95th percentile with 1.3x multiplier. Reason: Network congestion is HIGH. Standard 50th percentile tips are likely to be outbid in the Jito Block Engine auction. Upgrading tip recommendation to 95th percentile with 1.3x multiplier to ensure slot inclusion.","timestamp":"2026-06-27 15:10:39.561"}
+{"level":"warn","message":"Failed to fetch live Jito tip floor: HTTP error! status: 400. Using dynamic fallback tip estimates.","timestamp":"2026-06-27 15:10:39.813"}
+{"level":"info","message":"[Simulator] Generated mock confirmed blockhash: 3MbKmYBSA8hPY9meh8MtspYR6EsyjKmYNPbqQr8xPenv","timestamp":"2026-06-27 15:10:39.813"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:10:39.830"}
+{"level":"info","message":"[Simulator] Mocking bundle submission. Signature: 4JNeK8Ur4swd1JupWhXdHcqo9ozuomFrSKh9zCBbwywZDe3g7rqLSWkrbMQyFpTGEoFgBKPFSjtRcS7HKRHmb59f","timestamp":"2026-06-27 15:10:39.830"}
+{"level":"info","message":"Bundle submitted. Bundle ID: 4JNeK8Ur4swd1JupWhXdHcqo9ozuomFrSKh9zCBbwywZDe3g7rqLSWkrbMQyFpTGEoFgBKPFSjtRcS7HKRHmb59f","timestamp":"2026-06-27 15:10:39.831"}
+{"level":"info","message":"Tx c80aa086... processed at slot 429251967","timestamp":"2026-06-27 15:10:40.678"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:10:40.694"}
+{"level":"info","message":"Tx c80aa086... confirmed at slot 429251969","timestamp":"2026-06-27 15:10:41.740"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:10:41.771"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:10:50.725"}
+{"level":"info","message":"Submission Cycle #43","timestamp":"2026-06-27 15:10:50.728"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:10:50.730"}
+{"level":"info","message":"AI Agent Decision Logged: SUBMISSION_TIMING - Jito leader window is close (5 slots). Ideal timing for inge...","timestamp":"2026-06-27 15:10:50.767"}
+{"level":"info","message":"AI Submission Timing: SUBMIT. Reason: Jito leader window is close (5 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.","timestamp":"2026-06-27 15:10:50.768"}
+{"level":"info","message":"AI Agent Decision Logged: TIP_SELECTION - Network conditions are healthy (low congestion). Standard 50...","timestamp":"2026-06-27 15:10:51.261"}
+{"level":"info","message":"AI Tip Decision: 50th percentile with 1x multiplier. Reason: Network conditions are healthy (low congestion). Standard 50th percentile tip with 1.0x multiplier is sufficient to win bundle bids.","timestamp":"2026-06-27 15:10:51.262"}
+{"level":"info","message":"Fetched fresh confirmed blockhash: CCquKCA2V1q6jsZ1M1PSdt8bQPMwGwzJecpTwZjAuCj5","timestamp":"2026-06-27 15:10:52.010"}
+{"level":"info","message":"Tracking signature for real-time lifecycle: 2CyyZYA5hqs2C8ouJ2KwE2sM3Xk76tQ5f3vi94ZTZxggock2jVCWd83ivpMAFkpbx9N5SKtfY8RWAFt6peNwGSDr","timestamp":"2026-06-27 15:10:52.013"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:10:52.035"}
+{"level":"error","message":"Error submitting bundle to Jito: request to https://ny.devnet.block-engine.jito.wtf/api/v1/bundles failed, reason: getaddrinfo ENOTFOUND ny.devnet.block-engine.jito.wtf","timestamp":"2026-06-27 15:10:52.086"}
+{"level":"error","message":"Error in submission cycle: request to https://ny.devnet.block-engine.jito.wtf/api/v1/bundles failed, reason: getaddrinfo ENOTFOUND ny.devnet.block-engine.jito.wtf","timestamp":"2026-06-27 15:10:52.094"}
+{"level":"info","message":"Tx c80aa086... finalized at slot 429251998","timestamp":"2026-06-27 15:10:52.392"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:10:52.402"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:10:53.308"}
+{"level":"info","message":"Submission Cycle #465","timestamp":"2026-06-27 15:10:53.308"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:10:53.309"}
+{"level":"info","message":"AI Agent Decision Logged: SUBMISSION_TIMING - Jito leader window is close (3 slots). Ideal timing for inge...","timestamp":"2026-06-27 15:10:53.338"}
+{"level":"info","message":"AI Submission Timing: SUBMIT. Reason: Jito leader window is close (3 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.","timestamp":"2026-06-27 15:10:53.338"}
+{"level":"warn","message":"Failed to fetch live Jito tip floor: HTTP error! status: 400. Using dynamic fallback tip estimates.","timestamp":"2026-06-27 15:10:53.964"}
+{"level":"info","message":"AI Agent Decision Logged: TIP_SELECTION - Network congestion is MEDIUM. Raising tip recommendation to ...","timestamp":"2026-06-27 15:10:54.023"}
+{"level":"info","message":"AI Tip Decision: 75th percentile with 1.1x multiplier. Reason: Network congestion is MEDIUM. Raising tip recommendation to 75th percentile with 1.1x multiplier to balance landing probability and cost.","timestamp":"2026-06-27 15:10:54.024"}
+{"level":"warn","message":"Failed to fetch live Jito tip floor: HTTP error! status: 400. Using dynamic fallback tip estimates.","timestamp":"2026-06-27 15:10:54.319"}
+{"level":"warn","message":"!!! [Fault Injection] Creating a transaction with stale expired blockhash to test AI recovery...","timestamp":"2026-06-27 15:10:54.319"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:10:54.369"}
+{"level":"info","message":"[Simulator] Mocking bundle submission. Signature: KwoyK6Yazcji2AZS4YFmZsAMSZaPANJSdspCJHqdGUpGGpFn3MMa6QdPaxmEoTJgeeuT6i6zwna2AdQ5qSzybxEi","timestamp":"2026-06-27 15:10:54.374"}
+{"level":"info","message":"Bundle submitted. Bundle ID: KwoyK6Yazcji2AZS4YFmZsAMSZaPANJSdspCJHqdGUpGGpFn3MMa6QdPaxmEoTJgeeuT6i6zwna2AdQ5qSzybxEi","timestamp":"2026-06-27 15:10:54.375"}
+{"level":"warn","message":"Tx 7f69a783... FAILED. Type: EXPIRED_BLOCKHASH, Details: Blockhash is expired (simulated)","timestamp":"2026-06-27 15:10:54.528"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:10:54.574"}
+{"level":"info","message":"RetryEngine caught failed transaction: 7f69a78362e0d1af80d3bbb40117651ad56b8a5b574b9aa9a777fbc7602e028affcb618cb3ff4cb97f7d169c4b93e61cf2c8cfc79360584daf691b74ce71770b. Initiating AI analysis...","timestamp":"2026-06-27 15:10:54.574"}
+{"level":"info","message":"AI Agent Decision Logged: RETRY_ANALYSIS - Detected blockhash expiry. This typically occurs under heavy...","timestamp":"2026-06-27 15:10:54.631"}
+{"level":"info","message":"AI Agent Recommendation for 7f69a78362e0d1af80d3bbb40117651ad56b8a5b574b9aa9a777fbc7602e028affcb618cb3ff4cb97f7d169c4b93e61cf2c8cfc79360584daf691b74ce71770b: Retry=true, Reason: Detected blockhash expiry. This typically occurs under heavy network load or slot skips. Decision: refresh blockhash immediately, elevate tip percentile to 75th to increase priority in the next Jito block, and resubmit.","timestamp":"2026-06-27 15:10:54.631"}
+{"level":"info","message":"[Simulator] Generated mock confirmed blockhash: G53xbqFCH2n2ERaRvTPTDUcmazF3X8dGxRXK38j51b2A","timestamp":"2026-06-27 15:10:54.631"}
+{"level":"warn","message":"Failed to fetch live Jito tip floor: HTTP error! status: 429. Using dynamic fallback tip estimates.","timestamp":"2026-06-27 15:10:54.800"}
+{"level":"info","message":"Original Tip: 428820 lamports. AI Adjusted Tip: 514584 lamports (75th * 1.2)","timestamp":"2026-06-27 15:10:54.801"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:10:54.840"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:10:54.936"}
+{"level":"info","message":"[Simulator] Mocking bundle submission. Signature: RiyXLnLQPPN6LJq7mtRPHYYQ38T7AHpj8Sorbsggo79tWTV4yy2DDt3VLgh2eUhDuUVJAcuDHxMg6WeqzSjcb8fn","timestamp":"2026-06-27 15:10:54.936"}
+{"level":"info","message":"Resubmitted retry bundle successfully. Signature: 888459b868c5e9d6a3f4904987e59cac15fe04f37e50c378d83fe3edc32a0d30b6b0186585168d82b75bc9c27f67ea9762db40632968ba0c67436ce5adef7702, Bundle ID: RiyXLnLQPPN6LJq7mtRPHYYQ38T7AHpj8Sorbsggo79tWTV4yy2DDt3VLgh2eUhDuUVJAcuDHxMg6WeqzSjcb8fn","timestamp":"2026-06-27 15:10:54.937"}
+{"level":"info","message":"Tx 888459b8... processed at slot 429252003","timestamp":"2026-06-27 15:10:54.938"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:10:55.041"}
+{"level":"info","message":"Tx 888459b8... confirmed at slot 429252004","timestamp":"2026-06-27 15:10:55.041"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:10:55.115"}
+{"level":"info","message":"Tx 888459b8... finalized at slot 429252004","timestamp":"2026-06-27 15:10:55.117"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:10:55.166"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:11:05.737"}
+{"level":"info","message":"Submission Cycle #44","timestamp":"2026-06-27 15:11:05.738"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:11:05.740"}
+{"level":"info","message":"AI Agent Decision Logged: SUBMISSION_TIMING - Jito leader window is close (1 slots). Ideal timing for inge...","timestamp":"2026-06-27 15:11:05.767"}
+{"level":"info","message":"AI Submission Timing: SUBMIT. Reason: Jito leader window is close (1 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.","timestamp":"2026-06-27 15:11:05.768"}
+{"level":"info","message":"AI Agent Decision Logged: TIP_SELECTION - Network congestion is HIGH. Standard 50th percentile tips ar...","timestamp":"2026-06-27 15:11:06.437"}
+{"level":"info","message":"AI Tip Decision: 95th percentile with 1.3x multiplier. Reason: Network congestion is HIGH. Standard 50th percentile tips are likely to be outbid in the Jito Block Engine auction. Upgrading tip recommendation to 95th percentile with 1.3x multiplier to ensure slot inclusion.","timestamp":"2026-06-27 15:11:06.441"}
+{"level":"info","message":"Fetched fresh confirmed blockhash: GJ5N45nh7zzme3SeZJTx5cbWGcT6sfCKe3jbJNkqgbSm","timestamp":"2026-06-27 15:11:07.369"}
+{"level":"info","message":"Tracking signature for real-time lifecycle: 5gt6reaaWTbtCkNhV733vNxtoLMLoxhyjT8qaqqd7CmYRirJAqn5nuLRJamLeBtdAxSxrKVH1gbUYsb9iE5YD1c9","timestamp":"2026-06-27 15:11:07.373"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:11:07.382"}
+{"level":"error","message":"Error submitting bundle to Jito: request to https://ny.devnet.block-engine.jito.wtf/api/v1/bundles failed, reason: getaddrinfo ENOTFOUND ny.devnet.block-engine.jito.wtf","timestamp":"2026-06-27 15:11:07.394"}
+{"level":"error","message":"Error in submission cycle: request to https://ny.devnet.block-engine.jito.wtf/api/v1/bundles failed, reason: getaddrinfo ENOTFOUND ny.devnet.block-engine.jito.wtf","timestamp":"2026-06-27 15:11:07.394"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:11:08.316"}
+{"level":"info","message":"Submission Cycle #466","timestamp":"2026-06-27 15:11:08.317"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:11:08.318"}
+{"level":"info","message":"AI Agent Decision Logged: SUBMISSION_TIMING - Jito leader window is close (4 slots). Ideal timing for inge...","timestamp":"2026-06-27 15:11:08.673"}
+{"level":"info","message":"AI Submission Timing: SUBMIT. Reason: Jito leader window is close (4 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.","timestamp":"2026-06-27 15:11:08.674"}
+{"level":"warn","message":"Failed to fetch live Jito tip floor: HTTP error! status: 400. Using dynamic fallback tip estimates.","timestamp":"2026-06-27 15:11:09.190"}
+{"level":"info","message":"AI Agent Decision Logged: TIP_SELECTION - Network conditions are healthy (low congestion). Standard 50...","timestamp":"2026-06-27 15:11:09.222"}
+{"level":"info","message":"AI Tip Decision: 50th percentile with 1x multiplier. Reason: Network conditions are healthy (low congestion). Standard 50th percentile tip with 1.0x multiplier is sufficient to win bundle bids.","timestamp":"2026-06-27 15:11:09.222"}
+{"level":"warn","message":"Failed to fetch live Jito tip floor: HTTP error! status: 400. Using dynamic fallback tip estimates.","timestamp":"2026-06-27 15:11:09.379"}
+{"level":"info","message":"[Simulator] Generated mock confirmed blockhash: 5E17hmMEFSTqNS6sVD9ZQBVAvaz5Ns2AV9wcvBG8ssnN","timestamp":"2026-06-27 15:11:09.380"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:11:09.396"}
+{"level":"info","message":"[Simulator] Mocking bundle submission. Signature: X3n1A9khPFdicm9S2uBQE8aZb7j8EK7kHNmX7vvai1mqwuhxXinGNDbER4MTb4deJKYRJKhedSrBwX4y4SmJCG3T","timestamp":"2026-06-27 15:11:09.397"}
+{"level":"info","message":"Bundle submitted. Bundle ID: X3n1A9khPFdicm9S2uBQE8aZb7j8EK7kHNmX7vvai1mqwuhxXinGNDbER4MTb4deJKYRJKhedSrBwX4y4SmJCG3T","timestamp":"2026-06-27 15:11:09.397"}
+{"level":"info","message":"Tx 728240a5... processed at slot 429252041","timestamp":"2026-06-27 15:11:09.564"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:11:09.575"}
+{"level":"info","message":"Tx 728240a5... confirmed at slot 429252043","timestamp":"2026-06-27 15:11:10.460"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:11:10.475"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:11:20.735"}
+{"level":"info","message":"Submission Cycle #45","timestamp":"2026-06-27 15:11:20.735"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:11:20.735"}
+{"level":"info","message":"AI Agent Decision Logged: SUBMISSION_TIMING - Jito leader window is close (1 slots). Ideal timing for inge...","timestamp":"2026-06-27 15:11:20.749"}
+{"level":"info","message":"AI Submission Timing: SUBMIT. Reason: Jito leader window is close (1 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.","timestamp":"2026-06-27 15:11:20.749"}
+{"level":"info","message":"Tx 728240a5... finalized at slot 429252072","timestamp":"2026-06-27 15:11:22.183"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:11:22.205"}
+{"level":"info","message":"AI Agent Decision Logged: TIP_SELECTION - Network congestion is MEDIUM. Raising tip recommendation to ...","timestamp":"2026-06-27 15:11:22.421"}
+{"level":"info","message":"AI Tip Decision: 75th percentile with 1.1x multiplier. Reason: Network congestion is MEDIUM. Raising tip recommendation to 75th percentile with 1.1x multiplier to balance landing probability and cost.","timestamp":"2026-06-27 15:11:22.422"}
+{"level":"warn","message":"!!! [Fault Injection] Creating a transaction with stale expired blockhash to test AI recovery...","timestamp":"2026-06-27 15:11:22.669"}
+{"level":"error","message":"Error in submission cycle: Non-base58 character","timestamp":"2026-06-27 15:11:22.669"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:11:23.328"}
+{"level":"info","message":"Submission Cycle #467","timestamp":"2026-06-27 15:11:23.329"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:11:23.329"}
+{"level":"info","message":"AI Agent Decision Logged: SUBMISSION_TIMING - Jito leader window is close (4 slots). Ideal timing for inge...","timestamp":"2026-06-27 15:11:23.354"}
+{"level":"info","message":"AI Submission Timing: SUBMIT. Reason: Jito leader window is close (4 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.","timestamp":"2026-06-27 15:11:23.354"}
+{"level":"warn","message":"Failed to fetch live Jito tip floor: HTTP error! status: 400. Using dynamic fallback tip estimates.","timestamp":"2026-06-27 15:11:23.877"}
+{"level":"info","message":"AI Agent Decision Logged: TIP_SELECTION - Network conditions are healthy (low congestion). Standard 50...","timestamp":"2026-06-27 15:11:23.905"}
+{"level":"info","message":"AI Tip Decision: 50th percentile with 1x multiplier. Reason: Network conditions are healthy (low congestion). Standard 50th percentile tip with 1.0x multiplier is sufficient to win bundle bids.","timestamp":"2026-06-27 15:11:23.906"}
+{"level":"warn","message":"Failed to fetch live Jito tip floor: HTTP error! status: 400. Using dynamic fallback tip estimates.","timestamp":"2026-06-27 15:11:24.089"}
+{"level":"info","message":"[Simulator] Generated mock confirmed blockhash: 4WSDy783dJvgEuGwBy9sh5uxs97HUd28UCkzZnNvj5kC","timestamp":"2026-06-27 15:11:24.089"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:11:24.114"}
+{"level":"info","message":"[Simulator] Mocking bundle submission. Signature: 98cAf4LsNX9RwSFBWcqnNp7RYR4bJC1WxfFRgRoBQVH5qCPetJL3dYA6NkDVmvwRNrh1zbF8UznKSTD6vSyXpYbF","timestamp":"2026-06-27 15:11:24.114"}
+{"level":"info","message":"Bundle submitted. Bundle ID: 98cAf4LsNX9RwSFBWcqnNp7RYR4bJC1WxfFRgRoBQVH5qCPetJL3dYA6NkDVmvwRNrh1zbF8UznKSTD6vSyXpYbF","timestamp":"2026-06-27 15:11:24.114"}
+{"level":"info","message":"Tx 7a8d84fd... processed at slot 429252076","timestamp":"2026-06-27 15:11:24.218"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:11:24.230"}
+{"level":"info","message":"Tx 7a8d84fd... confirmed at slot 429252078","timestamp":"2026-06-27 15:11:24.760"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:11:24.774"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:11:35.751"}
+{"level":"info","message":"Submission Cycle #46","timestamp":"2026-06-27 15:11:35.752"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:11:35.753"}
+{"level":"info","message":"AI Agent Decision Logged: SUBMISSION_TIMING - Jito leader window is close (5 slots). Ideal timing for inge...","timestamp":"2026-06-27 15:11:35.773"}
+{"level":"info","message":"AI Submission Timing: SUBMIT. Reason: Jito leader window is close (5 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.","timestamp":"2026-06-27 15:11:35.774"}
+{"level":"info","message":"AI Agent Decision Logged: TIP_SELECTION - Network conditions are healthy (low congestion). Standard 50...","timestamp":"2026-06-27 15:11:36.267"}
+{"level":"info","message":"AI Tip Decision: 50th percentile with 1x multiplier. Reason: Network conditions are healthy (low congestion). Standard 50th percentile tip with 1.0x multiplier is sufficient to win bundle bids.","timestamp":"2026-06-27 15:11:36.268"}
+{"level":"info","message":"Tx 7a8d84fd... finalized at slot 429252107","timestamp":"2026-06-27 15:11:36.605"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:11:36.619"}
+{"level":"info","message":"Fetched fresh confirmed blockhash: 7t5dtBxxnUsyNZotQnCpMfi6587XXiGnExccUDPksA9M","timestamp":"2026-06-27 15:11:37.520"}
+{"level":"info","message":"Tracking signature for real-time lifecycle: 2sH7w3FGiQ99BPNhhsf54uXtx6C9Hfjpqi47g5Jt69VE1ytd2dhiYDs2L3XTetn5wCrQFEvq1ikaBsCWLGBDJoMb","timestamp":"2026-06-27 15:11:37.527"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:11:37.555"}
+{"level":"error","message":"Error submitting bundle to Jito: request to https://ny.devnet.block-engine.jito.wtf/api/v1/bundles failed, reason: getaddrinfo ENOTFOUND ny.devnet.block-engine.jito.wtf","timestamp":"2026-06-27 15:11:37.594"}
+{"level":"error","message":"Error in submission cycle: request to https://ny.devnet.block-engine.jito.wtf/api/v1/bundles failed, reason: getaddrinfo ENOTFOUND ny.devnet.block-engine.jito.wtf","timestamp":"2026-06-27 15:11:37.594"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:11:38.330"}
+{"level":"info","message":"Submission Cycle #468","timestamp":"2026-06-27 15:11:38.330"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:11:38.330"}
+{"level":"info","message":"AI Agent Decision Logged: SUBMISSION_TIMING - Jito leader window is close (3 slots). Ideal timing for inge...","timestamp":"2026-06-27 15:11:38.361"}
+{"level":"info","message":"AI Submission Timing: SUBMIT. Reason: Jito leader window is close (3 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.","timestamp":"2026-06-27 15:11:38.361"}
+{"level":"warn","message":"Failed to fetch live Jito tip floor: HTTP error! status: 400. Using dynamic fallback tip estimates.","timestamp":"2026-06-27 15:11:41.286"}
+{"level":"info","message":"AI Agent Decision Logged: TIP_SELECTION - Network congestion is HIGH. Standard 50th percentile tips ar...","timestamp":"2026-06-27 15:11:41.347"}
+{"level":"info","message":"AI Tip Decision: 95th percentile with 1.3x multiplier. Reason: Network congestion is HIGH. Standard 50th percentile tips are likely to be outbid in the Jito Block Engine auction. Upgrading tip recommendation to 95th percentile with 1.3x multiplier to ensure slot inclusion.","timestamp":"2026-06-27 15:11:41.348"}
+{"level":"warn","message":"Failed to fetch live Jito tip floor: HTTP error! status: 400. Using dynamic fallback tip estimates.","timestamp":"2026-06-27 15:11:42.176"}
+{"level":"info","message":"[Simulator] Generated mock confirmed blockhash: Bs7ZZv7mjDYJh8LPcw1PPiy39o4Ukg8xw8FQ2b2oVTD9","timestamp":"2026-06-27 15:11:42.176"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:11:42.205"}
+{"level":"info","message":"[Simulator] Mocking bundle submission. Signature: bBsGgwhkAKnRDZM2gnaPh2jUTnv1xQHAR9FAWzrjEW5h84XcXWyya9UTKtbZAMCVR44MNf9pJqm1CaS3hJzdxK6b","timestamp":"2026-06-27 15:11:42.206"}
+{"level":"info","message":"Bundle submitted. Bundle ID: bBsGgwhkAKnRDZM2gnaPh2jUTnv1xQHAR9FAWzrjEW5h84XcXWyya9UTKtbZAMCVR44MNf9pJqm1CaS3hJzdxK6b","timestamp":"2026-06-27 15:11:42.207"}
+{"level":"info","message":"Tx d4973df6... processed at slot 429252119","timestamp":"2026-06-27 15:11:42.208"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:11:42.232"}
+{"level":"info","message":"Tx d4973df6... confirmed at slot 429252121","timestamp":"2026-06-27 15:11:42.522"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:11:42.545"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:11:50.765"}
+{"level":"info","message":"Submission Cycle #47","timestamp":"2026-06-27 15:11:50.765"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:11:50.765"}
+{"level":"info","message":"AI Agent Decision Logged: SUBMISSION_TIMING - Jito leader window is close (1 slots). Ideal timing for inge...","timestamp":"2026-06-27 15:11:50.786"}
+{"level":"info","message":"AI Submission Timing: SUBMIT. Reason: Jito leader window is close (1 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.","timestamp":"2026-06-27 15:11:50.794"}
+{"level":"info","message":"AI Agent Decision Logged: TIP_SELECTION - Network conditions are healthy (low congestion). Standard 50...","timestamp":"2026-06-27 15:11:51.335"}
+{"level":"info","message":"AI Tip Decision: 50th percentile with 1x multiplier. Reason: Network conditions are healthy (low congestion). Standard 50th percentile tip with 1.0x multiplier is sufficient to win bundle bids.","timestamp":"2026-06-27 15:11:51.342"}
+{"level":"info","message":"Fetched fresh confirmed blockhash: 2avyMzggiS3vTsHhbjurjmyVt5CxxGngtkioh9GKTKGz","timestamp":"2026-06-27 15:11:52.089"}
+{"level":"info","message":"Tracking signature for real-time lifecycle: 4QzqqAyXbZpQ6uW586yQSLJXF1rWbqJGbm6bhmDSNbMWyVS7r7SMfMU9kNYL4GVjQzjQsjXYisvbuLMpcVADNNXW","timestamp":"2026-06-27 15:11:52.095"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:11:52.109"}
+{"level":"error","message":"Error submitting bundle to Jito: request to https://ny.devnet.block-engine.jito.wtf/api/v1/bundles failed, reason: getaddrinfo ENOTFOUND ny.devnet.block-engine.jito.wtf","timestamp":"2026-06-27 15:11:52.120"}
+{"level":"error","message":"Error in submission cycle: request to https://ny.devnet.block-engine.jito.wtf/api/v1/bundles failed, reason: getaddrinfo ENOTFOUND ny.devnet.block-engine.jito.wtf","timestamp":"2026-06-27 15:11:52.120"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:11:53.339"}
+{"level":"info","message":"Submission Cycle #469","timestamp":"2026-06-27 15:11:53.340"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:11:53.340"}
+{"level":"info","message":"AI Agent Decision Logged: SUBMISSION_TIMING - Jito leader window is close (5 slots). Ideal timing for inge...","timestamp":"2026-06-27 15:11:53.371"}
+{"level":"info","message":"AI Submission Timing: SUBMIT. Reason: Jito leader window is close (5 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.","timestamp":"2026-06-27 15:11:53.372"}
+{"level":"warn","message":"Failed to fetch live Jito tip floor: HTTP error! status: 429. Using dynamic fallback tip estimates.","timestamp":"2026-06-27 15:11:53.900"}
+{"level":"info","message":"AI Agent Decision Logged: TIP_SELECTION - Network conditions are healthy (low congestion). Standard 50...","timestamp":"2026-06-27 15:11:53.930"}
+{"level":"info","message":"AI Tip Decision: 50th percentile with 1x multiplier. Reason: Network conditions are healthy (low congestion). Standard 50th percentile tip with 1.0x multiplier is sufficient to win bundle bids.","timestamp":"2026-06-27 15:11:53.930"}
+{"level":"warn","message":"Failed to fetch live Jito tip floor: HTTP error! status: 400. Using dynamic fallback tip estimates.","timestamp":"2026-06-27 15:11:54.074"}
+{"level":"info","message":"[Simulator] Generated mock confirmed blockhash: DiuFqgRhpGvYhJn86MFco1HAcKDkCt3ihkbsyJPMp8fp","timestamp":"2026-06-27 15:11:54.074"}
+{"level":"error","message":"Error in submission cycle: Non-base58 character","timestamp":"2026-06-27 15:11:54.075"}
+{"level":"info","message":"Tx d4973df6... finalized at slot 429252150","timestamp":"2026-06-27 15:11:54.398"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:11:54.412"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:12:05.774"}
+{"level":"info","message":"Submission Cycle #48","timestamp":"2026-06-27 15:12:05.774"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:12:05.775"}
+{"level":"info","message":"AI Agent Decision Logged: SUBMISSION_TIMING - Jito leader window is close (4 slots). Ideal timing for inge...","timestamp":"2026-06-27 15:12:05.817"}
+{"level":"info","message":"AI Submission Timing: SUBMIT. Reason: Jito leader window is close (4 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.","timestamp":"2026-06-27 15:12:05.818"}
+{"level":"info","message":"AI Agent Decision Logged: TIP_SELECTION - Network congestion is HIGH. Standard 50th percentile tips ar...","timestamp":"2026-06-27 15:12:07.335"}
+{"level":"info","message":"AI Tip Decision: 95th percentile with 1.3x multiplier. Reason: Network congestion is HIGH. Standard 50th percentile tips are likely to be outbid in the Jito Block Engine auction. Upgrading tip recommendation to 95th percentile with 1.3x multiplier to ensure slot inclusion.","timestamp":"2026-06-27 15:12:07.336"}
+{"level":"info","message":"Fetched fresh confirmed blockhash: 2gV4Z8G6rUVcQpWtcGEnKyeCQdvQNXStpmDHyRm5ZBTK","timestamp":"2026-06-27 15:12:08.116"}
+{"level":"info","message":"Tracking signature for real-time lifecycle: 2oKMjBiA4PqnCkzoDjRh1iAzs4HpLLkXcuuEuLFcyznUPcqZWh4BBJJf65puPzkd4U873nbkcPP7rakuJVUzy4T3","timestamp":"2026-06-27 15:12:08.123"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:12:08.141"}
+{"level":"error","message":"Error submitting bundle to Jito: request to https://ny.devnet.block-engine.jito.wtf/api/v1/bundles failed, reason: getaddrinfo ENOTFOUND ny.devnet.block-engine.jito.wtf","timestamp":"2026-06-27 15:12:08.149"}
+{"level":"error","message":"Error in submission cycle: request to https://ny.devnet.block-engine.jito.wtf/api/v1/bundles failed, reason: getaddrinfo ENOTFOUND ny.devnet.block-engine.jito.wtf","timestamp":"2026-06-27 15:12:08.150"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:12:08.340"}
+{"level":"info","message":"Submission Cycle #470","timestamp":"2026-06-27 15:12:08.341"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:12:08.341"}
+{"level":"info","message":"AI Agent Decision Logged: SUBMISSION_TIMING - Jito leader window is close (2 slots). Ideal timing for inge...","timestamp":"2026-06-27 15:12:08.374"}
+{"level":"info","message":"AI Submission Timing: SUBMIT. Reason: Jito leader window is close (2 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.","timestamp":"2026-06-27 15:12:08.374"}
+{"level":"warn","message":"Failed to fetch live Jito tip floor: HTTP error! status: 429. Using dynamic fallback tip estimates.","timestamp":"2026-06-27 15:12:08.948"}
+{"level":"info","message":"AI Agent Decision Logged: TIP_SELECTION - Network conditions are healthy (low congestion). Standard 50...","timestamp":"2026-06-27 15:12:08.969"}
+{"level":"info","message":"AI Tip Decision: 50th percentile with 1x multiplier. Reason: Network conditions are healthy (low congestion). Standard 50th percentile tip with 1.0x multiplier is sufficient to win bundle bids.","timestamp":"2026-06-27 15:12:08.969"}
+{"level":"warn","message":"Failed to fetch live Jito tip floor: HTTP error! status: 400. Using dynamic fallback tip estimates.","timestamp":"2026-06-27 15:12:09.234"}
+{"level":"warn","message":"!!! [Fault Injection] Creating a transaction with stale expired blockhash to test AI recovery...","timestamp":"2026-06-27 15:12:09.235"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:12:09.266"}
+{"level":"info","message":"[Simulator] Mocking bundle submission. Signature: 7kJh1HaUMntXDQajdurM9QRTtFBdp67dMaExnCTdWXH9nH73WQMF4boMpUrhHZZDKJwRsB4GjB7Wdta42iRTQYYZ","timestamp":"2026-06-27 15:12:09.266"}
+{"level":"info","message":"Bundle submitted. Bundle ID: 7kJh1HaUMntXDQajdurM9QRTtFBdp67dMaExnCTdWXH9nH73WQMF4boMpUrhHZZDKJwRsB4GjB7Wdta42iRTQYYZ","timestamp":"2026-06-27 15:12:09.266"}
+{"level":"warn","message":"Tx 790b972f... FAILED. Type: EXPIRED_BLOCKHASH, Details: Blockhash is expired (simulated)","timestamp":"2026-06-27 15:12:09.349"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:12:09.358"}
+{"level":"info","message":"RetryEngine caught failed transaction: 790b972f091db3fd0a523f739a797c14e4845876901ecdbd66a5b02dc8f21813a28a731008738c43a4888d9f004b63a6e426fa849535a9802cc93077d671570d. Initiating AI analysis...","timestamp":"2026-06-27 15:12:09.358"}
+{"level":"info","message":"AI Agent Decision Logged: RETRY_ANALYSIS - Detected blockhash expiry. This typically occurs under heavy...","timestamp":"2026-06-27 15:12:09.375"}
+{"level":"info","message":"AI Agent Recommendation for 790b972f091db3fd0a523f739a797c14e4845876901ecdbd66a5b02dc8f21813a28a731008738c43a4888d9f004b63a6e426fa849535a9802cc93077d671570d: Retry=true, Reason: Detected blockhash expiry. This typically occurs under heavy network load or slot skips. Decision: refresh blockhash immediately, elevate tip percentile to 75th to increase priority in the next Jito block, and resubmit.","timestamp":"2026-06-27 15:12:09.375"}
+{"level":"info","message":"[Simulator] Generated mock confirmed blockhash: 6p4MVcNhy9S94YRGzJgLYwxJsvKJjHtQN1Ac54wHLtsG","timestamp":"2026-06-27 15:12:09.375"}
+{"level":"warn","message":"Failed to fetch live Jito tip floor: HTTP error! status: 400. Using dynamic fallback tip estimates.","timestamp":"2026-06-27 15:12:09.542"}
+{"level":"info","message":"Original Tip: 300000 lamports. AI Adjusted Tip: 360000 lamports (75th * 1.2)","timestamp":"2026-06-27 15:12:09.542"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:12:09.564"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:12:09.580"}
+{"level":"info","message":"[Simulator] Mocking bundle submission. Signature: N28eBC3bfrnW4NvU1zM86rRmKXGRUBfpnHc49ZS8TJbjgjC7RxXsgFvnAeCqW61KKdKEikqZrzGWRazQZk94BVz7","timestamp":"2026-06-27 15:12:09.580"}
+{"level":"info","message":"Resubmitted retry bundle successfully. Signature: 3acaa67ed3ac5aa2a320a50ba3f6e2a5bf8efb765668b0d10c621f4e15a6a9e7c00e12a2103fa73bc4e043e57543435ca622d9df0a09ffb09de6a4ded1c29703, Bundle ID: N28eBC3bfrnW4NvU1zM86rRmKXGRUBfpnHc49ZS8TJbjgjC7RxXsgFvnAeCqW61KKdKEikqZrzGWRazQZk94BVz7","timestamp":"2026-06-27 15:12:09.581"}
+{"level":"info","message":"Tx 3acaa67e... processed at slot 429252186","timestamp":"2026-06-27 15:12:09.764"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:12:09.773"}
+{"level":"info","message":"Tx 3acaa67e... confirmed at slot 429252188","timestamp":"2026-06-27 15:12:10.725"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:12:10.741"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:12:20.782"}
+{"level":"info","message":"Submission Cycle #49","timestamp":"2026-06-27 15:12:20.782"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:12:20.783"}
+{"level":"info","message":"AI Agent Decision Logged: SUBMISSION_TIMING - Jito leader window is close (1 slots). Ideal timing for inge...","timestamp":"2026-06-27 15:12:20.810"}
+{"level":"info","message":"AI Submission Timing: SUBMIT. Reason: Jito leader window is close (1 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.","timestamp":"2026-06-27 15:12:20.811"}
+{"level":"info","message":"Tx 3acaa67e... finalized at slot 429252217","timestamp":"2026-06-27 15:12:22.472"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:12:22.495"}
+{"level":"info","message":"AI Agent Decision Logged: TIP_SELECTION - Network conditions are healthy (low congestion). Standard 50...","timestamp":"2026-06-27 15:12:22.749"}
+{"level":"info","message":"AI Tip Decision: 50th percentile with 1x multiplier. Reason: Network conditions are healthy (low congestion). Standard 50th percentile tip with 1.0x multiplier is sufficient to win bundle bids.","timestamp":"2026-06-27 15:12:22.751"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:12:23.352"}
+{"level":"info","message":"Submission Cycle #471","timestamp":"2026-06-27 15:12:23.352"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:12:23.352"}
+{"level":"info","message":"AI Agent Decision Logged: SUBMISSION_TIMING - Jito leader window is close (2 slots). Ideal timing for inge...","timestamp":"2026-06-27 15:12:23.383"}
+{"level":"info","message":"AI Submission Timing: SUBMIT. Reason: Jito leader window is close (2 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.","timestamp":"2026-06-27 15:12:23.383"}
+{"level":"info","message":"Fetched fresh confirmed blockhash: CWMkY5Qc2LscVEwc7ME2CuKYxH6fzYk9S8VkYPmTrxam","timestamp":"2026-06-27 15:12:23.564"}
+{"level":"info","message":"Tracking signature for real-time lifecycle: 495JJm2nhpT5HnWiSb5ySo6sYwgKi9WujtijUKyd2DBkqcQKbEWsoBu5wxb88XNmDDn4VwRyzMzCzoFPrfNWFMhA","timestamp":"2026-06-27 15:12:23.577"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:12:23.596"}
+{"level":"error","message":"Error submitting bundle to Jito: request to https://ny.devnet.block-engine.jito.wtf/api/v1/bundles failed, reason: getaddrinfo ENOTFOUND ny.devnet.block-engine.jito.wtf","timestamp":"2026-06-27 15:12:23.604"}
+{"level":"error","message":"Error in submission cycle: request to https://ny.devnet.block-engine.jito.wtf/api/v1/bundles failed, reason: getaddrinfo ENOTFOUND ny.devnet.block-engine.jito.wtf","timestamp":"2026-06-27 15:12:23.605"}
+{"level":"warn","message":"Failed to fetch live Jito tip floor: HTTP error! status: 400. Using dynamic fallback tip estimates.","timestamp":"2026-06-27 15:12:23.884"}
+{"level":"info","message":"AI Agent Decision Logged: TIP_SELECTION - Network congestion is MEDIUM. Raising tip recommendation to ...","timestamp":"2026-06-27 15:12:23.918"}
+{"level":"info","message":"AI Tip Decision: 75th percentile with 1.1x multiplier. Reason: Network congestion is MEDIUM. Raising tip recommendation to 75th percentile with 1.1x multiplier to balance landing probability and cost.","timestamp":"2026-06-27 15:12:23.919"}
+{"level":"warn","message":"Failed to fetch live Jito tip floor: HTTP error! status: 400. Using dynamic fallback tip estimates.","timestamp":"2026-06-27 15:12:24.084"}
+{"level":"info","message":"[Simulator] Generated mock confirmed blockhash: 7CeoEBSRxVCARcmywrnGr7yvFAj5bbFTNz61R2v8jK8N","timestamp":"2026-06-27 15:12:24.085"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:12:24.107"}
+{"level":"info","message":"[Simulator] Mocking bundle submission. Signature: pEwM4c12c1wQFWFcRjfcQ35sKNJHxtAgT2gMYRUX9jXJKT2McryKp4J6TpgEQH2Qo9sdmpDqxwDDeibhFhbjr4br","timestamp":"2026-06-27 15:12:24.108"}
+{"level":"info","message":"Bundle submitted. Bundle ID: pEwM4c12c1wQFWFcRjfcQ35sKNJHxtAgT2gMYRUX9jXJKT2McryKp4J6TpgEQH2Qo9sdmpDqxwDDeibhFhbjr4br","timestamp":"2026-06-27 15:12:24.108"}
+{"level":"info","message":"Tx 13fdf23a... processed at slot 429252221","timestamp":"2026-06-27 15:12:24.298"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:12:24.308"}
+{"level":"info","message":"Tx 13fdf23a... confirmed at slot 429252223","timestamp":"2026-06-27 15:12:24.760"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:12:24.784"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:12:35.788"}
+{"level":"info","message":"Submission Cycle #50","timestamp":"2026-06-27 15:12:35.788"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:12:35.789"}
+{"level":"info","message":"AI Agent Decision Logged: SUBMISSION_TIMING - Jito leader window is close (2 slots). Ideal timing for inge...","timestamp":"2026-06-27 15:12:35.807"}
+{"level":"info","message":"AI Submission Timing: SUBMIT. Reason: Jito leader window is close (2 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.","timestamp":"2026-06-27 15:12:35.809"}
+{"level":"info","message":"AI Agent Decision Logged: TIP_SELECTION - Network conditions are healthy (low congestion). Standard 50...","timestamp":"2026-06-27 15:12:36.327"}
+{"level":"info","message":"AI Tip Decision: 50th percentile with 1x multiplier. Reason: Network conditions are healthy (low congestion). Standard 50th percentile tip with 1.0x multiplier is sufficient to win bundle bids.","timestamp":"2026-06-27 15:12:36.332"}
+{"level":"warn","message":"!!! [Fault Injection] Creating a transaction with stale expired blockhash to test AI recovery...","timestamp":"2026-06-27 15:12:36.555"}
+{"level":"info","message":"Tracking signature for real-time lifecycle: 2ho62zm9wLKSA2kyKqDy8QBvGEM67wB5LuXvLMLV7P89AhhrU7vcPVGX9bbkDX6jEwM76dwHe4GyWvhcgnieYRhE","timestamp":"2026-06-27 15:12:36.558"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:12:36.568"}
+{"level":"error","message":"Error submitting bundle to Jito: request to https://ny.devnet.block-engine.jito.wtf/api/v1/bundles failed, reason: getaddrinfo ENOTFOUND ny.devnet.block-engine.jito.wtf","timestamp":"2026-06-27 15:12:36.576"}
+{"level":"error","message":"Error in submission cycle: request to https://ny.devnet.block-engine.jito.wtf/api/v1/bundles failed, reason: getaddrinfo ENOTFOUND ny.devnet.block-engine.jito.wtf","timestamp":"2026-06-27 15:12:36.576"}
+{"level":"info","message":"Tx 13fdf23a... finalized at slot 429252252","timestamp":"2026-06-27 15:12:37.130"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:12:37.140"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:12:38.367"}
+{"level":"info","message":"Submission Cycle #472","timestamp":"2026-06-27 15:12:38.367"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:12:38.367"}
+{"level":"info","message":"AI Agent Decision Logged: SUBMISSION_TIMING - Jito leader window is close (5 slots). Ideal timing for inge...","timestamp":"2026-06-27 15:12:38.401"}
+{"level":"info","message":"AI Submission Timing: SUBMIT. Reason: Jito leader window is close (5 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.","timestamp":"2026-06-27 15:12:38.402"}
+{"level":"warn","message":"Failed to fetch live Jito tip floor: HTTP error! status: 400. Using dynamic fallback tip estimates.","timestamp":"2026-06-27 15:12:41.683"}
+{"level":"info","message":"AI Agent Decision Logged: TIP_SELECTION - Network congestion is HIGH. Standard 50th percentile tips ar...","timestamp":"2026-06-27 15:12:41.706"}
+{"level":"info","message":"AI Tip Decision: 95th percentile with 1.3x multiplier. Reason: Network congestion is HIGH. Standard 50th percentile tips are likely to be outbid in the Jito Block Engine auction. Upgrading tip recommendation to 95th percentile with 1.3x multiplier to ensure slot inclusion.","timestamp":"2026-06-27 15:12:41.706"}
+{"level":"warn","message":"Failed to fetch live Jito tip floor: HTTP error! status: 400. Using dynamic fallback tip estimates.","timestamp":"2026-06-27 15:12:42.171"}
+{"level":"info","message":"[Simulator] Generated mock confirmed blockhash: BtkZiMAxqaZha2YYSdhPEY5SDpJZC64G9g7k22bUBG8m","timestamp":"2026-06-27 15:12:42.172"}
+{"level":"error","message":"Error in submission cycle: Non-base58 character","timestamp":"2026-06-27 15:12:42.173"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:12:50.792"}
+{"level":"info","message":"Submission Cycle #51","timestamp":"2026-06-27 15:12:50.794"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:12:50.795"}
+{"level":"info","message":"AI Agent Decision Logged: SUBMISSION_TIMING - Jito leader window is close (5 slots). Ideal timing for inge...","timestamp":"2026-06-27 15:12:50.813"}
+{"level":"info","message":"AI Submission Timing: SUBMIT. Reason: Jito leader window is close (5 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.","timestamp":"2026-06-27 15:12:50.814"}
+{"level":"info","message":"AI Agent Decision Logged: TIP_SELECTION - Network congestion is MEDIUM. Raising tip recommendation to ...","timestamp":"2026-06-27 15:12:51.312"}
+{"level":"info","message":"AI Tip Decision: 75th percentile with 1.1x multiplier. Reason: Network congestion is MEDIUM. Raising tip recommendation to 75th percentile with 1.1x multiplier to balance landing probability and cost.","timestamp":"2026-06-27 15:12:51.313"}
+{"level":"info","message":"Fetched fresh confirmed blockhash: 2Y9ttQyGzUSGXpadnDzASoQP8Tc1RBGMWsfHab7FqEwT","timestamp":"2026-06-27 15:12:52.079"}
+{"level":"error","message":"Error in submission cycle: Non-base58 character","timestamp":"2026-06-27 15:12:52.083"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:12:53.370"}
+{"level":"info","message":"Submission Cycle #473","timestamp":"2026-06-27 15:12:53.370"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:12:53.370"}
+{"level":"info","message":"AI Agent Decision Logged: SUBMISSION_TIMING - Jito leader window is close (5 slots). Ideal timing for inge...","timestamp":"2026-06-27 15:12:53.403"}
+{"level":"info","message":"AI Submission Timing: SUBMIT. Reason: Jito leader window is close (5 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.","timestamp":"2026-06-27 15:12:53.403"}
+{"level":"warn","message":"Failed to fetch live Jito tip floor: HTTP error! status: 400. Using dynamic fallback tip estimates.","timestamp":"2026-06-27 15:12:53.936"}
+{"level":"info","message":"AI Agent Decision Logged: TIP_SELECTION - Network conditions are healthy (low congestion). Standard 50...","timestamp":"2026-06-27 15:12:53.976"}
+{"level":"info","message":"AI Tip Decision: 50th percentile with 1x multiplier. Reason: Network conditions are healthy (low congestion). Standard 50th percentile tip with 1.0x multiplier is sufficient to win bundle bids.","timestamp":"2026-06-27 15:12:53.977"}
+{"level":"warn","message":"Failed to fetch live Jito tip floor: HTTP error! status: 400. Using dynamic fallback tip estimates.","timestamp":"2026-06-27 15:12:54.238"}
+{"level":"info","message":"[Simulator] Generated mock confirmed blockhash: DxzErC1kvKnh3CSLdZcp4GF3P2YZSZPR1bfUjayFstMC","timestamp":"2026-06-27 15:12:54.239"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:12:54.267"}
+{"level":"info","message":"[Simulator] Mocking bundle submission. Signature: sRPes7UeqxosNhMHCioroZyhFp1uZffg5EeMVUrdMKjNFagLsaiGykGgBmBCGm5gjztJE2uG6f5GYGKss2Ar6VjH","timestamp":"2026-06-27 15:12:54.268"}
+{"level":"info","message":"Bundle submitted. Bundle ID: sRPes7UeqxosNhMHCioroZyhFp1uZffg5EeMVUrdMKjNFagLsaiGykGgBmBCGm5gjztJE2uG6f5GYGKss2Ar6VjH","timestamp":"2026-06-27 15:12:54.269"}
+{"level":"info","message":"Tx 8ac9089a... processed at slot 429252287","timestamp":"2026-06-27 15:12:54.272"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:12:54.291"}
+{"level":"info","message":"Tx 8ac9089a... confirmed at slot 429252289","timestamp":"2026-06-27 15:12:54.778"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:12:54.792"}
+{"level":"info","message":"Tx 8ac9089a... finalized at slot 429252318","timestamp":"2026-06-27 15:13:05.782"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:13:05.808"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:13:05.814"}
+{"level":"info","message":"Submission Cycle #52","timestamp":"2026-06-27 15:13:05.812"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:13:05.814"}
+{"level":"info","message":"AI Agent Decision Logged: SUBMISSION_TIMING - Jito leader window is close (2 slots). Ideal timing for inge...","timestamp":"2026-06-27 15:13:05.875"}
+{"level":"info","message":"AI Submission Timing: SUBMIT. Reason: Jito leader window is close (2 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.","timestamp":"2026-06-27 15:13:05.887"}
+{"level":"info","message":"AI Agent Decision Logged: TIP_SELECTION - Network congestion is HIGH. Standard 50th percentile tips ar...","timestamp":"2026-06-27 15:13:06.488"}
+{"level":"info","message":"AI Tip Decision: 95th percentile with 1.3x multiplier. Reason: Network congestion is HIGH. Standard 50th percentile tips are likely to be outbid in the Jito Block Engine auction. Upgrading tip recommendation to 95th percentile with 1.3x multiplier to ensure slot inclusion.","timestamp":"2026-06-27 15:13:06.489"}
+{"level":"info","message":"Fetched fresh confirmed blockhash: HD1ip9p7pLffYbv6xH7SaEe1RLNSzqyW5N7vhNPgtv2W","timestamp":"2026-06-27 15:13:07.316"}
+{"level":"info","message":"Tracking signature for real-time lifecycle: dA2bfPbJwZtB5icPqEuce1TJSJuwHFsU3Z2KqTPpFxpke27eeRazDb7p6Jp5xwXMPv5jDTFwmauQnGY1LPYuV7p","timestamp":"2026-06-27 15:13:07.321"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:13:07.334"}
+{"level":"error","message":"Error submitting bundle to Jito: request to https://ny.devnet.block-engine.jito.wtf/api/v1/bundles failed, reason: getaddrinfo ENOTFOUND ny.devnet.block-engine.jito.wtf","timestamp":"2026-06-27 15:13:07.339"}
+{"level":"error","message":"Error in submission cycle: request to https://ny.devnet.block-engine.jito.wtf/api/v1/bundles failed, reason: getaddrinfo ENOTFOUND ny.devnet.block-engine.jito.wtf","timestamp":"2026-06-27 15:13:07.340"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:13:08.376"}
+{"level":"info","message":"Submission Cycle #474","timestamp":"2026-06-27 15:13:08.377"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:13:08.377"}
+{"level":"info","message":"AI Agent Decision Logged: SUBMISSION_TIMING - Jito leader window is close (5 slots). Ideal timing for inge...","timestamp":"2026-06-27 15:13:08.410"}
+{"level":"info","message":"AI Submission Timing: SUBMIT. Reason: Jito leader window is close (5 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.","timestamp":"2026-06-27 15:13:08.410"}
+{"level":"warn","message":"Failed to fetch live Jito tip floor: HTTP error! status: 400. Using dynamic fallback tip estimates.","timestamp":"2026-06-27 15:13:09.120"}
+{"level":"info","message":"AI Agent Decision Logged: TIP_SELECTION - Network congestion is MEDIUM. Raising tip recommendation to ...","timestamp":"2026-06-27 15:13:09.147"}
+{"level":"info","message":"AI Tip Decision: 75th percentile with 1.1x multiplier. Reason: Network congestion is MEDIUM. Raising tip recommendation to 75th percentile with 1.1x multiplier to balance landing probability and cost.","timestamp":"2026-06-27 15:13:09.147"}
+{"level":"warn","message":"Failed to fetch live Jito tip floor: HTTP error! status: 400. Using dynamic fallback tip estimates.","timestamp":"2026-06-27 15:13:09.321"}
+{"level":"info","message":"[Simulator] Generated mock confirmed blockhash: 7BkfuSBvkahowEzwQXVKo9TcMQvK37PzMeAt1CXnmQcJ","timestamp":"2026-06-27 15:13:09.321"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:13:09.343"}
+{"level":"info","message":"[Simulator] Mocking bundle submission. Signature: dpS4VqEgPN1UdT1waPjYrjyxViXdpJN3FCEyZk8Xy3Wqz7gi73B1A8bhEfpr47RYicEXYN32bPQJXbrE4mzTYb1Q","timestamp":"2026-06-27 15:13:09.344"}
+{"level":"info","message":"Bundle submitted. Bundle ID: dpS4VqEgPN1UdT1waPjYrjyxViXdpJN3FCEyZk8Xy3Wqz7gi73B1A8bhEfpr47RYicEXYN32bPQJXbrE4mzTYb1Q","timestamp":"2026-06-27 15:13:09.344"}
+{"level":"info","message":"Tx bc52f3ff... processed at slot 429252326","timestamp":"2026-06-27 15:13:09.371"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:13:09.389"}
+{"level":"info","message":"Tx bc52f3ff... confirmed at slot 429252328","timestamp":"2026-06-27 15:13:09.966"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:13:09.983"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:13:20.819"}
+{"level":"info","message":"Submission Cycle #53","timestamp":"2026-06-27 15:13:20.820"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:13:20.820"}
+{"level":"info","message":"AI Agent Decision Logged: SUBMISSION_TIMING - Jito leader window is close (3 slots). Ideal timing for inge...","timestamp":"2026-06-27 15:13:20.853"}
+{"level":"info","message":"AI Submission Timing: SUBMIT. Reason: Jito leader window is close (3 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.","timestamp":"2026-06-27 15:13:20.855"}
+{"level":"info","message":"AI Agent Decision Logged: TIP_SELECTION - Network conditions are healthy (low congestion). Standard 50...","timestamp":"2026-06-27 15:13:21.825"}
+{"level":"info","message":"AI Tip Decision: 50th percentile with 1x multiplier. Reason: Network conditions are healthy (low congestion). Standard 50th percentile tip with 1.0x multiplier is sufficient to win bundle bids.","timestamp":"2026-06-27 15:13:21.826"}
+{"level":"info","message":"Tx bc52f3ff... finalized at slot 429252357","timestamp":"2026-06-27 15:13:22.130"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:13:22.148"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:13:23.377"}
+{"level":"info","message":"Submission Cycle #475","timestamp":"2026-06-27 15:13:23.377"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:13:23.378"}
+{"level":"info","message":"AI Agent Decision Logged: SUBMISSION_TIMING - Jito leader window is close (1 slots). Ideal timing for inge...","timestamp":"2026-06-27 15:13:23.420"}
+{"level":"info","message":"AI Submission Timing: SUBMIT. Reason: Jito leader window is close (1 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.","timestamp":"2026-06-27 15:13:23.420"}
+{"level":"warn","message":"Failed to fetch live Jito tip floor: HTTP error! status: 400. Using dynamic fallback tip estimates.","timestamp":"2026-06-27 15:13:24.080"}
+{"level":"info","message":"AI Agent Decision Logged: TIP_SELECTION - Network conditions are healthy (low congestion). Standard 50...","timestamp":"2026-06-27 15:13:24.133"}
+{"level":"info","message":"AI Tip Decision: 50th percentile with 1x multiplier. Reason: Network conditions are healthy (low congestion). Standard 50th percentile tip with 1.0x multiplier is sufficient to win bundle bids.","timestamp":"2026-06-27 15:13:24.134"}
+{"level":"warn","message":"Failed to fetch live Jito tip floor: HTTP error! status: 400. Using dynamic fallback tip estimates.","timestamp":"2026-06-27 15:13:24.299"}
+{"level":"warn","message":"!!! [Fault Injection] Creating a transaction with stale expired blockhash to test AI recovery...","timestamp":"2026-06-27 15:13:24.299"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:13:24.314"}
+{"level":"info","message":"[Simulator] Mocking bundle submission. Signature: BT8FuJCwGCv8AZESKH4qPJj6F3dYxbUDW1WCRzQinZtz4qE88p9woTh7NUEWzH6RzGTdFQaLnciegd1PaaLhEDqP","timestamp":"2026-06-27 15:13:24.314"}
+{"level":"info","message":"Bundle submitted. Bundle ID: BT8FuJCwGCv8AZESKH4qPJj6F3dYxbUDW1WCRzQinZtz4qE88p9woTh7NUEWzH6RzGTdFQaLnciegd1PaaLhEDqP","timestamp":"2026-06-27 15:13:24.315"}
+{"level":"warn","message":"Tx 1a31f243... FAILED. Type: EXPIRED_BLOCKHASH, Details: Blockhash is expired (simulated)","timestamp":"2026-06-27 15:13:24.456"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:13:24.474"}
+{"level":"info","message":"RetryEngine caught failed transaction: 1a31f2432f7035774e95bacbcbe174364d5ecb2060a30367b47f6d02c0be1c001395f344c8f42f18c4007f4651f290c790f8094132541e64713de4ae2c99b40d. Initiating AI analysis...","timestamp":"2026-06-27 15:13:24.474"}
+{"level":"info","message":"AI Agent Decision Logged: RETRY_ANALYSIS - Detected blockhash expiry. This typically occurs under heavy...","timestamp":"2026-06-27 15:13:24.506"}
+{"level":"info","message":"AI Agent Recommendation for 1a31f2432f7035774e95bacbcbe174364d5ecb2060a30367b47f6d02c0be1c001395f344c8f42f18c4007f4651f290c790f8094132541e64713de4ae2c99b40d: Retry=true, Reason: Detected blockhash expiry. This typically occurs under heavy network load or slot skips. Decision: refresh blockhash immediately, elevate tip percentile to 75th to increase priority in the next Jito block, and resubmit.","timestamp":"2026-06-27 15:13:24.507"}
+{"level":"info","message":"[Simulator] Generated mock confirmed blockhash: 5mebPdThRXGWGANB6iSFuVy9qsVWJYCmsbczmehFapyU","timestamp":"2026-06-27 15:13:24.507"}
+{"level":"warn","message":"Failed to fetch live Jito tip floor: HTTP error! status: 400. Using dynamic fallback tip estimates.","timestamp":"2026-06-27 15:13:24.673"}
+{"level":"info","message":"Original Tip: 300000 lamports. AI Adjusted Tip: 360000 lamports (75th * 1.2)","timestamp":"2026-06-27 15:13:24.673"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:13:24.700"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:13:24.721"}
+{"level":"info","message":"[Simulator] Mocking bundle submission. Signature: j4RSGzcsozAs5uta7sYF7xfJts8NTUfNupJED37ANhcgbdT9XxUj8BMfNmB6zcvcNyEcmpxU5YWnNbpKSySvL4oB","timestamp":"2026-06-27 15:13:24.721"}
+{"level":"info","message":"Resubmitted retry bundle successfully. Signature: 1eb3d2e85b8ee7a0bb3b089b7de9a37017a56ebeb3802545b67019476c026cfef865d416b3f5e59afb3abc1b176d91ba70d38272fa5c5f07da3f0c7bda6a0d00, Bundle ID: j4RSGzcsozAs5uta7sYF7xfJts8NTUfNupJED37ANhcgbdT9XxUj8BMfNmB6zcvcNyEcmpxU5YWnNbpKSySvL4oB","timestamp":"2026-06-27 15:13:24.722"}
+{"level":"info","message":"Tx 1eb3d2e8... processed at slot 429252365","timestamp":"2026-06-27 15:13:24.790"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:13:24.815"}
+{"level":"info","message":"Tx 1eb3d2e8... confirmed at slot 429252367","timestamp":"2026-06-27 15:13:25.219"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:13:25.250"}
+{"level":"error","message":"Failed to fetch blockhash: failed to get recent blockhash: TypeError: fetch failed. Generating mock fallback.","timestamp":"2026-06-27 15:13:32.732"}
+{"level":"info","message":"Tracking signature for real-time lifecycle: 32KxpJKdnwPpNBnyBjzWmPJrDbNMH6gL5FbAY8ejELvjW5nP2A7PzGnGCWVERyzXf2aoFBGevUxEmu2x6uXvGwLz","timestamp":"2026-06-27 15:13:32.736"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:13:32.747"}
+{"level":"error","message":"Error submitting bundle to Jito: request to https://ny.devnet.block-engine.jito.wtf/api/v1/bundles failed, reason: getaddrinfo ENOTFOUND ny.devnet.block-engine.jito.wtf","timestamp":"2026-06-27 15:13:32.781"}
+{"level":"error","message":"Error in submission cycle: request to https://ny.devnet.block-engine.jito.wtf/api/v1/bundles failed, reason: getaddrinfo ENOTFOUND ny.devnet.block-engine.jito.wtf","timestamp":"2026-06-27 15:13:32.783"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:13:35.824"}
+{"level":"info","message":"Submission Cycle #54","timestamp":"2026-06-27 15:13:35.825"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:13:35.827"}
+{"level":"info","message":"AI Agent Decision Logged: SUBMISSION_TIMING - Jito leader window is close (1 slots). Ideal timing for inge...","timestamp":"2026-06-27 15:13:35.856"}
+{"level":"info","message":"AI Submission Timing: SUBMIT. Reason: Jito leader window is close (1 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.","timestamp":"2026-06-27 15:13:35.857"}
+{"level":"info","message":"Tx 1eb3d2e8... finalized at slot 429252396","timestamp":"2026-06-27 15:13:36.364"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:13:36.381"}
+{"level":"info","message":"AI Agent Decision Logged: TIP_SELECTION - Network congestion is MEDIUM. Raising tip recommendation to ...","timestamp":"2026-06-27 15:13:36.456"}
+{"level":"info","message":"AI Tip Decision: 75th percentile with 1.1x multiplier. Reason: Network congestion is MEDIUM. Raising tip recommendation to 75th percentile with 1.1x multiplier to balance landing probability and cost.","timestamp":"2026-06-27 15:13:36.457"}
+{"level":"info","message":"Fetched fresh confirmed blockhash: GaYf5p72jdJJZLnMRW2xkCm66PuQBt2tp2atSF8RHDtz","timestamp":"2026-06-27 15:13:37.333"}
+{"level":"info","message":"Tracking signature for real-time lifecycle: 4oLHgct6ZpUXKpxwrKTY5dAz97Y1VhcKrrdT7kJH3K7JNMuDLqd17k3HjpKdGWS26L2vSsYSknhgWp3ZTmrfig1d","timestamp":"2026-06-27 15:13:37.336"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:13:37.344"}
+{"level":"error","message":"Error submitting bundle to Jito: request to https://ny.devnet.block-engine.jito.wtf/api/v1/bundles failed, reason: getaddrinfo ENOTFOUND ny.devnet.block-engine.jito.wtf","timestamp":"2026-06-27 15:13:37.347"}
+{"level":"error","message":"Error in submission cycle: request to https://ny.devnet.block-engine.jito.wtf/api/v1/bundles failed, reason: getaddrinfo ENOTFOUND ny.devnet.block-engine.jito.wtf","timestamp":"2026-06-27 15:13:37.348"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:13:38.390"}
+{"level":"info","message":"Submission Cycle #476","timestamp":"2026-06-27 15:13:38.390"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:13:38.390"}
+{"level":"info","message":"AI Agent Decision Logged: SUBMISSION_TIMING - Jito leader window is close (4 slots). Ideal timing for inge...","timestamp":"2026-06-27 15:13:38.424"}
+{"level":"info","message":"AI Submission Timing: SUBMIT. Reason: Jito leader window is close (4 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.","timestamp":"2026-06-27 15:13:38.425"}
+{"level":"warn","message":"Failed to fetch live Jito tip floor: HTTP error! status: 400. Using dynamic fallback tip estimates.","timestamp":"2026-06-27 15:13:39.694"}
+{"level":"info","message":"AI Agent Decision Logged: TIP_SELECTION - Network congestion is HIGH. Standard 50th percentile tips ar...","timestamp":"2026-06-27 15:13:39.714"}
+{"level":"info","message":"AI Tip Decision: 95th percentile with 1.3x multiplier. Reason: Network congestion is HIGH. Standard 50th percentile tips are likely to be outbid in the Jito Block Engine auction. Upgrading tip recommendation to 95th percentile with 1.3x multiplier to ensure slot inclusion.","timestamp":"2026-06-27 15:13:39.714"}
+{"level":"warn","message":"Failed to fetch live Jito tip floor: HTTP error! status: 400. Using dynamic fallback tip estimates.","timestamp":"2026-06-27 15:13:40.248"}
+{"level":"info","message":"[Simulator] Generated mock confirmed blockhash: 7saYQtP23o1LxUGUx4XPa7yMENW1tUbxErGCMzJw4bH4","timestamp":"2026-06-27 15:13:40.248"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:13:40.276"}
+{"level":"info","message":"[Simulator] Mocking bundle submission. Signature: sWei9xHga9LEQmLFJ6jGPeoHQWf5vCSXSCjSAjPCepkhE81ow4n5nCEs5hQxpRiMXs4GyaBa5bU6W71JT6eydevm","timestamp":"2026-06-27 15:13:40.276"}
+{"level":"info","message":"Bundle submitted. Bundle ID: sWei9xHga9LEQmLFJ6jGPeoHQWf5vCSXSCjSAjPCepkhE81ow4n5nCEs5hQxpRiMXs4GyaBa5bU6W71JT6eydevm","timestamp":"2026-06-27 15:13:40.277"}
+{"level":"info","message":"Tx 7f0197dd... processed at slot 429252405","timestamp":"2026-06-27 15:13:40.371"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:13:40.389"}
+{"level":"info","message":"Tx 7f0197dd... confirmed at slot 429252407","timestamp":"2026-06-27 15:13:41.168"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:13:41.187"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:13:50.833"}
+{"level":"info","message":"Submission Cycle #55","timestamp":"2026-06-27 15:13:50.834"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:13:50.834"}
+{"level":"info","message":"AI Agent Decision Logged: SUBMISSION_TIMING - Jito leader window is close (2 slots). Ideal timing for inge...","timestamp":"2026-06-27 15:13:50.858"}
+{"level":"info","message":"AI Submission Timing: SUBMIT. Reason: Jito leader window is close (2 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.","timestamp":"2026-06-27 15:13:50.859"}
+{"level":"info","message":"AI Agent Decision Logged: TIP_SELECTION - Network conditions are healthy (low congestion). Standard 50...","timestamp":"2026-06-27 15:13:51.400"}
+{"level":"info","message":"AI Tip Decision: 50th percentile with 1x multiplier. Reason: Network conditions are healthy (low congestion). Standard 50th percentile tip with 1.0x multiplier is sufficient to win bundle bids.","timestamp":"2026-06-27 15:13:51.402"}
+{"level":"warn","message":"!!! [Fault Injection] Creating a transaction with stale expired blockhash to test AI recovery...","timestamp":"2026-06-27 15:13:51.615"}
+{"level":"info","message":"Tracking signature for real-time lifecycle: 5GJbPQQtgP3Q74GtkEMXQJN7e8K6feVzug4ZsLsEycdC8a3XYLvWdbAPRpE1KjkAvJ5tFdTn37L9N5aeFcdpwYmU","timestamp":"2026-06-27 15:13:51.618"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:13:51.629"}
+{"level":"error","message":"Error submitting bundle to Jito: request to https://ny.devnet.block-engine.jito.wtf/api/v1/bundles failed, reason: getaddrinfo ENOTFOUND ny.devnet.block-engine.jito.wtf","timestamp":"2026-06-27 15:13:51.637"}
+{"level":"error","message":"Error in submission cycle: request to https://ny.devnet.block-engine.jito.wtf/api/v1/bundles failed, reason: getaddrinfo ENOTFOUND ny.devnet.block-engine.jito.wtf","timestamp":"2026-06-27 15:13:51.638"}
+{"level":"info","message":"Tx 7f0197dd... finalized at slot 429252436","timestamp":"2026-06-27 15:13:52.616"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:13:52.633"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:13:53.390"}
+{"level":"info","message":"Submission Cycle #477","timestamp":"2026-06-27 15:13:53.391"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:13:53.391"}
+{"level":"info","message":"AI Agent Decision Logged: SUBMISSION_TIMING - Jito leader window is close (2 slots). Ideal timing for inge...","timestamp":"2026-06-27 15:13:53.424"}
+{"level":"info","message":"AI Submission Timing: SUBMIT. Reason: Jito leader window is close (2 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.","timestamp":"2026-06-27 15:13:53.424"}
+{"level":"warn","message":"Failed to fetch live Jito tip floor: HTTP error! status: 400. Using dynamic fallback tip estimates.","timestamp":"2026-06-27 15:13:53.857"}
+{"level":"info","message":"AI Agent Decision Logged: TIP_SELECTION - Network congestion is MEDIUM. Raising tip recommendation to ...","timestamp":"2026-06-27 15:13:53.880"}
+{"level":"info","message":"AI Tip Decision: 75th percentile with 1.1x multiplier. Reason: Network congestion is MEDIUM. Raising tip recommendation to 75th percentile with 1.1x multiplier to balance landing probability and cost.","timestamp":"2026-06-27 15:13:53.880"}
+{"level":"warn","message":"Failed to fetch live Jito tip floor: HTTP error! status: 400. Using dynamic fallback tip estimates.","timestamp":"2026-06-27 15:13:54.082"}
+{"level":"info","message":"[Simulator] Generated mock confirmed blockhash: CP44TkD23VsMdWktffRVo9kLJpqo1ZU3Z1kAPjLYbVrK","timestamp":"2026-06-27 15:13:54.083"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:13:54.095"}
+{"level":"info","message":"[Simulator] Mocking bundle submission. Signature: eYEuoWsVbQ87UrR4UUB6CjYxvSq4F4hJd1VE3PXfCawyGrEhpYYwCPydEKoDvCDmGpdFBBXc3LRAAkzN1jKoJqLF","timestamp":"2026-06-27 15:13:54.095"}
+{"level":"info","message":"Bundle submitted. Bundle ID: eYEuoWsVbQ87UrR4UUB6CjYxvSq4F4hJd1VE3PXfCawyGrEhpYYwCPydEKoDvCDmGpdFBBXc3LRAAkzN1jKoJqLF","timestamp":"2026-06-27 15:13:54.095"}
+{"level":"info","message":"Tx 334f68f1... processed at slot 429252440","timestamp":"2026-06-27 15:13:54.257"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:13:54.311"}
+{"level":"info","message":"Tx 334f68f1... confirmed at slot 429252442","timestamp":"2026-06-27 15:13:54.798"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:13:54.843"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:14:05.838"}
+{"level":"info","message":"Submission Cycle #56","timestamp":"2026-06-27 15:14:05.838"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:14:05.839"}
+{"level":"info","message":"AI Agent Decision Logged: SUBMISSION_TIMING - Jito leader window is close (1 slots). Ideal timing for inge...","timestamp":"2026-06-27 15:14:05.884"}
+{"level":"info","message":"AI Submission Timing: SUBMIT. Reason: Jito leader window is close (1 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.","timestamp":"2026-06-27 15:14:05.885"}
+{"level":"info","message":"Tx 334f68f1... finalized at slot 429252471","timestamp":"2026-06-27 15:14:06.048"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:14:06.067"}
+{"level":"info","message":"AI Agent Decision Logged: TIP_SELECTION - Network congestion is HIGH. Standard 50th percentile tips ar...","timestamp":"2026-06-27 15:14:06.404"}
+{"level":"info","message":"AI Tip Decision: 95th percentile with 1.3x multiplier. Reason: Network congestion is HIGH. Standard 50th percentile tips are likely to be outbid in the Jito Block Engine auction. Upgrading tip recommendation to 95th percentile with 1.3x multiplier to ensure slot inclusion.","timestamp":"2026-06-27 15:14:06.404"}
+{"level":"info","message":"Fetched fresh confirmed blockhash: 7qCmcFN4W2HY4RxbqQZ5aVysFh2ohR7koYR6e7sRtDhp","timestamp":"2026-06-27 15:14:07.462"}
+{"level":"info","message":"Tracking signature for real-time lifecycle: 2y3fbmn5zwC4xPeUhLQGUhi6UWVhbfjgtki1i5eSCHYsbXt2dynkUbcgEVmNnmQPGiuyHwMezGyJBDTZBqJZCgYi","timestamp":"2026-06-27 15:14:07.465"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:14:07.478"}
+{"level":"error","message":"Error submitting bundle to Jito: request to https://ny.devnet.block-engine.jito.wtf/api/v1/bundles failed, reason: getaddrinfo ENOTFOUND ny.devnet.block-engine.jito.wtf","timestamp":"2026-06-27 15:14:07.483"}
+{"level":"error","message":"Error in submission cycle: request to https://ny.devnet.block-engine.jito.wtf/api/v1/bundles failed, reason: getaddrinfo ENOTFOUND ny.devnet.block-engine.jito.wtf","timestamp":"2026-06-27 15:14:07.484"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:14:08.394"}
+{"level":"info","message":"Submission Cycle #478","timestamp":"2026-06-27 15:14:08.396"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:14:08.397"}
+{"level":"info","message":"AI Agent Decision Logged: SUBMISSION_TIMING - Jito leader window is close (5 slots). Ideal timing for inge...","timestamp":"2026-06-27 15:14:08.418"}
+{"level":"info","message":"AI Submission Timing: SUBMIT. Reason: Jito leader window is close (5 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.","timestamp":"2026-06-27 15:14:08.418"}
+{"level":"warn","message":"Failed to fetch live Jito tip floor: HTTP error! status: 400. Using dynamic fallback tip estimates.","timestamp":"2026-06-27 15:14:08.943"}
+{"level":"info","message":"AI Agent Decision Logged: TIP_SELECTION - Network conditions are healthy (low congestion). Standard 50...","timestamp":"2026-06-27 15:14:08.966"}
+{"level":"info","message":"AI Tip Decision: 50th percentile with 1x multiplier. Reason: Network conditions are healthy (low congestion). Standard 50th percentile tip with 1.0x multiplier is sufficient to win bundle bids.","timestamp":"2026-06-27 15:14:08.966"}
+{"level":"warn","message":"Failed to fetch live Jito tip floor: HTTP error! status: 400. Using dynamic fallback tip estimates.","timestamp":"2026-06-27 15:14:09.120"}
+{"level":"info","message":"[Simulator] Generated mock confirmed blockhash: 5fDg1xB4VchdodSNoVMie3SZyB8qiy5TKXy9aFftGCH4","timestamp":"2026-06-27 15:14:09.121"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:14:09.136"}
+{"level":"info","message":"[Simulator] Mocking bundle submission. Signature: EUQ9rPGw8xiKCrrqDVSfiT1AuspJjni1mJFQ1zXjXHjY5R2z1GUH58hDZxuwdcyfragvnEkVquppaRc1Ljo4GtNg","timestamp":"2026-06-27 15:14:09.136"}
+{"level":"info","message":"Bundle submitted. Bundle ID: EUQ9rPGw8xiKCrrqDVSfiT1AuspJjni1mJFQ1zXjXHjY5R2z1GUH58hDZxuwdcyfragvnEkVquppaRc1Ljo4GtNg","timestamp":"2026-06-27 15:14:09.136"}
+{"level":"info","message":"Tx 1e51d2f5... processed at slot 429252479","timestamp":"2026-06-27 15:14:09.139"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:14:09.148"}
+{"level":"info","message":"Tx 1e51d2f5... confirmed at slot 429252479","timestamp":"2026-06-27 15:14:09.149"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:14:09.159"}
+{"level":"info","message":"Tx 1e51d2f5... finalized at slot 429252479","timestamp":"2026-06-27 15:14:09.404"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:14:09.417"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:14:20.849"}
+{"level":"info","message":"Submission Cycle #57","timestamp":"2026-06-27 15:14:20.850"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:14:20.850"}
+{"level":"info","message":"AI Agent Decision Logged: SUBMISSION_TIMING - Jito leader window is close (3 slots). Ideal timing for inge...","timestamp":"2026-06-27 15:14:20.887"}
+{"level":"info","message":"AI Submission Timing: SUBMIT. Reason: Jito leader window is close (3 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.","timestamp":"2026-06-27 15:14:20.888"}
+{"level":"info","message":"AI Agent Decision Logged: TIP_SELECTION - Network congestion is MEDIUM. Raising tip recommendation to ...","timestamp":"2026-06-27 15:14:21.756"}
+{"level":"info","message":"AI Tip Decision: 75th percentile with 1.1x multiplier. Reason: Network congestion is MEDIUM. Raising tip recommendation to 75th percentile with 1.1x multiplier to balance landing probability and cost.","timestamp":"2026-06-27 15:14:21.757"}
+{"level":"info","message":"Fetched fresh confirmed blockhash: H1kktCAxkrt3NPAZbfybHUY6bmaTQM9sivwLVdwewtWr","timestamp":"2026-06-27 15:14:23.061"}
+{"level":"info","message":"Tracking signature for real-time lifecycle: 5pCeBrnbMEU1R7h4NxHfnvmvkfA3tSBBXZQ7Z3NmkHdaDCzZWJsTk6K77adTvA9jFDwQDg2BQge7DVrW7PuY3BQg","timestamp":"2026-06-27 15:14:23.065"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:14:23.075"}
+{"level":"error","message":"Error submitting bundle to Jito: request to https://ny.devnet.block-engine.jito.wtf/api/v1/bundles failed, reason: getaddrinfo ENOTFOUND ny.devnet.block-engine.jito.wtf","timestamp":"2026-06-27 15:14:23.082"}
+{"level":"error","message":"Error in submission cycle: request to https://ny.devnet.block-engine.jito.wtf/api/v1/bundles failed, reason: getaddrinfo ENOTFOUND ny.devnet.block-engine.jito.wtf","timestamp":"2026-06-27 15:14:23.088"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:14:23.400"}
+{"level":"info","message":"Submission Cycle #479","timestamp":"2026-06-27 15:14:23.400"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2026-06-27 15:14:23.400"}
+{"level":"info","message":"AI Agent Decision Logged: SUBMISSION_TIMING - Jito leader window is close (2 slots). Ideal timing for inge...","timestamp":"2026-06-27 15:14:23.435"}
+{"level":"info","message":"AI Submission Timing: SUBMIT. Reason: Jito leader window is close (2 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.","timestamp":"2026-06-27 15:14:23.435"}
+{"level":"warn","message":"Failed to fetch live Jito tip floor: HTTP error! status: 400. Using dynamic fallback tip estimates.","timestamp":"2026-06-27 15:14:24.029"}
+{"level":"info","message":"AI Agent Decision Logged: TIP_SELECTION - Network conditions are healthy (low congestion). Standard 50...","timestamp":"2026-06-27 15:14:24.049"}
+{"level":"info","message":"AI Tip Decision: 50th percentile with 1x multiplier. Reason: Network conditions are healthy (low congestion). Standard 50th percentile tip with 1.0x multiplier is sufficient to win bundle bids.","timestamp":"2026-06-27 15:14:24.050"}
+{"level":"warn","message":"Failed to fetch live Jito tip floor: HTTP error! status: 400. Using dynamic fallback tip estimates.","timestamp":"2026-06-27 15:14:24.198"}
+{"level":"info","message":"[Simulator] Generated mock confirmed blockhash: HK9HeHWLFjeNTvT5EFk7FrsridJ1zksxW8txzgYxDq5N","timestamp":"2026-06-27 15:14:24.198"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:14:24.213"}
+{"level":"info","message":"[Simulator] Mocking bundle submission. Signature: r6GX4swxMcNNHZ6DuzptbT5YT6VCq2a9Rq9SND1xieecVnvPJoKFj7HbKV2Q9xpfJAqMsFLBvnXHBfMnvzMpr7Lx","timestamp":"2026-06-27 15:14:24.214"}
+{"level":"info","message":"Bundle submitted. Bundle ID: r6GX4swxMcNNHZ6DuzptbT5YT6VCq2a9Rq9SND1xieecVnvPJoKFj7HbKV2Q9xpfJAqMsFLBvnXHBfMnvzMpr7Lx","timestamp":"2026-06-27 15:14:24.214"}
+{"level":"info","message":"Tx 5b9d70a8... processed at slot 429252518","timestamp":"2026-06-27 15:14:24.443"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:14:24.462"}
+{"level":"info","message":"Tx 5b9d70a8... confirmed at slot 429252520","timestamp":"2026-06-27 15:14:25.541"}
+{"level":"info","message":"Saved transaction state to logs\\lifecycle-log.json","timestamp":"2026-06-27 15:14:25.563"}

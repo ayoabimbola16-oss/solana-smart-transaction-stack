@@ -50,8 +50,8 @@ body {
 /* Header */
 .app-header {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  gap: 1.5rem;
   margin-bottom: 2rem;
   background: var(--panel-bg);
   backdrop-filter: blur(12px);
@@ -60,6 +60,15 @@ body {
   border-radius: 16px;
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
 }
+
+@media (min-width: 768px) {
+  .app-header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
 
 .brand {
   display: flex;
@@ -98,8 +107,10 @@ body {
 
 .stats-bar {
   display: flex;
+  flex-wrap: wrap;
   gap: 1.5rem;
 }
+
 
 .stat-card {
   display: flex;
@@ -124,9 +135,17 @@ body {
 /* Grid Layout */
 .dashboard-grid {
   display: grid;
-  grid-template-columns: 1.5fr 1fr;
-  gap: 2rem;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
 }
+
+@media (min-width: 1024px) {
+  .dashboard-grid {
+    grid-template-columns: 1.5fr 1fr;
+    gap: 2rem;
+  }
+}
+
 
 .panel {
   background: var(--panel-bg);
@@ -715,13 +734,15 @@ body {
 /* AI Outcome Cards Styling */
 .outcome-grid {
   display: flex;
-  gap: 1.5rem;
+  flex-wrap: wrap;
+  gap: 1rem;
   margin-top: 0.5rem;
   background: rgba(255, 255, 255, 0.02);
   padding: 0.75rem;
   border-radius: 8px;
   border: 1px solid var(--border-color);
 }
+
 
 .outcome-item {
   display: flex;
