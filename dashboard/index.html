@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Solana Smart Transaction Stack Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="glass-bg"></div>
+  <div class="app-container">
+    <header class="app-header">
+      <div class="brand-group">
+        <div class="brand">
+          <span class="logo-dot"></span>
+          <h1>Solana Smart Transaction Stack</h1>
+          <span class="badge">Mainnet Prototype</span>
+        </div>
+        <div class="nav-tabs">
+          <button class="nav-tab active" id="tab-dashboard">Dashboard</button>
+          <button class="nav-tab" id="tab-architecture">Architecture</button>
+        </div>
+      </div>
+      <div class="stats-bar">
+        <div class="stat-card">
+          <span class="stat-label">Current Slot</span>
+          <span class="stat-value" id="current-slot">-----</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-label">Net Health Delta</span>
+          <span class="stat-value" id="net-health-delta">---ms</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-label">Success Rate</span>
+          <span class="stat-value" id="success-rate">100%</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Dashboard View Container -->
+    <main class="dashboard-grid" id="dashboard-view">
+      <!-- Section 1: Active & Logged Transactions -->
+      <section class="panel transactions-panel">
+        <div class="panel-header">
+          <h2>Transaction Lifecycle Stream</h2>
+          <span class="active-count" id="active-tx-count">0 tracking</span>
+        </div>
+        <div class="tx-list-container">
+          <div class="tx-list-headers">
+            <span>Signature</span>
+            <span>Jito Tip</span>
+            <span>Lifecycle Progress</span>
+            <span>Status</span>
+          </div>
+          <div id="transaction-list" class="tx-list">
+            <!-- Dynamic elements will be inserted here -->
+            <div class="no-data">Waiting for transactions to register...</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Column 2: Controls + AI -->
+      <div class="sidebar-column">
+        <!-- Control Panel -->
+        <section class="panel control-panel">
+          <div class="panel-header">
+            <h2>System Controls</h2>
+            <span class="status-indicator simulated" id="simulation-status">Simulation Mode</span>
+          </div>
+          <div class="control-actions">
+            <button id="btn-submit-tx" class="btn btn-primary">Trigger Tx Bundle</button>
+            <button id="btn-inject-fault" class="btn btn-warning">Inject Stale Blockhash</button>
+            
+            <div class="control-group">
+              <label for="select-ai-provider">AI Engine Provider:</label>
+              <select id="select-ai-provider" class="select-control">
+                <option value="mock">Rule-based Mock LLM</option>
+                <option value="gemini">Google Gemini 1.5 Flash</option>
+                <option value="openai">OpenAI GPT-4o-Mini</option>
+                <option value="anthropic">Anthropic Claude 3.5 Sonnet</option>
+              </select>
+            </div>
+
+            <a id="btn-export-logs" href="/api/export-logs" class="btn btn-secondary" download>Export Telemetry Log</a>
+          </div>
+        </section>
+
+        <!-- Section 2: AI Agent Decisions -->
+        <section class="panel ai-panel">
+          <div class="panel-header">
+            <h2>AI Agent Reasoning Chains</h2>
+            <span class="badge ai-badge">Autonomous Mode</span>
+          </div>
+          <div class="decision-feed" id="ai-decision-feed">
+            <div class="no-data">Waiting for AI agent decisions...</div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!-- Architecture Overview View Container -->
+    <main class="architecture-view hidden" id="architecture-view-panel">
+      <section class="panel arch-full-panel">
+        <div class="panel-header">
+          <h2>System Architecture & Components</h2>
+          <span class="badge">Modular Ingestion Flow</span>
+        </div>
+        <div class="arch-content">
+          <div class="arch-intro">
+            <p>The Smart Transaction Stack consists of a high-performance transaction pipeline designed to optimize bundle submission timing, calculate tip floors dynamically, and autonomously handle errors using AI-driven reasoning.</p>
+          </div>
+          <div class="arch-flow-diagram">
+            <div class="flow-step" id="arch-step-1">
+              <div class="step-num">01</div>
+              <div class="step-box">
+                <h3>Live Slot Monitor</h3>
+                <p>Subscribes to slot updates via <strong>Yellowstone gRPC</strong>, falling back to Web3 WebSockets. Emits live slots to coordinate ingestion and Jito leader slots.</p>
+              </div>
+            </div>
+            <div class="flow-arrow">&#8594;</div>
+            <div class="flow-step" id="arch-step-2">
+              <div class="step-num">02</div>
+              <div class="step-box">
+                <h3>AI Decision Engine</h3>
+                <p>Decides submission timing based on Jito slot distance, evaluates network congestion to dynamically tip, and reasons about failures.</p>
+              </div>
+            </div>
+            <div class="flow-arrow">&#8594;</div>
+            <div class="flow-step" id="arch-step-3">
+              <div class="step-num">03</div>
+              <div class="step-box">
+                <h3>Jito Bundle Builder</h3>
+                <p>Compiles a VersionedTransaction, signs it, and attaches a dynamic tip payment targeting one of the 8 Jito validator tip accounts.</p>
+              </div>
+            </div>
+            <div class="flow-arrow">&#8594;</div>
+            <div class="flow-step" id="arch-step-4">
+              <div class="step-num">04</div>
+              <div class="step-box">
+                <h3>Lifecycle Monitor</h3>
+                <p>Tracks transaction status (Submitted → Processed → Confirmed → Finalized) in real-time, calculating latencies and classifying failures.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="arch-details-grid">
+            <div class="arch-card">
+              <h4>Failure Classification & AI Recovery</h4>
+              <p>When a transaction fails, it is passed to the <strong>Failure Classifier</strong> to determine the root cause (e.g. <code>EXPIRED_BLOCKHASH</code>, <code>FEE_TOO_LOW</code>). The AI Agent then adjusts parameters (tip percentile and multipliers), refreshes the blockhash using <strong>confirmed</strong> commitment, and resubmits autonomously.</p>
+            </div>
+            <div class="arch-card">
+              <h4>Triton Geyser gRPC Subscription</h4>
+              <p>To ensure high throughput and low latency, we use Yellowstone gRPC. To prevent mainnet node connection flooding, we apply a specific <code>accountInclude</code> filter targeting only our sender wallet. This filters out all other network activity at the server level.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
