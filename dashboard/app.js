@@ -335,16 +335,22 @@
             </div>
           </div>
         `;
-      } else if (decision.decisionType === 'FAILURE_REASONING') {
+      } else if (decision.decisionType === 'RETRY_ANALYSIS') {
+        const retryClass = parsed.shouldRetry ? 'pill-green' : 'pill-red';
+        const retryLabel = parsed.shouldRetry ? 'YES' : 'NO';
         outcomeHtml = `
           <div class="outcome-grid">
             <div class="outcome-item">
-              <span class="outcome-label">Failure:</span>
-              <span class="outcome-val pill-red">${parsed.classification || 'EXPIRED_BLOCKHASH'}</span>
+              <span class="outcome-label">Should Retry:</span>
+              <span class="outcome-val ${retryClass}">${retryLabel}</span>
             </div>
             <div class="outcome-item">
-              <span class="outcome-label">Action:</span>
-              <span class="outcome-val pill-purple">${parsed.action || 'RETRY'}</span>
+              <span class="outcome-label">Adjusted Tip:</span>
+              <span class="outcome-val pill-purple">${parsed.adjustedTipPercentile || '50th'} percentile</span>
+            </div>
+            <div class="outcome-item">
+              <span class="outcome-label">Multiplier:</span>
+              <span class="outcome-val pill-blue">${parsed.adjustedTipMultiplier ? parsed.adjustedTipMultiplier + 'x' : '1.0x'}</span>
             </div>
           </div>
         `;

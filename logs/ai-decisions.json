@@ -24574,5 +24574,1484 @@
       "multiplier": 1,
       "reason": "Network conditions are healthy (low congestion). Standard 50th percentile tip with 1.0x multiplier is sufficient to win bundle bids."
     }
+  },
+  {
+    "timestamp": 1782569675867,
+    "decisionType": "SUBMISSION_TIMING",
+    "inputContext": {
+      "currentSlot": 472340586,
+      "jitoLeaderSlotDistance": 3
+    },
+    "reasoningChain": "Jito leader window is close (3 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.",
+    "outputDecision": {
+      "action": "submit",
+      "delayMs": 0,
+      "reason": "Jito leader window is close (3 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately."
+    }
+  },
+  {
+    "timestamp": 1782569676425,
+    "decisionType": "TIP_SELECTION",
+    "inputContext": {
+      "recentStats": {
+        "landed_tips_25th_percentile": 0.0000011715,
+        "landed_tips_50th_percentile": 0.000005295,
+        "landed_tips_75th_percentile": 0.0000248615,
+        "landed_tips_95th_percentile": 0.000056327499999999965,
+        "landed_tips_99th_percentile": 0.0008021280700000034
+      },
+      "currentCongestion": "low"
+    },
+    "reasoningChain": "Network conditions are healthy (low congestion). Standard 50th percentile tip with 1.0x multiplier is sufficient to win bundle bids.",
+    "outputDecision": {
+      "percentile": "50th",
+      "multiplier": 1,
+      "reason": "Network conditions are healthy (low congestion). Standard 50th percentile tip with 1.0x multiplier is sufficient to win bundle bids."
+    }
+  },
+  {
+    "timestamp": 1782569678423,
+    "decisionType": "SUBMISSION_TIMING",
+    "inputContext": {
+      "currentSlot": 429252550,
+      "jitoLeaderSlotDistance": 2
+    },
+    "reasoningChain": "Jito leader window is close (2 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.",
+    "outputDecision": {
+      "action": "submit",
+      "delayMs": 0,
+      "reason": "Jito leader window is close (2 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately."
+    }
+  },
+  {
+    "timestamp": 1782569679684,
+    "decisionType": "TIP_SELECTION",
+    "inputContext": {
+      "recentStats": {
+        "landed_tips_25th_percentile": 0.0001,
+        "landed_tips_50th_percentile": 0.0002,
+        "landed_tips_75th_percentile": 0.00030000000000000003,
+        "landed_tips_95th_percentile": 0.0006000000000000001,
+        "landed_tips_99th_percentile": 0.001
+      },
+      "currentCongestion": "high"
+    },
+    "reasoningChain": "Network congestion is HIGH. Standard 50th percentile tips are likely to be outbid in the Jito Block Engine auction. Upgrading tip recommendation to 95th percentile with 1.3x multiplier to ensure slot inclusion.",
+    "outputDecision": {
+      "percentile": "95th",
+      "multiplier": 1.3,
+      "reason": "Network congestion is HIGH. Standard 50th percentile tips are likely to be outbid in the Jito Block Engine auction. Upgrading tip recommendation to 95th percentile with 1.3x multiplier to ensure slot inclusion."
+    }
+  },
+  {
+    "timestamp": 1782569690890,
+    "decisionType": "SUBMISSION_TIMING",
+    "inputContext": {
+      "currentSlot": 472340627,
+      "jitoLeaderSlotDistance": 4
+    },
+    "reasoningChain": "Jito leader window is close (4 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.",
+    "outputDecision": {
+      "action": "submit",
+      "delayMs": 0,
+      "reason": "Jito leader window is close (4 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately."
+    }
+  },
+  {
+    "timestamp": 1782569691399,
+    "decisionType": "TIP_SELECTION",
+    "inputContext": {
+      "recentStats": {
+        "landed_tips_25th_percentile": 0.000001001,
+        "landed_tips_50th_percentile": 0.000005927,
+        "landed_tips_75th_percentile": 0.000014827,
+        "landed_tips_95th_percentile": 0.0001,
+        "landed_tips_99th_percentile": 0.001
+      },
+      "currentCongestion": "low"
+    },
+    "reasoningChain": "Network conditions are healthy (low congestion). Standard 50th percentile tip with 1.0x multiplier is sufficient to win bundle bids.",
+    "outputDecision": {
+      "percentile": "50th",
+      "multiplier": 1,
+      "reason": "Network conditions are healthy (low congestion). Standard 50th percentile tip with 1.0x multiplier is sufficient to win bundle bids."
+    }
+  },
+  {
+    "timestamp": 1782569693425,
+    "decisionType": "SUBMISSION_TIMING",
+    "inputContext": {
+      "currentSlot": 429252589,
+      "jitoLeaderSlotDistance": 3
+    },
+    "reasoningChain": "Jito leader window is close (3 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.",
+    "outputDecision": {
+      "action": "submit",
+      "delayMs": 0,
+      "reason": "Jito leader window is close (3 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately."
+    }
+  },
+  {
+    "timestamp": 1782569694068,
+    "decisionType": "TIP_SELECTION",
+    "inputContext": {
+      "recentStats": {
+        "landed_tips_25th_percentile": 0.0001,
+        "landed_tips_50th_percentile": 0.0002,
+        "landed_tips_75th_percentile": 0.00030000000000000003,
+        "landed_tips_95th_percentile": 0.0006000000000000001,
+        "landed_tips_99th_percentile": 0.001
+      },
+      "currentCongestion": "low"
+    },
+    "reasoningChain": "Network conditions are healthy (low congestion). Standard 50th percentile tip with 1.0x multiplier is sufficient to win bundle bids.",
+    "outputDecision": {
+      "percentile": "50th",
+      "multiplier": 1,
+      "reason": "Network conditions are healthy (low congestion). Standard 50th percentile tip with 1.0x multiplier is sufficient to win bundle bids."
+    }
+  },
+  {
+    "timestamp": 1782569705896,
+    "decisionType": "SUBMISSION_TIMING",
+    "inputContext": {
+      "currentSlot": 472340668,
+      "jitoLeaderSlotDistance": 2
+    },
+    "reasoningChain": "Jito leader window is close (2 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.",
+    "outputDecision": {
+      "action": "submit",
+      "delayMs": 0,
+      "reason": "Jito leader window is close (2 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately."
+    }
+  },
+  {
+    "timestamp": 1782569706382,
+    "decisionType": "TIP_SELECTION",
+    "inputContext": {
+      "recentStats": {
+        "landed_tips_25th_percentile": 0.000001001,
+        "landed_tips_50th_percentile": 0.000005927,
+        "landed_tips_75th_percentile": 0.000014827,
+        "landed_tips_95th_percentile": 0.0001,
+        "landed_tips_99th_percentile": 0.001
+      },
+      "currentCongestion": "high"
+    },
+    "reasoningChain": "Network congestion is HIGH. Standard 50th percentile tips are likely to be outbid in the Jito Block Engine auction. Upgrading tip recommendation to 95th percentile with 1.3x multiplier to ensure slot inclusion.",
+    "outputDecision": {
+      "percentile": "95th",
+      "multiplier": 1.3,
+      "reason": "Network congestion is HIGH. Standard 50th percentile tips are likely to be outbid in the Jito Block Engine auction. Upgrading tip recommendation to 95th percentile with 1.3x multiplier to ensure slot inclusion."
+    }
+  },
+  {
+    "timestamp": 1782569708432,
+    "decisionType": "SUBMISSION_TIMING",
+    "inputContext": {
+      "currentSlot": 429252625,
+      "jitoLeaderSlotDistance": 2
+    },
+    "reasoningChain": "Jito leader window is close (2 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.",
+    "outputDecision": {
+      "action": "submit",
+      "delayMs": 0,
+      "reason": "Jito leader window is close (2 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately."
+    }
+  },
+  {
+    "timestamp": 1782569709041,
+    "decisionType": "TIP_SELECTION",
+    "inputContext": {
+      "recentStats": {
+        "landed_tips_25th_percentile": 0.00010312162105575723,
+        "landed_tips_50th_percentile": 0.00020624324211151445,
+        "landed_tips_75th_percentile": 0.00030936486316727167,
+        "landed_tips_95th_percentile": 0.0006187297263345433,
+        "landed_tips_99th_percentile": 0.0010312162105575722
+      },
+      "currentCongestion": "low"
+    },
+    "reasoningChain": "Network conditions are healthy (low congestion). Standard 50th percentile tip with 1.0x multiplier is sufficient to win bundle bids.",
+    "outputDecision": {
+      "percentile": "50th",
+      "multiplier": 1,
+      "reason": "Network conditions are healthy (low congestion). Standard 50th percentile tip with 1.0x multiplier is sufficient to win bundle bids."
+    }
+  },
+  {
+    "timestamp": 1782569720893,
+    "decisionType": "SUBMISSION_TIMING",
+    "inputContext": {
+      "currentSlot": 472340706,
+      "jitoLeaderSlotDistance": 4
+    },
+    "reasoningChain": "Jito leader window is close (4 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.",
+    "outputDecision": {
+      "action": "submit",
+      "delayMs": 0,
+      "reason": "Jito leader window is close (4 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately."
+    }
+  },
+  {
+    "timestamp": 1782569721660,
+    "decisionType": "TIP_SELECTION",
+    "inputContext": {
+      "recentStats": {
+        "landed_tips_25th_percentile": 0.00001048375,
+        "landed_tips_50th_percentile": 0.000015570000000000002,
+        "landed_tips_75th_percentile": 0.0000264925,
+        "landed_tips_95th_percentile": 0.000050530899999999994,
+        "landed_tips_99th_percentile": 0.0003663959999999929
+      },
+      "currentCongestion": "low"
+    },
+    "reasoningChain": "Network conditions are healthy (low congestion). Standard 50th percentile tip with 1.0x multiplier is sufficient to win bundle bids.",
+    "outputDecision": {
+      "percentile": "50th",
+      "multiplier": 1,
+      "reason": "Network conditions are healthy (low congestion). Standard 50th percentile tip with 1.0x multiplier is sufficient to win bundle bids."
+    }
+  },
+  {
+    "timestamp": 1782569723423,
+    "decisionType": "SUBMISSION_TIMING",
+    "inputContext": {
+      "currentSlot": 429252633,
+      "jitoLeaderSlotDistance": 5
+    },
+    "reasoningChain": "Jito leader window is close (5 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.",
+    "outputDecision": {
+      "action": "submit",
+      "delayMs": 0,
+      "reason": "Jito leader window is close (5 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately."
+    }
+  },
+  {
+    "timestamp": 1782569723925,
+    "decisionType": "TIP_SELECTION",
+    "inputContext": {
+      "recentStats": {
+        "landed_tips_25th_percentile": 0.00011527862918473378,
+        "landed_tips_50th_percentile": 0.00023055725836946755,
+        "landed_tips_75th_percentile": 0.0003458358875542013,
+        "landed_tips_95th_percentile": 0.0006916717751084026,
+        "landed_tips_99th_percentile": 0.0011527862918473378
+      },
+      "currentCongestion": "medium"
+    },
+    "reasoningChain": "Network congestion is MEDIUM. Raising tip recommendation to 75th percentile with 1.1x multiplier to balance landing probability and cost.",
+    "outputDecision": {
+      "percentile": "75th",
+      "multiplier": 1.1,
+      "reason": "Network congestion is MEDIUM. Raising tip recommendation to 75th percentile with 1.1x multiplier to balance landing probability and cost."
+    }
+  },
+  {
+    "timestamp": 1782569735893,
+    "decisionType": "SUBMISSION_TIMING",
+    "inputContext": {
+      "currentSlot": 472340747,
+      "jitoLeaderSlotDistance": 2
+    },
+    "reasoningChain": "Jito leader window is close (2 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.",
+    "outputDecision": {
+      "action": "submit",
+      "delayMs": 0,
+      "reason": "Jito leader window is close (2 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately."
+    }
+  },
+  {
+    "timestamp": 1782569736526,
+    "decisionType": "TIP_SELECTION",
+    "inputContext": {
+      "recentStats": {
+        "landed_tips_25th_percentile": 0.00001048375,
+        "landed_tips_50th_percentile": 0.000015570000000000002,
+        "landed_tips_75th_percentile": 0.0000264925,
+        "landed_tips_95th_percentile": 0.000050530899999999994,
+        "landed_tips_99th_percentile": 0.0003663959999999929
+      },
+      "currentCongestion": "low"
+    },
+    "reasoningChain": "Network conditions are healthy (low congestion). Standard 50th percentile tip with 1.0x multiplier is sufficient to win bundle bids.",
+    "outputDecision": {
+      "percentile": "50th",
+      "multiplier": 1,
+      "reason": "Network conditions are healthy (low congestion). Standard 50th percentile tip with 1.0x multiplier is sufficient to win bundle bids."
+    }
+  },
+  {
+    "timestamp": 1782569738439,
+    "decisionType": "SUBMISSION_TIMING",
+    "inputContext": {
+      "currentSlot": 429252695,
+      "jitoLeaderSlotDistance": 2
+    },
+    "reasoningChain": "Jito leader window is close (2 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.",
+    "outputDecision": {
+      "action": "submit",
+      "delayMs": 0,
+      "reason": "Jito leader window is close (2 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately."
+    }
+  },
+  {
+    "timestamp": 1782569740388,
+    "decisionType": "TIP_SELECTION",
+    "inputContext": {
+      "recentStats": {
+        "landed_tips_25th_percentile": 0.0001276081509568811,
+        "landed_tips_50th_percentile": 0.0002552163019137622,
+        "landed_tips_75th_percentile": 0.00038282445287064336,
+        "landed_tips_95th_percentile": 0.0007656489057412867,
+        "landed_tips_99th_percentile": 0.001276081509568811
+      },
+      "currentCongestion": "high"
+    },
+    "reasoningChain": "Network congestion is HIGH. Standard 50th percentile tips are likely to be outbid in the Jito Block Engine auction. Upgrading tip recommendation to 95th percentile with 1.3x multiplier to ensure slot inclusion.",
+    "outputDecision": {
+      "percentile": "95th",
+      "multiplier": 1.3,
+      "reason": "Network congestion is HIGH. Standard 50th percentile tips are likely to be outbid in the Jito Block Engine auction. Upgrading tip recommendation to 95th percentile with 1.3x multiplier to ensure slot inclusion."
+    }
+  },
+  {
+    "timestamp": 1782569750907,
+    "decisionType": "SUBMISSION_TIMING",
+    "inputContext": {
+      "currentSlot": 472340785,
+      "jitoLeaderSlotDistance": 3
+    },
+    "reasoningChain": "Jito leader window is close (3 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.",
+    "outputDecision": {
+      "action": "submit",
+      "delayMs": 0,
+      "reason": "Jito leader window is close (3 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately."
+    }
+  },
+  {
+    "timestamp": 1782569751426,
+    "decisionType": "TIP_SELECTION",
+    "inputContext": {
+      "recentStats": {
+        "landed_tips_25th_percentile": 0.000001193,
+        "landed_tips_50th_percentile": 0.0000018335,
+        "landed_tips_75th_percentile": 0.00000759575,
+        "landed_tips_95th_percentile": 0.00006106280000000001,
+        "landed_tips_99th_percentile": 0.00010103265
+      },
+      "currentCongestion": "medium"
+    },
+    "reasoningChain": "Network congestion is MEDIUM. Raising tip recommendation to 75th percentile with 1.1x multiplier to balance landing probability and cost.",
+    "outputDecision": {
+      "percentile": "75th",
+      "multiplier": 1.1,
+      "reason": "Network congestion is MEDIUM. Raising tip recommendation to 75th percentile with 1.1x multiplier to balance landing probability and cost."
+    }
+  },
+  {
+    "timestamp": 1782569753446,
+    "decisionType": "SUBMISSION_TIMING",
+    "inputContext": {
+      "currentSlot": 429252734,
+      "jitoLeaderSlotDistance": 1
+    },
+    "reasoningChain": "Jito leader window is close (1 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.",
+    "outputDecision": {
+      "action": "submit",
+      "delayMs": 0,
+      "reason": "Jito leader window is close (1 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately."
+    }
+  },
+  {
+    "timestamp": 1782569754106,
+    "decisionType": "TIP_SELECTION",
+    "inputContext": {
+      "recentStats": {
+        "landed_tips_25th_percentile": 0.00013633788035623062,
+        "landed_tips_50th_percentile": 0.00027267576071246123,
+        "landed_tips_75th_percentile": 0.00040901364106869185,
+        "landed_tips_95th_percentile": 0.0008180272821373837,
+        "landed_tips_99th_percentile": 0.0013633788035623063
+      },
+      "currentCongestion": "low"
+    },
+    "reasoningChain": "Network conditions are healthy (low congestion). Standard 50th percentile tip with 1.0x multiplier is sufficient to win bundle bids.",
+    "outputDecision": {
+      "percentile": "50th",
+      "multiplier": 1,
+      "reason": "Network conditions are healthy (low congestion). Standard 50th percentile tip with 1.0x multiplier is sufficient to win bundle bids."
+    }
+  },
+  {
+    "timestamp": 1782569754514,
+    "decisionType": "RETRY_ANALYSIS",
+    "inputContext": {
+      "signature": "e10ae0681ee61addb337822a85d3d7752b9051508da0d0b052f5117197f5f4be5fc8827f5896a5ef8a2ff4c153bb1b1da6807bca3434bc89afe6c21fd310ce06",
+      "failureType": "EXPIRED_BLOCKHASH",
+      "errorDetails": "Blockhash is expired (simulated)",
+      "retryCount": 0
+    },
+    "reasoningChain": "Detected blockhash expiry. This typically occurs under heavy network load or slot skips. Decision: refresh blockhash immediately, elevate tip percentile to 75th to increase priority in the next Jito block, and resubmit.",
+    "outputDecision": {
+      "shouldRetry": true,
+      "adjustedTipPercentile": "75th",
+      "adjustedTipMultiplier": 1.2,
+      "reason": "Detected blockhash expiry. This typically occurs under heavy network load or slot skips. Decision: refresh blockhash immediately, elevate tip percentile to 75th to increase priority in the next Jito block, and resubmit."
+    }
+  },
+  {
+    "timestamp": 1782569765912,
+    "decisionType": "SUBMISSION_TIMING",
+    "inputContext": {
+      "currentSlot": 472340825,
+      "jitoLeaderSlotDistance": 5
+    },
+    "reasoningChain": "Jito leader window is close (5 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.",
+    "outputDecision": {
+      "action": "submit",
+      "delayMs": 0,
+      "reason": "Jito leader window is close (5 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately."
+    }
+  },
+  {
+    "timestamp": 1782569766485,
+    "decisionType": "TIP_SELECTION",
+    "inputContext": {
+      "recentStats": {
+        "landed_tips_25th_percentile": 0.000001193,
+        "landed_tips_50th_percentile": 0.0000018335,
+        "landed_tips_75th_percentile": 0.00000759575,
+        "landed_tips_95th_percentile": 0.00006106280000000001,
+        "landed_tips_99th_percentile": 0.00010103265
+      },
+      "currentCongestion": "high"
+    },
+    "reasoningChain": "Network congestion is HIGH. Standard 50th percentile tips are likely to be outbid in the Jito Block Engine auction. Upgrading tip recommendation to 95th percentile with 1.3x multiplier to ensure slot inclusion.",
+    "outputDecision": {
+      "percentile": "95th",
+      "multiplier": 1.3,
+      "reason": "Network congestion is HIGH. Standard 50th percentile tips are likely to be outbid in the Jito Block Engine auction. Upgrading tip recommendation to 95th percentile with 1.3x multiplier to ensure slot inclusion."
+    }
+  },
+  {
+    "timestamp": 1782569768460,
+    "decisionType": "SUBMISSION_TIMING",
+    "inputContext": {
+      "currentSlot": 429252740,
+      "jitoLeaderSlotDistance": 3
+    },
+    "reasoningChain": "Jito leader window is close (3 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.",
+    "outputDecision": {
+      "action": "submit",
+      "delayMs": 0,
+      "reason": "Jito leader window is close (3 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately."
+    }
+  },
+  {
+    "timestamp": 1782569769039,
+    "decisionType": "TIP_SELECTION",
+    "inputContext": {
+      "recentStats": {
+        "landed_tips_25th_percentile": 0.00014367768533737012,
+        "landed_tips_50th_percentile": 0.00028735537067474024,
+        "landed_tips_75th_percentile": 0.00043103305601211036,
+        "landed_tips_95th_percentile": 0.0008620661120242207,
+        "landed_tips_99th_percentile": 0.0014367768533737012
+      },
+      "currentCongestion": "medium"
+    },
+    "reasoningChain": "Network congestion is MEDIUM. Raising tip recommendation to 75th percentile with 1.1x multiplier to balance landing probability and cost.",
+    "outputDecision": {
+      "percentile": "75th",
+      "multiplier": 1.1,
+      "reason": "Network congestion is MEDIUM. Raising tip recommendation to 75th percentile with 1.1x multiplier to balance landing probability and cost."
+    }
+  },
+  {
+    "timestamp": 1782569780932,
+    "decisionType": "SUBMISSION_TIMING",
+    "inputContext": {
+      "currentSlot": 472340864,
+      "jitoLeaderSlotDistance": 5
+    },
+    "reasoningChain": "Jito leader window is close (5 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.",
+    "outputDecision": {
+      "action": "submit",
+      "delayMs": 0,
+      "reason": "Jito leader window is close (5 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately."
+    }
+  },
+  {
+    "timestamp": 1782569781825,
+    "decisionType": "TIP_SELECTION",
+    "inputContext": {
+      "recentStats": {
+        "landed_tips_25th_percentile": 0.0000010000000000000002,
+        "landed_tips_50th_percentile": 0.0000039595,
+        "landed_tips_75th_percentile": 0.000023055500000000003,
+        "landed_tips_95th_percentile": 0.0001,
+        "landed_tips_99th_percentile": 0.006219999999999985
+      },
+      "currentCongestion": "low"
+    },
+    "reasoningChain": "Network conditions are healthy (low congestion). Standard 50th percentile tip with 1.0x multiplier is sufficient to win bundle bids.",
+    "outputDecision": {
+      "percentile": "50th",
+      "multiplier": 1,
+      "reason": "Network conditions are healthy (low congestion). Standard 50th percentile tip with 1.0x multiplier is sufficient to win bundle bids."
+    }
+  },
+  {
+    "timestamp": 1782569783454,
+    "decisionType": "SUBMISSION_TIMING",
+    "inputContext": {
+      "currentSlot": 429252808,
+      "jitoLeaderSlotDistance": 2
+    },
+    "reasoningChain": "Jito leader window is close (2 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.",
+    "outputDecision": {
+      "action": "submit",
+      "delayMs": 0,
+      "reason": "Jito leader window is close (2 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately."
+    }
+  },
+  {
+    "timestamp": 1782569784089,
+    "decisionType": "TIP_SELECTION",
+    "inputContext": {
+      "recentStats": {
+        "landed_tips_25th_percentile": 0.0001483528840417849,
+        "landed_tips_50th_percentile": 0.0002967057680835698,
+        "landed_tips_75th_percentile": 0.0004450586521253547,
+        "landed_tips_95th_percentile": 0.0008901173042507094,
+        "landed_tips_99th_percentile": 0.001483528840417849
+      },
+      "currentCongestion": "low"
+    },
+    "reasoningChain": "Network conditions are healthy (low congestion). Standard 50th percentile tip with 1.0x multiplier is sufficient to win bundle bids.",
+    "outputDecision": {
+      "percentile": "50th",
+      "multiplier": 1,
+      "reason": "Network conditions are healthy (low congestion). Standard 50th percentile tip with 1.0x multiplier is sufficient to win bundle bids."
+    }
+  },
+  {
+    "timestamp": 1782569795922,
+    "decisionType": "SUBMISSION_TIMING",
+    "inputContext": {
+      "currentSlot": 472340905,
+      "jitoLeaderSlotDistance": 3
+    },
+    "reasoningChain": "Jito leader window is close (3 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.",
+    "outputDecision": {
+      "action": "submit",
+      "delayMs": 0,
+      "reason": "Jito leader window is close (3 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately."
+    }
+  },
+  {
+    "timestamp": 1782569796501,
+    "decisionType": "TIP_SELECTION",
+    "inputContext": {
+      "recentStats": {
+        "landed_tips_25th_percentile": 0.0000010000000000000002,
+        "landed_tips_50th_percentile": 0.0000039595,
+        "landed_tips_75th_percentile": 0.000023055500000000003,
+        "landed_tips_95th_percentile": 0.0001,
+        "landed_tips_99th_percentile": 0.006219999999999985
+      },
+      "currentCongestion": "medium"
+    },
+    "reasoningChain": "Network congestion is MEDIUM. Raising tip recommendation to 75th percentile with 1.1x multiplier to balance landing probability and cost.",
+    "outputDecision": {
+      "percentile": "75th",
+      "multiplier": 1.1,
+      "reason": "Network congestion is MEDIUM. Raising tip recommendation to 75th percentile with 1.1x multiplier to balance landing probability and cost."
+    }
+  },
+  {
+    "timestamp": 1782569798468,
+    "decisionType": "SUBMISSION_TIMING",
+    "inputContext": {
+      "currentSlot": 429252847,
+      "jitoLeaderSlotDistance": 3
+    },
+    "reasoningChain": "Jito leader window is close (3 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.",
+    "outputDecision": {
+      "action": "submit",
+      "delayMs": 0,
+      "reason": "Jito leader window is close (3 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately."
+    }
+  },
+  {
+    "timestamp": 1782569800120,
+    "decisionType": "TIP_SELECTION",
+    "inputContext": {
+      "recentStats": {
+        "landed_tips_25th_percentile": 0.0001499976590440147,
+        "landed_tips_50th_percentile": 0.0002999953180880294,
+        "landed_tips_75th_percentile": 0.0004499929771320441,
+        "landed_tips_95th_percentile": 0.0008999859542640882,
+        "landed_tips_99th_percentile": 0.001499976590440147
+      },
+      "currentCongestion": "high"
+    },
+    "reasoningChain": "Network congestion is HIGH. Standard 50th percentile tips are likely to be outbid in the Jito Block Engine auction. Upgrading tip recommendation to 95th percentile with 1.3x multiplier to ensure slot inclusion.",
+    "outputDecision": {
+      "percentile": "95th",
+      "multiplier": 1.3,
+      "reason": "Network congestion is HIGH. Standard 50th percentile tips are likely to be outbid in the Jito Block Engine auction. Upgrading tip recommendation to 95th percentile with 1.3x multiplier to ensure slot inclusion."
+    }
+  },
+  {
+    "timestamp": 1782569810939,
+    "decisionType": "SUBMISSION_TIMING",
+    "inputContext": {
+      "currentSlot": 472340944,
+      "jitoLeaderSlotDistance": 1
+    },
+    "reasoningChain": "Jito leader window is close (1 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.",
+    "outputDecision": {
+      "action": "submit",
+      "delayMs": 0,
+      "reason": "Jito leader window is close (1 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately."
+    }
+  },
+  {
+    "timestamp": 1782569811481,
+    "decisionType": "TIP_SELECTION",
+    "inputContext": {
+      "recentStats": {
+        "landed_tips_25th_percentile": 0.000001108,
+        "landed_tips_50th_percentile": 0.000002234,
+        "landed_tips_75th_percentile": 0.000010621,
+        "landed_tips_95th_percentile": 0.0000251226,
+        "landed_tips_99th_percentile": 0.00003341564
+      },
+      "currentCongestion": "low"
+    },
+    "reasoningChain": "Network conditions are healthy (low congestion). Standard 50th percentile tip with 1.0x multiplier is sufficient to win bundle bids.",
+    "outputDecision": {
+      "percentile": "50th",
+      "multiplier": 1,
+      "reason": "Network conditions are healthy (low congestion). Standard 50th percentile tip with 1.0x multiplier is sufficient to win bundle bids."
+    }
+  },
+  {
+    "timestamp": 1782569813488,
+    "decisionType": "SUBMISSION_TIMING",
+    "inputContext": {
+      "currentSlot": 429252888,
+      "jitoLeaderSlotDistance": 4
+    },
+    "reasoningChain": "Jito leader window is close (4 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.",
+    "outputDecision": {
+      "action": "submit",
+      "delayMs": 0,
+      "reason": "Jito leader window is close (4 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately."
+    }
+  },
+  {
+    "timestamp": 1782569814294,
+    "decisionType": "TIP_SELECTION",
+    "inputContext": {
+      "recentStats": {
+        "landed_tips_25th_percentile": 0.00014849540342566782,
+        "landed_tips_50th_percentile": 0.00029699080685133565,
+        "landed_tips_75th_percentile": 0.0004454862102770035,
+        "landed_tips_95th_percentile": 0.000890972420554007,
+        "landed_tips_99th_percentile": 0.0014849540342566784
+      },
+      "currentCongestion": "medium"
+    },
+    "reasoningChain": "Network congestion is MEDIUM. Raising tip recommendation to 75th percentile with 1.1x multiplier to balance landing probability and cost.",
+    "outputDecision": {
+      "percentile": "75th",
+      "multiplier": 1.1,
+      "reason": "Network congestion is MEDIUM. Raising tip recommendation to 75th percentile with 1.1x multiplier to balance landing probability and cost."
+    }
+  },
+  {
+    "timestamp": 1782569825936,
+    "decisionType": "SUBMISSION_TIMING",
+    "inputContext": {
+      "currentSlot": 472340981,
+      "jitoLeaderSlotDistance": 4
+    },
+    "reasoningChain": "Jito leader window is close (4 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.",
+    "outputDecision": {
+      "action": "submit",
+      "delayMs": 0,
+      "reason": "Jito leader window is close (4 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately."
+    }
+  },
+  {
+    "timestamp": 1782569826525,
+    "decisionType": "TIP_SELECTION",
+    "inputContext": {
+      "recentStats": {
+        "landed_tips_25th_percentile": 0.000001108,
+        "landed_tips_50th_percentile": 0.000002234,
+        "landed_tips_75th_percentile": 0.000010621,
+        "landed_tips_95th_percentile": 0.0000251226,
+        "landed_tips_99th_percentile": 0.00003341564
+      },
+      "currentCongestion": "high"
+    },
+    "reasoningChain": "Network congestion is HIGH. Standard 50th percentile tips are likely to be outbid in the Jito Block Engine auction. Upgrading tip recommendation to 95th percentile with 1.3x multiplier to ensure slot inclusion.",
+    "outputDecision": {
+      "percentile": "95th",
+      "multiplier": 1.3,
+      "reason": "Network congestion is HIGH. Standard 50th percentile tips are likely to be outbid in the Jito Block Engine auction. Upgrading tip recommendation to 95th percentile with 1.3x multiplier to ensure slot inclusion."
+    }
+  },
+  {
+    "timestamp": 1782569828466,
+    "decisionType": "SUBMISSION_TIMING",
+    "inputContext": {
+      "currentSlot": 429252924,
+      "jitoLeaderSlotDistance": 3
+    },
+    "reasoningChain": "Jito leader window is close (3 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.",
+    "outputDecision": {
+      "action": "submit",
+      "delayMs": 0,
+      "reason": "Jito leader window is close (3 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately."
+    }
+  },
+  {
+    "timestamp": 1782569829072,
+    "decisionType": "TIP_SELECTION",
+    "inputContext": {
+      "recentStats": {
+        "landed_tips_25th_percentile": 0.00014406413595093634,
+        "landed_tips_50th_percentile": 0.00028812827190187267,
+        "landed_tips_75th_percentile": 0.000432192407852809,
+        "landed_tips_95th_percentile": 0.000864384815705618,
+        "landed_tips_99th_percentile": 0.0014406413595093634
+      },
+      "currentCongestion": "low"
+    },
+    "reasoningChain": "Network conditions are healthy (low congestion). Standard 50th percentile tip with 1.0x multiplier is sufficient to win bundle bids.",
+    "outputDecision": {
+      "percentile": "50th",
+      "multiplier": 1,
+      "reason": "Network conditions are healthy (low congestion). Standard 50th percentile tip with 1.0x multiplier is sufficient to win bundle bids."
+    }
+  },
+  {
+    "timestamp": 1782569829450,
+    "decisionType": "RETRY_ANALYSIS",
+    "inputContext": {
+      "signature": "249651e0609e7c896073256dd59ece51c5ee606b0f3b2a3dfbfbf5d29c177d4e609d0f729d14aa01149c85bde501285dce2f40417af9ed7d918e6a26b33a9607",
+      "failureType": "EXPIRED_BLOCKHASH",
+      "errorDetails": "Blockhash is expired (simulated)",
+      "retryCount": 0
+    },
+    "reasoningChain": "Detected blockhash expiry. This typically occurs under heavy network load or slot skips. Decision: refresh blockhash immediately, elevate tip percentile to 75th to increase priority in the next Jito block, and resubmit.",
+    "outputDecision": {
+      "shouldRetry": true,
+      "adjustedTipPercentile": "75th",
+      "adjustedTipMultiplier": 1.2,
+      "reason": "Detected blockhash expiry. This typically occurs under heavy network load or slot skips. Decision: refresh blockhash immediately, elevate tip percentile to 75th to increase priority in the next Jito block, and resubmit."
+    }
+  },
+  {
+    "timestamp": 1782569840949,
+    "decisionType": "SUBMISSION_TIMING",
+    "inputContext": {
+      "currentSlot": 472341020,
+      "jitoLeaderSlotDistance": 1
+    },
+    "reasoningChain": "Jito leader window is close (1 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.",
+    "outputDecision": {
+      "action": "submit",
+      "delayMs": 0,
+      "reason": "Jito leader window is close (1 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately."
+    }
+  },
+  {
+    "timestamp": 1782569842701,
+    "decisionType": "TIP_SELECTION",
+    "inputContext": {
+      "recentStats": {
+        "landed_tips_25th_percentile": 0.000001006,
+        "landed_tips_50th_percentile": 0.000001929,
+        "landed_tips_75th_percentile": 0.000007061750000000001,
+        "landed_tips_95th_percentile": 0.00004981925,
+        "landed_tips_99th_percentile": 0.0012517255
+      },
+      "currentCongestion": "medium"
+    },
+    "reasoningChain": "Network congestion is MEDIUM. Raising tip recommendation to 75th percentile with 1.1x multiplier to balance landing probability and cost.",
+    "outputDecision": {
+      "percentile": "75th",
+      "multiplier": 1.1,
+      "reason": "Network congestion is MEDIUM. Raising tip recommendation to 75th percentile with 1.1x multiplier to balance landing probability and cost."
+    }
+  },
+  {
+    "timestamp": 1782569843488,
+    "decisionType": "SUBMISSION_TIMING",
+    "inputContext": {
+      "currentSlot": 429252963,
+      "jitoLeaderSlotDistance": 2
+    },
+    "reasoningChain": "Jito leader window is close (2 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.",
+    "outputDecision": {
+      "action": "submit",
+      "delayMs": 0,
+      "reason": "Jito leader window is close (2 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately."
+    }
+  },
+  {
+    "timestamp": 1782569843987,
+    "decisionType": "TIP_SELECTION",
+    "inputContext": {
+      "recentStats": {
+        "landed_tips_25th_percentile": 0.00013689441793842482,
+        "landed_tips_50th_percentile": 0.00027378883587684963,
+        "landed_tips_75th_percentile": 0.0004106832538152745,
+        "landed_tips_95th_percentile": 0.000821366507630549,
+        "landed_tips_99th_percentile": 0.001368944179384248
+      },
+      "currentCongestion": "low"
+    },
+    "reasoningChain": "Network conditions are healthy (low congestion). Standard 50th percentile tip with 1.0x multiplier is sufficient to win bundle bids.",
+    "outputDecision": {
+      "percentile": "50th",
+      "multiplier": 1,
+      "reason": "Network conditions are healthy (low congestion). Standard 50th percentile tip with 1.0x multiplier is sufficient to win bundle bids."
+    }
+  },
+  {
+    "timestamp": 1782569855967,
+    "decisionType": "SUBMISSION_TIMING",
+    "inputContext": {
+      "currentSlot": 472341061,
+      "jitoLeaderSlotDistance": 3
+    },
+    "reasoningChain": "Jito leader window is close (3 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.",
+    "outputDecision": {
+      "action": "submit",
+      "delayMs": 0,
+      "reason": "Jito leader window is close (3 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately."
+    }
+  },
+  {
+    "timestamp": 1782569856638,
+    "decisionType": "TIP_SELECTION",
+    "inputContext": {
+      "recentStats": {
+        "landed_tips_25th_percentile": 0.000001006,
+        "landed_tips_50th_percentile": 0.000001929,
+        "landed_tips_75th_percentile": 0.000007061750000000001,
+        "landed_tips_95th_percentile": 0.00004981925,
+        "landed_tips_99th_percentile": 0.0012517255
+      },
+      "currentCongestion": "low"
+    },
+    "reasoningChain": "Network conditions are healthy (low congestion). Standard 50th percentile tip with 1.0x multiplier is sufficient to win bundle bids.",
+    "outputDecision": {
+      "percentile": "50th",
+      "multiplier": 1,
+      "reason": "Network conditions are healthy (low congestion). Standard 50th percentile tip with 1.0x multiplier is sufficient to win bundle bids."
+    }
+  },
+  {
+    "timestamp": 1782569858485,
+    "decisionType": "SUBMISSION_TIMING",
+    "inputContext": {
+      "currentSlot": 429252969,
+      "jitoLeaderSlotDistance": 3
+    },
+    "reasoningChain": "Jito leader window is close (3 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.",
+    "outputDecision": {
+      "action": "submit",
+      "delayMs": 0,
+      "reason": "Jito leader window is close (3 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately."
+    }
+  },
+  {
+    "timestamp": 1782569859213,
+    "decisionType": "TIP_SELECTION",
+    "inputContext": {
+      "recentStats": {
+        "landed_tips_25th_percentile": 0.0001272393994737108,
+        "landed_tips_50th_percentile": 0.0002544787989474216,
+        "landed_tips_75th_percentile": 0.0003817181984211324,
+        "landed_tips_95th_percentile": 0.0007634363968422648,
+        "landed_tips_99th_percentile": 0.001272393994737108
+      },
+      "currentCongestion": "high"
+    },
+    "reasoningChain": "Network congestion is HIGH. Standard 50th percentile tips are likely to be outbid in the Jito Block Engine auction. Upgrading tip recommendation to 95th percentile with 1.3x multiplier to ensure slot inclusion.",
+    "outputDecision": {
+      "percentile": "95th",
+      "multiplier": 1.3,
+      "reason": "Network congestion is HIGH. Standard 50th percentile tips are likely to be outbid in the Jito Block Engine auction. Upgrading tip recommendation to 95th percentile with 1.3x multiplier to ensure slot inclusion."
+    }
+  },
+  {
+    "timestamp": 1782569870959,
+    "decisionType": "SUBMISSION_TIMING",
+    "inputContext": {
+      "currentSlot": 472341101,
+      "jitoLeaderSlotDistance": 5
+    },
+    "reasoningChain": "Jito leader window is close (5 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.",
+    "outputDecision": {
+      "action": "submit",
+      "delayMs": 0,
+      "reason": "Jito leader window is close (5 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately."
+    }
+  },
+  {
+    "timestamp": 1782569871522,
+    "decisionType": "TIP_SELECTION",
+    "inputContext": {
+      "recentStats": {
+        "landed_tips_25th_percentile": 0.000001655,
+        "landed_tips_50th_percentile": 0.0000084355,
+        "landed_tips_75th_percentile": 0.000019346,
+        "landed_tips_95th_percentile": 0.0001,
+        "landed_tips_99th_percentile": 0.0009436000000000004
+      },
+      "currentCongestion": "low"
+    },
+    "reasoningChain": "Network conditions are healthy (low congestion). Standard 50th percentile tip with 1.0x multiplier is sufficient to win bundle bids.",
+    "outputDecision": {
+      "percentile": "50th",
+      "multiplier": 1,
+      "reason": "Network conditions are healthy (low congestion). Standard 50th percentile tip with 1.0x multiplier is sufficient to win bundle bids."
+    }
+  },
+  {
+    "timestamp": 1782569873501,
+    "decisionType": "SUBMISSION_TIMING",
+    "inputContext": {
+      "currentSlot": 429253039,
+      "jitoLeaderSlotDistance": 2
+    },
+    "reasoningChain": "Jito leader window is close (2 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.",
+    "outputDecision": {
+      "action": "submit",
+      "delayMs": 0,
+      "reason": "Jito leader window is close (2 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately."
+    }
+  },
+  {
+    "timestamp": 1782569874220,
+    "decisionType": "TIP_SELECTION",
+    "inputContext": {
+      "recentStats": {
+        "landed_tips_25th_percentile": 0.00011601847896594803,
+        "landed_tips_50th_percentile": 0.00023203695793189605,
+        "landed_tips_75th_percentile": 0.0003480554368978441,
+        "landed_tips_95th_percentile": 0.0006961108737956882,
+        "landed_tips_99th_percentile": 0.0011601847896594803
+      },
+      "currentCongestion": "low"
+    },
+    "reasoningChain": "Network conditions are healthy (low congestion). Standard 50th percentile tip with 1.0x multiplier is sufficient to win bundle bids.",
+    "outputDecision": {
+      "percentile": "50th",
+      "multiplier": 1,
+      "reason": "Network conditions are healthy (low congestion). Standard 50th percentile tip with 1.0x multiplier is sufficient to win bundle bids."
+    }
+  },
+  {
+    "timestamp": 1782569885974,
+    "decisionType": "SUBMISSION_TIMING",
+    "inputContext": {
+      "currentSlot": 472341141,
+      "jitoLeaderSlotDistance": 3
+    },
+    "reasoningChain": "Jito leader window is close (3 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.",
+    "outputDecision": {
+      "action": "submit",
+      "delayMs": 0,
+      "reason": "Jito leader window is close (3 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately."
+    }
+  },
+  {
+    "timestamp": 1782569886740,
+    "decisionType": "TIP_SELECTION",
+    "inputContext": {
+      "recentStats": {
+        "landed_tips_25th_percentile": 0.000001655,
+        "landed_tips_50th_percentile": 0.0000084355,
+        "landed_tips_75th_percentile": 0.000019346,
+        "landed_tips_95th_percentile": 0.0001,
+        "landed_tips_99th_percentile": 0.0009436000000000004
+      },
+      "currentCongestion": "high"
+    },
+    "reasoningChain": "Network congestion is HIGH. Standard 50th percentile tips are likely to be outbid in the Jito Block Engine auction. Upgrading tip recommendation to 95th percentile with 1.3x multiplier to ensure slot inclusion.",
+    "outputDecision": {
+      "percentile": "95th",
+      "multiplier": 1.3,
+      "reason": "Network congestion is HIGH. Standard 50th percentile tips are likely to be outbid in the Jito Block Engine auction. Upgrading tip recommendation to 95th percentile with 1.3x multiplier to ensure slot inclusion."
+    }
+  },
+  {
+    "timestamp": 1782569888511,
+    "decisionType": "SUBMISSION_TIMING",
+    "inputContext": {
+      "currentSlot": 429253044,
+      "jitoLeaderSlotDistance": 3
+    },
+    "reasoningChain": "Jito leader window is close (3 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.",
+    "outputDecision": {
+      "action": "submit",
+      "delayMs": 0,
+      "reason": "Jito leader window is close (3 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately."
+    }
+  },
+  {
+    "timestamp": 1782569889103,
+    "decisionType": "TIP_SELECTION",
+    "inputContext": {
+      "recentStats": {
+        "landed_tips_25th_percentile": 0.00010389785457977017,
+        "landed_tips_50th_percentile": 0.00020779570915954035,
+        "landed_tips_75th_percentile": 0.00031169356373931053,
+        "landed_tips_95th_percentile": 0.0006233871274786211,
+        "landed_tips_99th_percentile": 0.0010389785457977018
+      },
+      "currentCongestion": "low"
+    },
+    "reasoningChain": "Network conditions are healthy (low congestion). Standard 50th percentile tip with 1.0x multiplier is sufficient to win bundle bids.",
+    "outputDecision": {
+      "percentile": "50th",
+      "multiplier": 1,
+      "reason": "Network conditions are healthy (low congestion). Standard 50th percentile tip with 1.0x multiplier is sufficient to win bundle bids."
+    }
+  },
+  {
+    "timestamp": 1782569900980,
+    "decisionType": "SUBMISSION_TIMING",
+    "inputContext": {
+      "currentSlot": 472341180,
+      "jitoLeaderSlotDistance": 2
+    },
+    "reasoningChain": "Jito leader window is close (2 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.",
+    "outputDecision": {
+      "action": "submit",
+      "delayMs": 0,
+      "reason": "Jito leader window is close (2 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately."
+    }
+  },
+  {
+    "timestamp": 1782569902058,
+    "decisionType": "TIP_SELECTION",
+    "inputContext": {
+      "recentStats": {
+        "landed_tips_25th_percentile": 0.000001003,
+        "landed_tips_50th_percentile": 0.000001729,
+        "landed_tips_75th_percentile": 0.00000976,
+        "landed_tips_95th_percentile": 0.000022884299999999994,
+        "landed_tips_99th_percentile": 0.0053600005800000135
+      },
+      "currentCongestion": "low"
+    },
+    "reasoningChain": "Network conditions are healthy (low congestion). Standard 50th percentile tip with 1.0x multiplier is sufficient to win bundle bids.",
+    "outputDecision": {
+      "percentile": "50th",
+      "multiplier": 1,
+      "reason": "Network conditions are healthy (low congestion). Standard 50th percentile tip with 1.0x multiplier is sufficient to win bundle bids."
+    }
+  },
+  {
+    "timestamp": 1782569903535,
+    "decisionType": "SUBMISSION_TIMING",
+    "inputContext": {
+      "currentSlot": 429253107,
+      "jitoLeaderSlotDistance": 2
+    },
+    "reasoningChain": "Jito leader window is close (2 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.",
+    "outputDecision": {
+      "action": "submit",
+      "delayMs": 0,
+      "reason": "Jito leader window is close (2 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately."
+    }
+  },
+  {
+    "timestamp": 1782569904087,
+    "decisionType": "TIP_SELECTION",
+    "inputContext": {
+      "recentStats": {
+        "landed_tips_25th_percentile": 0.0001,
+        "landed_tips_50th_percentile": 0.0002,
+        "landed_tips_75th_percentile": 0.00030000000000000003,
+        "landed_tips_95th_percentile": 0.0006000000000000001,
+        "landed_tips_99th_percentile": 0.001
+      },
+      "currentCongestion": "medium"
+    },
+    "reasoningChain": "Network congestion is MEDIUM. Raising tip recommendation to 75th percentile with 1.1x multiplier to balance landing probability and cost.",
+    "outputDecision": {
+      "percentile": "75th",
+      "multiplier": 1.1,
+      "reason": "Network congestion is MEDIUM. Raising tip recommendation to 75th percentile with 1.1x multiplier to balance landing probability and cost."
+    }
+  },
+  {
+    "timestamp": 1782569904550,
+    "decisionType": "RETRY_ANALYSIS",
+    "inputContext": {
+      "signature": "ad475acccaa4c69f3ed32f0075bfa9e4a914343988b583c43316d20b7bc846bd26cdcda42c147648e7ead32fcd663bc325e7929608d2b1421d86abe67dd01a04",
+      "failureType": "EXPIRED_BLOCKHASH",
+      "errorDetails": "Blockhash is expired (simulated)",
+      "retryCount": 0
+    },
+    "reasoningChain": "Detected blockhash expiry. This typically occurs under heavy network load or slot skips. Decision: refresh blockhash immediately, elevate tip percentile to 75th to increase priority in the next Jito block, and resubmit.",
+    "outputDecision": {
+      "shouldRetry": true,
+      "adjustedTipPercentile": "75th",
+      "adjustedTipMultiplier": 1.2,
+      "reason": "Detected blockhash expiry. This typically occurs under heavy network load or slot skips. Decision: refresh blockhash immediately, elevate tip percentile to 75th to increase priority in the next Jito block, and resubmit."
+    }
+  },
+  {
+    "timestamp": 1782569915980,
+    "decisionType": "SUBMISSION_TIMING",
+    "inputContext": {
+      "currentSlot": 472341220,
+      "jitoLeaderSlotDistance": 4
+    },
+    "reasoningChain": "Jito leader window is close (4 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.",
+    "outputDecision": {
+      "action": "submit",
+      "delayMs": 0,
+      "reason": "Jito leader window is close (4 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately."
+    }
+  },
+  {
+    "timestamp": 1782569916504,
+    "decisionType": "TIP_SELECTION",
+    "inputContext": {
+      "recentStats": {
+        "landed_tips_25th_percentile": 0.000001003,
+        "landed_tips_50th_percentile": 0.000001729,
+        "landed_tips_75th_percentile": 0.00000976,
+        "landed_tips_95th_percentile": 0.000022884299999999994,
+        "landed_tips_99th_percentile": 0.0053600005800000135
+      },
+      "currentCongestion": "low"
+    },
+    "reasoningChain": "Network conditions are healthy (low congestion). Standard 50th percentile tip with 1.0x multiplier is sufficient to win bundle bids.",
+    "outputDecision": {
+      "percentile": "50th",
+      "multiplier": 1,
+      "reason": "Network conditions are healthy (low congestion). Standard 50th percentile tip with 1.0x multiplier is sufficient to win bundle bids."
+    }
+  },
+  {
+    "timestamp": 1782569918520,
+    "decisionType": "SUBMISSION_TIMING",
+    "inputContext": {
+      "currentSlot": 429253145,
+      "jitoLeaderSlotDistance": 3
+    },
+    "reasoningChain": "Jito leader window is close (3 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.",
+    "outputDecision": {
+      "action": "submit",
+      "delayMs": 0,
+      "reason": "Jito leader window is close (3 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately."
+    }
+  },
+  {
+    "timestamp": 1782569920382,
+    "decisionType": "TIP_SELECTION",
+    "inputContext": {
+      "recentStats": {
+        "landed_tips_25th_percentile": 0.0001,
+        "landed_tips_50th_percentile": 0.0002,
+        "landed_tips_75th_percentile": 0.00030000000000000003,
+        "landed_tips_95th_percentile": 0.0006000000000000001,
+        "landed_tips_99th_percentile": 0.001
+      },
+      "currentCongestion": "high"
+    },
+    "reasoningChain": "Network congestion is HIGH. Standard 50th percentile tips are likely to be outbid in the Jito Block Engine auction. Upgrading tip recommendation to 95th percentile with 1.3x multiplier to ensure slot inclusion.",
+    "outputDecision": {
+      "percentile": "95th",
+      "multiplier": 1.3,
+      "reason": "Network congestion is HIGH. Standard 50th percentile tips are likely to be outbid in the Jito Block Engine auction. Upgrading tip recommendation to 95th percentile with 1.3x multiplier to ensure slot inclusion."
+    }
+  },
+  {
+    "timestamp": 1782569930994,
+    "decisionType": "SUBMISSION_TIMING",
+    "inputContext": {
+      "currentSlot": 472341259,
+      "jitoLeaderSlotDistance": 4
+    },
+    "reasoningChain": "Jito leader window is close (4 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.",
+    "outputDecision": {
+      "action": "submit",
+      "delayMs": 0,
+      "reason": "Jito leader window is close (4 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately."
+    }
+  },
+  {
+    "timestamp": 1782569931495,
+    "decisionType": "TIP_SELECTION",
+    "inputContext": {
+      "recentStats": {
+        "landed_tips_25th_percentile": 0.0000010000000000000002,
+        "landed_tips_50th_percentile": 0.000001779,
+        "landed_tips_75th_percentile": 0.00000892125,
+        "landed_tips_95th_percentile": 0.00029369775000000003,
+        "landed_tips_99th_percentile": 0.0060017925
+      },
+      "currentCongestion": "medium"
+    },
+    "reasoningChain": "Network congestion is MEDIUM. Raising tip recommendation to 75th percentile with 1.1x multiplier to balance landing probability and cost.",
+    "outputDecision": {
+      "percentile": "75th",
+      "multiplier": 1.1,
+      "reason": "Network congestion is MEDIUM. Raising tip recommendation to 75th percentile with 1.1x multiplier to balance landing probability and cost."
+    }
+  },
+  {
+    "timestamp": 1782569933547,
+    "decisionType": "SUBMISSION_TIMING",
+    "inputContext": {
+      "currentSlot": 429253184,
+      "jitoLeaderSlotDistance": 3
+    },
+    "reasoningChain": "Jito leader window is close (3 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.",
+    "outputDecision": {
+      "action": "submit",
+      "delayMs": 0,
+      "reason": "Jito leader window is close (3 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately."
+    }
+  },
+  {
+    "timestamp": 1782569934037,
+    "decisionType": "TIP_SELECTION",
+    "inputContext": {
+      "recentStats": {
+        "landed_tips_25th_percentile": 0.0001,
+        "landed_tips_50th_percentile": 0.0002,
+        "landed_tips_75th_percentile": 0.00030000000000000003,
+        "landed_tips_95th_percentile": 0.0006000000000000001,
+        "landed_tips_99th_percentile": 0.001
+      },
+      "currentCongestion": "low"
+    },
+    "reasoningChain": "Network conditions are healthy (low congestion). Standard 50th percentile tip with 1.0x multiplier is sufficient to win bundle bids.",
+    "outputDecision": {
+      "percentile": "50th",
+      "multiplier": 1,
+      "reason": "Network conditions are healthy (low congestion). Standard 50th percentile tip with 1.0x multiplier is sufficient to win bundle bids."
+    }
+  },
+  {
+    "timestamp": 1782569945990,
+    "decisionType": "SUBMISSION_TIMING",
+    "inputContext": {
+      "currentSlot": 472341297,
+      "jitoLeaderSlotDistance": 1
+    },
+    "reasoningChain": "Jito leader window is close (1 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.",
+    "outputDecision": {
+      "action": "submit",
+      "delayMs": 0,
+      "reason": "Jito leader window is close (1 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately."
+    }
+  },
+  {
+    "timestamp": 1782569946635,
+    "decisionType": "TIP_SELECTION",
+    "inputContext": {
+      "recentStats": {
+        "landed_tips_25th_percentile": 0.0000010000000000000002,
+        "landed_tips_50th_percentile": 0.000001779,
+        "landed_tips_75th_percentile": 0.00000892125,
+        "landed_tips_95th_percentile": 0.00029369775000000003,
+        "landed_tips_99th_percentile": 0.0060017925
+      },
+      "currentCongestion": "high"
+    },
+    "reasoningChain": "Network congestion is HIGH. Standard 50th percentile tips are likely to be outbid in the Jito Block Engine auction. Upgrading tip recommendation to 95th percentile with 1.3x multiplier to ensure slot inclusion.",
+    "outputDecision": {
+      "percentile": "95th",
+      "multiplier": 1.3,
+      "reason": "Network congestion is HIGH. Standard 50th percentile tips are likely to be outbid in the Jito Block Engine auction. Upgrading tip recommendation to 95th percentile with 1.3x multiplier to ensure slot inclusion."
+    }
+  },
+  {
+    "timestamp": 1782569948537,
+    "decisionType": "SUBMISSION_TIMING",
+    "inputContext": {
+      "currentSlot": 429253223,
+      "jitoLeaderSlotDistance": 3
+    },
+    "reasoningChain": "Jito leader window is close (3 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.",
+    "outputDecision": {
+      "action": "submit",
+      "delayMs": 0,
+      "reason": "Jito leader window is close (3 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately."
+    }
+  },
+  {
+    "timestamp": 1782569949107,
+    "decisionType": "TIP_SELECTION",
+    "inputContext": {
+      "recentStats": {
+        "landed_tips_25th_percentile": 0.0001,
+        "landed_tips_50th_percentile": 0.0002,
+        "landed_tips_75th_percentile": 0.00030000000000000003,
+        "landed_tips_95th_percentile": 0.0006000000000000001,
+        "landed_tips_99th_percentile": 0.001
+      },
+      "currentCongestion": "medium"
+    },
+    "reasoningChain": "Network congestion is MEDIUM. Raising tip recommendation to 75th percentile with 1.1x multiplier to balance landing probability and cost.",
+    "outputDecision": {
+      "percentile": "75th",
+      "multiplier": 1.1,
+      "reason": "Network congestion is MEDIUM. Raising tip recommendation to 75th percentile with 1.1x multiplier to balance landing probability and cost."
+    }
+  },
+  {
+    "timestamp": 1782569960998,
+    "decisionType": "SUBMISSION_TIMING",
+    "inputContext": {
+      "currentSlot": 472341335,
+      "jitoLeaderSlotDistance": 3
+    },
+    "reasoningChain": "Jito leader window is close (3 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.",
+    "outputDecision": {
+      "action": "submit",
+      "delayMs": 0,
+      "reason": "Jito leader window is close (3 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately."
+    }
+  },
+  {
+    "timestamp": 1782569962523,
+    "decisionType": "TIP_SELECTION",
+    "inputContext": {
+      "recentStats": {
+        "landed_tips_25th_percentile": 0.0000010000000000000002,
+        "landed_tips_50th_percentile": 0.000001888,
+        "landed_tips_75th_percentile": 0.000009163,
+        "landed_tips_95th_percentile": 0.0000707179999999999,
+        "landed_tips_99th_percentile": 0.0007048167600000035
+      },
+      "currentCongestion": "low"
+    },
+    "reasoningChain": "Network conditions are healthy (low congestion). Standard 50th percentile tip with 1.0x multiplier is sufficient to win bundle bids.",
+    "outputDecision": {
+      "percentile": "50th",
+      "multiplier": 1,
+      "reason": "Network conditions are healthy (low congestion). Standard 50th percentile tip with 1.0x multiplier is sufficient to win bundle bids."
+    }
+  },
+  {
+    "timestamp": 1782569963564,
+    "decisionType": "SUBMISSION_TIMING",
+    "inputContext": {
+      "currentSlot": 429253260,
+      "jitoLeaderSlotDistance": 5
+    },
+    "reasoningChain": "Jito leader window is close (5 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.",
+    "outputDecision": {
+      "action": "submit",
+      "delayMs": 0,
+      "reason": "Jito leader window is close (5 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately."
+    }
+  },
+  {
+    "timestamp": 1782569964104,
+    "decisionType": "TIP_SELECTION",
+    "inputContext": {
+      "recentStats": {
+        "landed_tips_25th_percentile": 0.0001,
+        "landed_tips_50th_percentile": 0.0002,
+        "landed_tips_75th_percentile": 0.00030000000000000003,
+        "landed_tips_95th_percentile": 0.0006000000000000001,
+        "landed_tips_99th_percentile": 0.001
+      },
+      "currentCongestion": "low"
+    },
+    "reasoningChain": "Network conditions are healthy (low congestion). Standard 50th percentile tip with 1.0x multiplier is sufficient to win bundle bids.",
+    "outputDecision": {
+      "percentile": "50th",
+      "multiplier": 1,
+      "reason": "Network conditions are healthy (low congestion). Standard 50th percentile tip with 1.0x multiplier is sufficient to win bundle bids."
+    }
+  },
+  {
+    "timestamp": 1782569976003,
+    "decisionType": "SUBMISSION_TIMING",
+    "inputContext": {
+      "currentSlot": 472341377,
+      "jitoLeaderSlotDistance": 2
+    },
+    "reasoningChain": "Jito leader window is close (2 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.",
+    "outputDecision": {
+      "action": "submit",
+      "delayMs": 0,
+      "reason": "Jito leader window is close (2 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately."
+    }
+  },
+  {
+    "timestamp": 1782569976511,
+    "decisionType": "TIP_SELECTION",
+    "inputContext": {
+      "recentStats": {
+        "landed_tips_25th_percentile": 0.0000010000000000000002,
+        "landed_tips_50th_percentile": 0.000001888,
+        "landed_tips_75th_percentile": 0.000009163,
+        "landed_tips_95th_percentile": 0.0000707179999999999,
+        "landed_tips_99th_percentile": 0.0007048167600000035
+      },
+      "currentCongestion": "medium"
+    },
+    "reasoningChain": "Network congestion is MEDIUM. Raising tip recommendation to 75th percentile with 1.1x multiplier to balance landing probability and cost.",
+    "outputDecision": {
+      "percentile": "75th",
+      "multiplier": 1.1,
+      "reason": "Network congestion is MEDIUM. Raising tip recommendation to 75th percentile with 1.1x multiplier to balance landing probability and cost."
+    }
+  },
+  {
+    "timestamp": 1782569978555,
+    "decisionType": "SUBMISSION_TIMING",
+    "inputContext": {
+      "currentSlot": 429253295,
+      "jitoLeaderSlotDistance": 4
+    },
+    "reasoningChain": "Jito leader window is close (4 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately.",
+    "outputDecision": {
+      "action": "submit",
+      "delayMs": 0,
+      "reason": "Jito leader window is close (4 slots). Ideal timing for ingestion. Decision: SUBMIT bundle immediately."
+    }
+  },
+  {
+    "timestamp": 1782569979110,
+    "decisionType": "TIP_SELECTION",
+    "inputContext": {
+      "recentStats": {
+        "landed_tips_25th_percentile": 0.0001,
+        "landed_tips_50th_percentile": 0.0002,
+        "landed_tips_75th_percentile": 0.00030000000000000003,
+        "landed_tips_95th_percentile": 0.0006000000000000001,
+        "landed_tips_99th_percentile": 0.001
+      },
+      "currentCongestion": "high"
+    },
+    "reasoningChain": "Network congestion is HIGH. Standard 50th percentile tips are likely to be outbid in the Jito Block Engine auction. Upgrading tip recommendation to 95th percentile with 1.3x multiplier to ensure slot inclusion.",
+    "outputDecision": {
+      "percentile": "95th",
+      "multiplier": 1.3,
+      "reason": "Network congestion is HIGH. Standard 50th percentile tips are likely to be outbid in the Jito Block Engine auction. Upgrading tip recommendation to 95th percentile with 1.3x multiplier to ensure slot inclusion."
+    }
   }
 ]
