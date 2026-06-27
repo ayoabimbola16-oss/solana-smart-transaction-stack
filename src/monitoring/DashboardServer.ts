@@ -16,11 +16,25 @@ export class DashboardServer {
 
   constructor() {
     this.app = express();
+    
+    // Add CORS headers to support local development on separate ports (like VS Code Live Server)
+    this.app.use((req, res, next) => {
+      res.setHeader('Access-Control-Allow-Origin', '*');
+      res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+      res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
+      if (req.method === 'OPTIONS') {
+        res.sendStatus(200);
+        return;
+      }
+      next();
+    });
+
     // Add json parsing middleware for API configuration post requests
     this.app.use(express.json());
     
     this.server = http.createServer(this.app);
     this.wss = new WebSocketServer({ server: this.server });
+
     
     // Set global reference for AIAgent log notifications
     (global as any).dashboardWsServer = this;

@@ -1,11 +1,21 @@
 (function() {
-  const socket = new WebSocket(`ws://${window.location.host}`);
+  const isBackendPort = window.location.port === '3005';
+  const backendHost = isBackendPort ? window.location.host : 'localhost:3005';
+  const backendBase = isBackendPort ? '' : 'http://localhost:3005';
+
+  const socket = new WebSocket(`ws://${backendHost}`);
   const transactionList = document.getElementById('transaction-list');
   const aiDecisionFeed = document.getElementById('ai-decision-feed');
   const currentSlotEl = document.getElementById('current-slot');
   const netHealthDeltaEl = document.getElementById('net-health-delta');
   const successRateEl = document.getElementById('success-rate');
   const activeTxCountEl = document.getElementById('active-tx-count');
+  
+  // Set the correct href for the export log button in case of proxy hosting
+  const btnExportLogs = document.getElementById('btn-export-logs');
+  if (btnExportLogs) {
+    btnExportLogs.href = `${backendBase}/api/export-logs`;
+  }
   
   // Controls elements
   const simulationStatusEl = document.getElementById('simulation-status');
@@ -18,6 +28,7 @@
   const tabArchitecture = document.getElementById('tab-architecture');
   const dashboardView = document.getElementById('dashboard-view');
   const architectureViewPanel = document.getElementById('architecture-view-panel');
+
 
   let logs = [];
   let activeSignatures = new Set();
@@ -69,7 +80,7 @@
     btnSubmitTx.disabled = true;
     btnSubmitTx.innerText = 'Triggering...';
     try {
-      const res = await fetch('/api/submit', { method: 'POST' });
+      const res = await fetch(`${backendBase}/api/submit`, { method: 'POST' });
       const data = await res.json();
       console.log('Submission result:', data);
     } catch (err) {
@@ -86,7 +97,7 @@
     btnInjectFault.disabled = true;
     btnInjectFault.innerText = 'Injecting...';
     try {
-      const res = await fetch('/api/inject-fault', { method: 'POST' });
+      const res = await fetch(`${backendBase}/api/inject-fault`, { method: 'POST' });
       const data = await res.json();
       console.log('Fault injection result:', data);
     } catch (err) {
@@ -102,7 +113,7 @@
   simulationStatusEl.addEventListener('click', async () => {
     const isSimulated = simulationStatusEl.classList.contains('simulated');
     try {
-      const res = await fetch('/api/toggle-simulation', {
+      const res = await fetch(`${backendBase}/api/toggle-simulation`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ enabled: !isSimulated })
@@ -117,7 +128,7 @@
   selectAIProvider.addEventListener('change', async () => {
     const provider = selectAIProvider.value;
     try {
-      const res = await fetch('/api/update-ai-provider', {
+      const res = await fetch(`${backendBase}/api/update-ai-provider`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ provider })
@@ -161,7 +172,7 @@
 
   async function loadConfig() {
     try {
-      const res = await fetch('/api/config');
+      const res = await fetch(`${backendBase}/api/config`);
       const data = await res.json();
       updateConfigUI(data);
     } catch (err) {
